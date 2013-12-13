@@ -140,6 +140,54 @@
 		31B7A3A3185A5B9700AA727A /* UsersListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B7A3A2185A5B9700AA727A /* UsersListViewController.xib */; };
 		31B7A3A7185A5D4000AA727A /* EBUserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B7A3A5185A5D4000AA727A /* EBUserListViewController.m */; };
 		31B7A3A8185A5D4000AA727A /* EBUserListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B7A3A6185A5D4000AA727A /* EBUserListViewController.xib */; };
+		81795D63185A8E53008B0588 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81795D62185A8E53008B0588 /* libidn.a */; };
+		81795D74185A9FD7008B0588 /* WUEmoticonsKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 81795D67185A9FD7008B0588 /* WUEmoticonsKeyboard.m */; };
+		81795D75185A9FD7008B0588 /* WUEmoticonsKeyboardKeyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81795D69185A9FD7008B0588 /* WUEmoticonsKeyboardKeyCell.m */; };
+		81795D76185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 81795D6B185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItem.m */; };
+		81795D77185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 81795D6D185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroup.m */; };
+		81795D78185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81795D6F185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroupView.m */; };
+		81795D79185A9FD7008B0588 /* WUEmoticonsKeyboardKeysPageFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 81795D71185A9FD7008B0588 /* WUEmoticonsKeyboardKeysPageFlowLayout.m */; };
+		81795D7A185A9FD7008B0588 /* WUEmoticonsKeyboardToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81795D73185A9FD7008B0588 /* WUEmoticonsKeyboardToolsView.m */; };
+		81795D81185A9FF3008B0588 /* WUDemoKeyboardBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 81795D7C185A9FF3008B0588 /* WUDemoKeyboardBuilder.m */; };
+		81795D82185A9FF3008B0588 /* WUDemoKeyboardTextKeyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81795D7E185A9FF3008B0588 /* WUDemoKeyboardTextKeyCell.m */; };
+		81795D83185A9FF3008B0588 /* WUDemoKeyboardPressedCellPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81795D80185A9FF3008B0588 /* WUDemoKeyboardPressedCellPopupView.m */; };
+		81795DAC185AA065008B0588 /* applaud.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D86185AA065008B0588 /* applaud.png */; };
+		81795DAD185AA065008B0588 /* applaud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D87185AA065008B0588 /* applaud@2x.png */; };
+		81795DAE185AA065008B0588 /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D88185AA065008B0588 /* love.png */; };
+		81795DAF185AA065008B0588 /* love@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D89185AA065008B0588 /* love@2x.png */; };
+		81795DB0185AA065008B0588 /* weico.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D8A185AA065008B0588 /* weico.png */; };
+		81795DB1185AA065008B0588 /* weico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D8B185AA065008B0588 /* weico@2x.png */; };
+		81795DB2185AA065008B0588 /* EmotionTextKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81795D8C185AA065008B0588 /* EmotionTextKeys.plist */; };
+		81795DB3185AA065008B0588 /* keyboard_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D8E185AA065008B0588 /* keyboard_bg.png */; };
+		81795DB4185AA065008B0588 /* keyboard_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D8F185AA065008B0588 /* keyboard_bg@2x.png */; };
+		81795DB5185AA065008B0588 /* keyboard_del.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D90185AA065008B0588 /* keyboard_del.png */; };
+		81795DB6185AA065008B0588 /* keyboard_del@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D91185AA065008B0588 /* keyboard_del@2x.png */; };
+		81795DB7185AA065008B0588 /* keyboard_del_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D92185AA065008B0588 /* keyboard_del_pressed.png */; };
+		81795DB8185AA065008B0588 /* keyboard_del_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D93185AA065008B0588 /* keyboard_del_pressed@2x.png */; };
+		81795DB9185AA065008B0588 /* keyboard_emotion.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D94185AA065008B0588 /* keyboard_emotion.png */; };
+		81795DBA185AA065008B0588 /* keyboard_emotion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D95185AA065008B0588 /* keyboard_emotion@2x.png */; };
+		81795DBB185AA065008B0588 /* keyboard_emotion_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D96185AA065008B0588 /* keyboard_emotion_selected.png */; };
+		81795DBC185AA065008B0588 /* keyboard_emotion_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D97185AA065008B0588 /* keyboard_emotion_selected@2x.png */; };
+		81795DBD185AA065008B0588 /* keyboard_grid_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D98185AA065008B0588 /* keyboard_grid_bg.png */; };
+		81795DBE185AA065008B0588 /* keyboard_grid_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D99185AA065008B0588 /* keyboard_grid_bg@2x.png */; };
+		81795DBF185AA065008B0588 /* keyboard_popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D9A185AA065008B0588 /* keyboard_popup.png */; };
+		81795DC0185AA065008B0588 /* keyboard_popup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D9B185AA065008B0588 /* keyboard_popup@2x.png */; };
+		81795DC1185AA065008B0588 /* keyboard_segment_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D9C185AA065008B0588 /* keyboard_segment_normal.png */; };
+		81795DC2185AA065008B0588 /* keyboard_segment_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D9D185AA065008B0588 /* keyboard_segment_normal@2x.png */; };
+		81795DC3185AA065008B0588 /* keyboard_segment_normal_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D9E185AA065008B0588 /* keyboard_segment_normal_selected.png */; };
+		81795DC4185AA065008B0588 /* keyboard_segment_normal_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795D9F185AA065008B0588 /* keyboard_segment_normal_selected@2x.png */; };
+		81795DC5185AA065008B0588 /* keyboard_segment_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795DA0185AA065008B0588 /* keyboard_segment_selected.png */; };
+		81795DC6185AA065008B0588 /* keyboard_segment_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795DA1185AA065008B0588 /* keyboard_segment_selected@2x.png */; };
+		81795DC7185AA065008B0588 /* keyboard_segment_selected_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795DA2185AA065008B0588 /* keyboard_segment_selected_normal.png */; };
+		81795DC8185AA065008B0588 /* keyboard_segment_selected_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795DA3185AA065008B0588 /* keyboard_segment_selected_normal@2x.png */; };
+		81795DC9185AA065008B0588 /* keyboard_switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795DA4185AA065008B0588 /* keyboard_switch.png */; };
+		81795DCA185AA065008B0588 /* keyboard_switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795DA5185AA065008B0588 /* keyboard_switch@2x.png */; };
+		81795DCB185AA065008B0588 /* keyboard_switch_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795DA6185AA065008B0588 /* keyboard_switch_pressed.png */; };
+		81795DCC185AA065008B0588 /* keyboard_switch_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795DA7185AA065008B0588 /* keyboard_switch_pressed@2x.png */; };
+		81795DCD185AA065008B0588 /* keyboard_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795DA8185AA065008B0588 /* keyboard_text.png */; };
+		81795DCE185AA065008B0588 /* keyboard_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795DA9185AA065008B0588 /* keyboard_text@2x.png */; };
+		81795DCF185AA065008B0588 /* keyboard_text_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795DAA185AA065008B0588 /* keyboard_text_selected.png */; };
+		81795DD0185AA065008B0588 /* keyboard_text_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81795DAB185AA065008B0588 /* keyboard_text_selected@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -415,6 +463,65 @@
 		31B7A3A5185A5D4000AA727A /* EBUserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBUserListViewController.m; sourceTree = "<group>"; };
 		31B7A3A6185A5D4000AA727A /* EBUserListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBUserListViewController.xib; sourceTree = "<group>"; };
 		78E90A51C14C45E5A725AF6C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		81795D62185A8E53008B0588 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
+		81795D65185A9FD7008B0588 /* UIResponder+WriteableInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+WriteableInputView.h"; sourceTree = "<group>"; };
+		81795D66185A9FD7008B0588 /* WUEmoticonsKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboard.h; sourceTree = "<group>"; };
+		81795D67185A9FD7008B0588 /* WUEmoticonsKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboard.m; sourceTree = "<group>"; };
+		81795D68185A9FD7008B0588 /* WUEmoticonsKeyboardKeyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboardKeyCell.h; sourceTree = "<group>"; };
+		81795D69185A9FD7008B0588 /* WUEmoticonsKeyboardKeyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboardKeyCell.m; sourceTree = "<group>"; };
+		81795D6A185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboardKeyItem.h; sourceTree = "<group>"; };
+		81795D6B185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboardKeyItem.m; sourceTree = "<group>"; };
+		81795D6C185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboardKeyItemGroup.h; sourceTree = "<group>"; };
+		81795D6D185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboardKeyItemGroup.m; sourceTree = "<group>"; };
+		81795D6E185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboardKeyItemGroupView.h; sourceTree = "<group>"; };
+		81795D6F185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboardKeyItemGroupView.m; sourceTree = "<group>"; };
+		81795D70185A9FD7008B0588 /* WUEmoticonsKeyboardKeysPageFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboardKeysPageFlowLayout.h; sourceTree = "<group>"; };
+		81795D71185A9FD7008B0588 /* WUEmoticonsKeyboardKeysPageFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboardKeysPageFlowLayout.m; sourceTree = "<group>"; };
+		81795D72185A9FD7008B0588 /* WUEmoticonsKeyboardToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboardToolsView.h; sourceTree = "<group>"; };
+		81795D73185A9FD7008B0588 /* WUEmoticonsKeyboardToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboardToolsView.m; sourceTree = "<group>"; };
+		81795D7B185A9FF3008B0588 /* WUDemoKeyboardBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUDemoKeyboardBuilder.h; sourceTree = "<group>"; };
+		81795D7C185A9FF3008B0588 /* WUDemoKeyboardBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUDemoKeyboardBuilder.m; sourceTree = "<group>"; };
+		81795D7D185A9FF3008B0588 /* WUDemoKeyboardTextKeyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUDemoKeyboardTextKeyCell.h; sourceTree = "<group>"; };
+		81795D7E185A9FF3008B0588 /* WUDemoKeyboardTextKeyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUDemoKeyboardTextKeyCell.m; sourceTree = "<group>"; };
+		81795D7F185A9FF3008B0588 /* WUDemoKeyboardPressedCellPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUDemoKeyboardPressedCellPopupView.h; sourceTree = "<group>"; };
+		81795D80185A9FF3008B0588 /* WUDemoKeyboardPressedCellPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUDemoKeyboardPressedCellPopupView.m; sourceTree = "<group>"; };
+		81795D86185AA065008B0588 /* applaud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applaud.png; sourceTree = "<group>"; };
+		81795D87185AA065008B0588 /* applaud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "applaud@2x.png"; sourceTree = "<group>"; };
+		81795D88185AA065008B0588 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		81795D89185AA065008B0588 /* love@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love@2x.png"; sourceTree = "<group>"; };
+		81795D8A185AA065008B0588 /* weico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weico.png; sourceTree = "<group>"; };
+		81795D8B185AA065008B0588 /* weico@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weico@2x.png"; sourceTree = "<group>"; };
+		81795D8C185AA065008B0588 /* EmotionTextKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmotionTextKeys.plist; sourceTree = "<group>"; };
+		81795D8E185AA065008B0588 /* keyboard_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_bg.png; sourceTree = "<group>"; };
+		81795D8F185AA065008B0588 /* keyboard_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_bg@2x.png"; sourceTree = "<group>"; };
+		81795D90185AA065008B0588 /* keyboard_del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_del.png; sourceTree = "<group>"; };
+		81795D91185AA065008B0588 /* keyboard_del@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_del@2x.png"; sourceTree = "<group>"; };
+		81795D92185AA065008B0588 /* keyboard_del_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_del_pressed.png; sourceTree = "<group>"; };
+		81795D93185AA065008B0588 /* keyboard_del_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_del_pressed@2x.png"; sourceTree = "<group>"; };
+		81795D94185AA065008B0588 /* keyboard_emotion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_emotion.png; sourceTree = "<group>"; };
+		81795D95185AA065008B0588 /* keyboard_emotion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_emotion@2x.png"; sourceTree = "<group>"; };
+		81795D96185AA065008B0588 /* keyboard_emotion_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_emotion_selected.png; sourceTree = "<group>"; };
+		81795D97185AA065008B0588 /* keyboard_emotion_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_emotion_selected@2x.png"; sourceTree = "<group>"; };
+		81795D98185AA065008B0588 /* keyboard_grid_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_grid_bg.png; sourceTree = "<group>"; };
+		81795D99185AA065008B0588 /* keyboard_grid_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_grid_bg@2x.png"; sourceTree = "<group>"; };
+		81795D9A185AA065008B0588 /* keyboard_popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_popup.png; sourceTree = "<group>"; };
+		81795D9B185AA065008B0588 /* keyboard_popup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_popup@2x.png"; sourceTree = "<group>"; };
+		81795D9C185AA065008B0588 /* keyboard_segment_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_segment_normal.png; sourceTree = "<group>"; };
+		81795D9D185AA065008B0588 /* keyboard_segment_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_segment_normal@2x.png"; sourceTree = "<group>"; };
+		81795D9E185AA065008B0588 /* keyboard_segment_normal_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_segment_normal_selected.png; sourceTree = "<group>"; };
+		81795D9F185AA065008B0588 /* keyboard_segment_normal_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_segment_normal_selected@2x.png"; sourceTree = "<group>"; };
+		81795DA0185AA065008B0588 /* keyboard_segment_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_segment_selected.png; sourceTree = "<group>"; };
+		81795DA1185AA065008B0588 /* keyboard_segment_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_segment_selected@2x.png"; sourceTree = "<group>"; };
+		81795DA2185AA065008B0588 /* keyboard_segment_selected_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_segment_selected_normal.png; sourceTree = "<group>"; };
+		81795DA3185AA065008B0588 /* keyboard_segment_selected_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_segment_selected_normal@2x.png"; sourceTree = "<group>"; };
+		81795DA4185AA065008B0588 /* keyboard_switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_switch.png; sourceTree = "<group>"; };
+		81795DA5185AA065008B0588 /* keyboard_switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_switch@2x.png"; sourceTree = "<group>"; };
+		81795DA6185AA065008B0588 /* keyboard_switch_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_switch_pressed.png; sourceTree = "<group>"; };
+		81795DA7185AA065008B0588 /* keyboard_switch_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_switch_pressed@2x.png"; sourceTree = "<group>"; };
+		81795DA8185AA065008B0588 /* keyboard_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_text.png; sourceTree = "<group>"; };
+		81795DA9185AA065008B0588 /* keyboard_text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_text@2x.png"; sourceTree = "<group>"; };
+		81795DAA185AA065008B0588 /* keyboard_text_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_text_selected.png; sourceTree = "<group>"; };
+		81795DAB185AA065008B0588 /* keyboard_text_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_text_selected@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -429,6 +536,7 @@
 				31B7A397185A572100AA727A /* CFNetwork.framework in Frameworks */,
 				31B7A392185A567C00AA727A /* CoreLocation.framework in Frameworks */,
 				31B7A390185A567500AA727A /* SystemConfiguration.framework in Frameworks */,
+				81795D63185A8E53008B0588 /* libidn.a in Frameworks */,
 				31B7A38E185A566D00AA727A /* CoreGraphics.framework in Frameworks */,
 				31B7A38C185A564800AA727A /* Security.framework in Frameworks */,
 				316D91AE185A539C00B874BC /* Foundation.framework in Frameworks */,
@@ -471,6 +579,7 @@
 		316D8F85185A4D7A00B874BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				81795D62185A8E53008B0588 /* libidn.a */,
 				31B7A39E185A57BA00AA727A /* CoreData.framework */,
 				31B7A39C185A578600AA727A /* QuartzCore.framework */,
 				31B7A39A185A575100AA727A /* libresolv.dylib */,
@@ -490,6 +599,8 @@
 		316D8F8C185A4D7A00B874BC /* EBDominoMessager */ = {
 			isa = PBXGroup;
 			children = (
+				81795D84185AA055008B0588 /* Resources */,
+				81795D64185A9FD7008B0588 /* WUEmoticonsKeyboard */,
 				316D8FBF185A4DBB00B874BC /* XMPP */,
 				316D8F95185A4D7A00B874BC /* EBAppDelegate.h */,
 				316D8F96185A4D7A00B874BC /* EBAppDelegate.m */,
@@ -1188,6 +1299,94 @@
 			path = libidn;
 			sourceTree = "<group>";
 		};
+		81795D64185A9FD7008B0588 /* WUEmoticonsKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				81795D7B185A9FF3008B0588 /* WUDemoKeyboardBuilder.h */,
+				81795D7C185A9FF3008B0588 /* WUDemoKeyboardBuilder.m */,
+				81795D7D185A9FF3008B0588 /* WUDemoKeyboardTextKeyCell.h */,
+				81795D7E185A9FF3008B0588 /* WUDemoKeyboardTextKeyCell.m */,
+				81795D7F185A9FF3008B0588 /* WUDemoKeyboardPressedCellPopupView.h */,
+				81795D80185A9FF3008B0588 /* WUDemoKeyboardPressedCellPopupView.m */,
+				81795D65185A9FD7008B0588 /* UIResponder+WriteableInputView.h */,
+				81795D66185A9FD7008B0588 /* WUEmoticonsKeyboard.h */,
+				81795D67185A9FD7008B0588 /* WUEmoticonsKeyboard.m */,
+				81795D68185A9FD7008B0588 /* WUEmoticonsKeyboardKeyCell.h */,
+				81795D69185A9FD7008B0588 /* WUEmoticonsKeyboardKeyCell.m */,
+				81795D6A185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItem.h */,
+				81795D6B185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItem.m */,
+				81795D6C185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroup.h */,
+				81795D6D185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroup.m */,
+				81795D6E185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroupView.h */,
+				81795D6F185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroupView.m */,
+				81795D70185A9FD7008B0588 /* WUEmoticonsKeyboardKeysPageFlowLayout.h */,
+				81795D71185A9FD7008B0588 /* WUEmoticonsKeyboardKeysPageFlowLayout.m */,
+				81795D72185A9FD7008B0588 /* WUEmoticonsKeyboardToolsView.h */,
+				81795D73185A9FD7008B0588 /* WUEmoticonsKeyboardToolsView.m */,
+			);
+			path = WUEmoticonsKeyboard;
+			sourceTree = "<group>";
+		};
+		81795D84185AA055008B0588 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				81795D85185AA065008B0588 /* Emotions */,
+				81795D8C185AA065008B0588 /* EmotionTextKeys.plist */,
+				81795D8D185AA065008B0588 /* Keyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		81795D85185AA065008B0588 /* Emotions */ = {
+			isa = PBXGroup;
+			children = (
+				81795D86185AA065008B0588 /* applaud.png */,
+				81795D87185AA065008B0588 /* applaud@2x.png */,
+				81795D88185AA065008B0588 /* love.png */,
+				81795D89185AA065008B0588 /* love@2x.png */,
+				81795D8A185AA065008B0588 /* weico.png */,
+				81795D8B185AA065008B0588 /* weico@2x.png */,
+			);
+			path = Emotions;
+			sourceTree = "<group>";
+		};
+		81795D8D185AA065008B0588 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				81795D8E185AA065008B0588 /* keyboard_bg.png */,
+				81795D8F185AA065008B0588 /* keyboard_bg@2x.png */,
+				81795D90185AA065008B0588 /* keyboard_del.png */,
+				81795D91185AA065008B0588 /* keyboard_del@2x.png */,
+				81795D92185AA065008B0588 /* keyboard_del_pressed.png */,
+				81795D93185AA065008B0588 /* keyboard_del_pressed@2x.png */,
+				81795D94185AA065008B0588 /* keyboard_emotion.png */,
+				81795D95185AA065008B0588 /* keyboard_emotion@2x.png */,
+				81795D96185AA065008B0588 /* keyboard_emotion_selected.png */,
+				81795D97185AA065008B0588 /* keyboard_emotion_selected@2x.png */,
+				81795D98185AA065008B0588 /* keyboard_grid_bg.png */,
+				81795D99185AA065008B0588 /* keyboard_grid_bg@2x.png */,
+				81795D9A185AA065008B0588 /* keyboard_popup.png */,
+				81795D9B185AA065008B0588 /* keyboard_popup@2x.png */,
+				81795D9C185AA065008B0588 /* keyboard_segment_normal.png */,
+				81795D9D185AA065008B0588 /* keyboard_segment_normal@2x.png */,
+				81795D9E185AA065008B0588 /* keyboard_segment_normal_selected.png */,
+				81795D9F185AA065008B0588 /* keyboard_segment_normal_selected@2x.png */,
+				81795DA0185AA065008B0588 /* keyboard_segment_selected.png */,
+				81795DA1185AA065008B0588 /* keyboard_segment_selected@2x.png */,
+				81795DA2185AA065008B0588 /* keyboard_segment_selected_normal.png */,
+				81795DA3185AA065008B0588 /* keyboard_segment_selected_normal@2x.png */,
+				81795DA4185AA065008B0588 /* keyboard_switch.png */,
+				81795DA5185AA065008B0588 /* keyboard_switch@2x.png */,
+				81795DA6185AA065008B0588 /* keyboard_switch_pressed.png */,
+				81795DA7185AA065008B0588 /* keyboard_switch_pressed@2x.png */,
+				81795DA8185AA065008B0588 /* keyboard_text.png */,
+				81795DA9185AA065008B0588 /* keyboard_text@2x.png */,
+				81795DAA185AA065008B0588 /* keyboard_text_selected.png */,
+				81795DAB185AA065008B0588 /* keyboard_text_selected@2x.png */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1267,12 +1466,49 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81795DB4185AA065008B0588 /* keyboard_bg@2x.png in Resources */,
+				81795DCD185AA065008B0588 /* keyboard_text.png in Resources */,
+				81795DC4185AA065008B0588 /* keyboard_segment_normal_selected@2x.png in Resources */,
+				81795DC1185AA065008B0588 /* keyboard_segment_normal.png in Resources */,
+				81795DB7185AA065008B0588 /* keyboard_del_pressed.png in Resources */,
+				81795DB2185AA065008B0588 /* EmotionTextKeys.plist in Resources */,
+				81795DB1185AA065008B0588 /* weico@2x.png in Resources */,
 				316D9180185A4DE300B874BC /* build-libidn.sh in Resources */,
+				81795DBD185AA065008B0588 /* keyboard_grid_bg.png in Resources */,
 				31B7A3A3185A5B9700AA727A /* UsersListViewController.xib in Resources */,
+				81795DCF185AA065008B0588 /* keyboard_text_selected.png in Resources */,
+				81795DB0185AA065008B0588 /* weico.png in Resources */,
+				81795DCC185AA065008B0588 /* keyboard_switch_pressed@2x.png in Resources */,
+				81795DAE185AA065008B0588 /* love.png in Resources */,
+				81795DC6185AA065008B0588 /* keyboard_segment_selected@2x.png in Resources */,
+				81795DAD185AA065008B0588 /* applaud@2x.png in Resources */,
+				81795DBE185AA065008B0588 /* keyboard_grid_bg@2x.png in Resources */,
+				81795DBC185AA065008B0588 /* keyboard_emotion_selected@2x.png in Resources */,
+				81795DC0185AA065008B0588 /* keyboard_popup@2x.png in Resources */,
+				81795DB5185AA065008B0588 /* keyboard_del.png in Resources */,
+				81795DBA185AA065008B0588 /* keyboard_emotion@2x.png in Resources */,
+				81795DAC185AA065008B0588 /* applaud.png in Resources */,
+				81795DC2185AA065008B0588 /* keyboard_segment_normal@2x.png in Resources */,
+				81795DBF185AA065008B0588 /* keyboard_popup.png in Resources */,
 				316D8FA2185A4D7A00B874BC /* Images.xcassets in Resources */,
+				81795DAF185AA065008B0588 /* love@2x.png in Resources */,
+				81795DB8185AA065008B0588 /* keyboard_del_pressed@2x.png in Resources */,
+				81795DC3185AA065008B0588 /* keyboard_segment_normal_selected.png in Resources */,
 				316D8F91185A4D7A00B874BC /* InfoPlist.strings in Resources */,
+				81795DC7185AA065008B0588 /* keyboard_segment_selected_normal.png in Resources */,
 				31B7A3A8185A5D4000AA727A /* EBUserListViewController.xib in Resources */,
+				81795DC9185AA065008B0588 /* keyboard_switch.png in Resources */,
+				81795DBB185AA065008B0588 /* keyboard_emotion_selected.png in Resources */,
+				81795DC5185AA065008B0588 /* keyboard_segment_selected.png in Resources */,
+				81795DD0185AA065008B0588 /* keyboard_text_selected@2x.png in Resources */,
+				81795DCB185AA065008B0588 /* keyboard_switch_pressed.png in Resources */,
+				81795DCE185AA065008B0588 /* keyboard_text@2x.png in Resources */,
+				81795DB6185AA065008B0588 /* keyboard_del@2x.png in Resources */,
 				316D918B185A4E1800B874BC /* SettingsViewController.xib in Resources */,
+				81795DB9185AA065008B0588 /* keyboard_emotion.png in Resources */,
+				81795DCA185AA065008B0588 /* keyboard_switch@2x.png in Resources */,
+				81795DB3185AA065008B0588 /* keyboard_bg.png in Resources */,
+				81795DC8185AA065008B0588 /* keyboard_segment_selected_normal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1326,6 +1562,7 @@
 			files = (
 				316D916F185A4DE300B874BC /* RFImageToDataTransformer.m in Sources */,
 				316D9139185A4DE300B874BC /* XMPPvCard.xcdatamodeld in Sources */,
+				81795D78185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroupView.m in Sources */,
 				316D9112185A4DE300B874BC /* XMPPModule.m in Sources */,
 				316D918E185A4EDB00B874BC /* DMConversationViewController.m in Sources */,
 				316D9151185A4DE300B874BC /* XMPPTransports.m in Sources */,
@@ -1338,6 +1575,8 @@
 				316D9122185A4DE300B874BC /* XMPPUserMemoryStorageObject.m in Sources */,
 				316D9161185A4DE300B874BC /* XMPPMessageDeliveryReceipts.m in Sources */,
 				316D910B185A4DE300B874BC /* NSData+XMPP.m in Sources */,
+				81795D7A185A9FD7008B0588 /* WUEmoticonsKeyboardToolsView.m in Sources */,
+				81795D82185A9FF3008B0588 /* WUDemoKeyboardTextKeyCell.m in Sources */,
 				316D911B185A4DE300B874BC /* XMPPGroupCoreDataStorageObject.m in Sources */,
 				316D915B185A4DE300B874BC /* XMPPMessageArchivingCoreDataStorage.m in Sources */,
 				316D9132185A4DE300B874BC /* XMPPRoomOccupantHybridMemoryStorageObject.m in Sources */,
@@ -1357,10 +1596,12 @@
 				316D9156185A4DE300B874BC /* XMPPCapsResourceCoreDataStorageObject.m in Sources */,
 				316D9120185A4DE300B874BC /* XMPPResourceMemoryStorageObject.m in Sources */,
 				316D9173185A4DE300B874BC /* GCDAsyncSocket.m in Sources */,
+				81795D81185A9FF3008B0588 /* WUDemoKeyboardBuilder.m in Sources */,
 				316D912F185A4DE300B874BC /* XMPPRoomHybrid.xcdatamodeld in Sources */,
 				316D9123185A4DE300B874BC /* XMPPRoster.m in Sources */,
 				316D917D185A4DE300B874BC /* DDXMLDocument.m in Sources */,
 				316D914D185A4DE300B874BC /* NSDate+XMPPDateTimeProfiles.m in Sources */,
+				81795D77185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItemGroup.m in Sources */,
 				316D9111185A4DE300B874BC /* XMPPMessage.m in Sources */,
 				316D910E185A4DE300B874BC /* XMPPElement.m in Sources */,
 				316D9141185A4DE300B874BC /* XMPPvCardTempBase.m in Sources */,
@@ -1372,6 +1613,7 @@
 				316D9142185A4DE300B874BC /* XMPPvCardTempEmail.m in Sources */,
 				316D9108185A4DE300B874BC /* XMPPDigestMD5Authentication.m in Sources */,
 				316D9172185A4DE300B874BC /* XMPPStringPrep.m in Sources */,
+				81795D75185A9FD7008B0588 /* WUEmoticonsKeyboardKeyCell.m in Sources */,
 				316D9134185A4DE300B874BC /* XMPPRoomMessageMemoryStorageObject.m in Sources */,
 				316D915E185A4DE300B874BC /* XMPPMessage+XEP_0172.m in Sources */,
 				316D9145185A4DE300B874BC /* XMPPvCardTempTel.m in Sources */,
@@ -1383,6 +1625,7 @@
 				316D918A185A4E1800B874BC /* SettingsViewController.m in Sources */,
 				316D9113185A4DE300B874BC /* XMPPParser.m in Sources */,
 				316D9115185A4DE300B874BC /* XMPPStream.m in Sources */,
+				81795D76185A9FD7008B0588 /* WUEmoticonsKeyboardKeyItem.m in Sources */,
 				316D910A185A4DE300B874BC /* XMPPXFacebookPlatformAuthentication.m in Sources */,
 				316D9168185A4DE300B874BC /* XMPPAttentionModule.m in Sources */,
 				316D912A185A4DE300B874BC /* XMPPPrivacy.m in Sources */,
@@ -1393,6 +1636,7 @@
 				316D9165185A4DE300B874BC /* XMPPTime.m in Sources */,
 				316D912E185A4DE300B874BC /* XMPPRoomOccupantCoreDataStorageObject.m in Sources */,
 				316D9170185A4DE300B874BC /* XMPPIDTracker.m in Sources */,
+				81795D79185A9FD7008B0588 /* WUEmoticonsKeyboardKeysPageFlowLayout.m in Sources */,
 				316D917C185A4DE300B874BC /* NSString+DDXML.m in Sources */,
 				316D9140185A4DE300B874BC /* XMPPvCardTempAdrTypes.m in Sources */,
 				316D912C185A4DE300B874BC /* XMPPRoomCoreDataStorage.m in Sources */,
@@ -1426,9 +1670,11 @@
 				316D9159185A4DE300B874BC /* XMPPMessageArchiving_Contact_CoreDataObject.m in Sources */,
 				316D911F185A4DE300B874BC /* XMPPUserCoreDataStorageObject.m in Sources */,
 				316D9130185A4DE300B874BC /* XMPPRoomHybridStorage.m in Sources */,
+				81795D74185A9FD7008B0588 /* WUEmoticonsKeyboard.m in Sources */,
 				31B7A3A7185A5D4000AA727A /* EBUserListViewController.m in Sources */,
 				316D912D185A4DE300B874BC /* XMPPRoomMessageCoreDataStorageObject.m in Sources */,
 				316D914F185A4DE300B874BC /* XMPPMessage+XEP_0085.m in Sources */,
+				81795D83185A9FF3008B0588 /* WUDemoKeyboardPressedCellPopupView.m in Sources */,
 				316D913C185A4DE300B874BC /* XMPPvCardCoreDataStorageObject.m in Sources */,
 				316D9106185A4DE300B874BC /* XMPPDeprecatedDigestAuthentication.m in Sources */,
 				316D911C185A4DE300B874BC /* XMPPResourceCoreDataStorageObject.m in Sources */,
@@ -1573,6 +1819,7 @@
 					"$(inherited)",
 					/Users/warexi/Desktop/EBDominoMessager/EBDominoMessager/Vendor/libidn,
 					/Users/warexi/Desktop/EBDominoMessager,
+					/Users/evgenbakumenko/Documents/DominoMessager,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1603,6 +1850,7 @@
 					"$(inherited)",
 					/Users/warexi/Desktop/EBDominoMessager/EBDominoMessager/Vendor/libidn,
 					/Users/warexi/Desktop/EBDominoMessager,
+					/Users/evgenbakumenko/Documents/DominoMessager,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

@@ -1,0 +1,180 @@
+TPods-JSQSystemSoundPlayer
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-foveuahuslabyagmmvbgsqfnasqv/Pods-JSQSystemSoundPlayer-prefix.pch.pch Pods-JSQSystemSoundPlayer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-fbyimckttdwnfygcbcjibgvtdeun/Pods-JSQSystemSoundPlayer-prefix.pch.pch Pods-JSQSystemSoundPlayer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/JSQSystemSoundPlayer.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/Pods-JSQSystemSoundPlayer-dummy.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-JSQSystemSoundPlayer.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000052670DD80000000000CF72E0
+t1382485464
+s13595360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052670DD90000000000A92BC0
+t1382485465
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c0000000052817DEA0000000000000176
+t1384218090
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000523A32E500000000000003B5
+t1379545829
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052670DE100000000000001A0
+t1382485473
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000523A32FE0000000000000AC9
+t1379545854
+s2761
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/JSQSystemSoundPlayer.o
+t1386894783
+s39320
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/Pods-JSQSystemSoundPlayer-dummy.o
+t1386894781
+s3512
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/Pods-JSQSystemSoundPlayer.LinkFileList
+c0000000052AA55BC0000000000000169
+t1386894780
+s361
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-fbyimckttdwnfygcbcjibgvtdeun/Pods-JSQSystemSoundPlayer-prefix.pch.pch
+t1386894781
+s115184
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-foveuahuslabyagmmvbgsqfnasqv/Pods-JSQSystemSoundPlayer-prefix.pch.pch
+t1386894781
+s115564
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-JSQSystemSoundPlayer.a
+t1386894783
+s43608
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.h
+c0000000052AA55630000000000001A33
+t1386894691
+s6707
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m
+c0000000052AA556300000000000028DA
+t1386894691
+s10458
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-dummy.m
+c0000000052AA5563000000000000009A
+t1386894691
+s154
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-prefix.pch
+c0000000052AA5563000000000000004D
+t1386894691
+s77
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-environment.h
+c0000000052AA556300000000000002DD
+t1386894691
+s733
+
+CBuild AST from /Users/evgenbakumenko/Documents/DominoMessager/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2ffac267a05ab841^62a0c367a05ab841^---0#1#1#--18"Check dependencies36"C4DDDA74-B72D-4282-A1BD-F83FE9C2582A-
+
+CCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/JSQSystemSoundPlayer.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408587581.291240
+e408587583.187672
+r1
+xCompileC
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/JSQSystemSoundPlayer.o
+x/Users/evgenbakumenko/Documents/DominoMessager/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/evgenbakumenko/Documents/DominoMessager/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m324"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/JSQSystemSoundPlayer.o JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler64ac4a3d8d5ab841^fe0b303f8d5ab841^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/evgenbakumenko/Documents/DominoMessager/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m0000000000000000^4496"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/JSQSystemSoundPlayer.o JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-foveuahuslabyagmmvbgsqfnasqv/Pods-JSQSystemSoundPlayer-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/JSQSystemSoundPlayer.d --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/JSQSystemSoundPlayer.dia -c /Users/evgenbakumenko/Documents/DominoMessager/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/JSQSystemSoundPlayer.o36"65D4F8E3-8DC9-4D8E-982A-139B89ECBB83-
+bF4530DF1-BD8E-4E68-9B7B-9B7A02F4926B
+
+CCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/Pods-JSQSystemSoundPlayer-dummy.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408587581.291479
+e408587581.803605
+r1
+xCompileC
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/Pods-JSQSystemSoundPlayer-dummy.o
+x/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-dummy.m296"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/Pods-JSQSystemSoundPlayer-dummy.o Pods-JSQSystemSoundPlayer-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere9b84a3d8d5ab841^a6b9cd3d8d5ab841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-dummy.m0000000000000000^4451"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/Pods-JSQSystemSoundPlayer-dummy.o Pods-JSQSystemSoundPlayer-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -include /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-fbyimckttdwnfygcbcjibgvtdeun/Pods-JSQSystemSoundPlayer-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/Pods-JSQSystemSoundPlayer-dummy.d --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/Pods-JSQSystemSoundPlayer-dummy.dia -c /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-dummy.m -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/Pods-JSQSystemSoundPlayer-dummy.o36"0C28FA79-0606-4F5F-894F-4EC25B6E1BB5-
+bF4530DF1-BD8E-4E68-9B7B-9B7A02F4926B
+
+CLibtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-JSQSystemSoundPlayer.a normal i386
+s408587583.190237
+e408587583.204608
+r1
+xLibtool
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-JSQSystemSoundPlayer.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Libtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-JSQSystemSoundPlayer.a normal i386134"Libtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-JSQSystemSoundPlayer.a normal i38655c1303f8d5ab841^8461343f8d5ab841^---0#0#1#--1133"Libtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-JSQSystemSoundPlayer.a normal i386    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -filelist /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Objects-normal/i386/Pods-JSQSystemSoundPlayer.LinkFileList -framework AudioToolbox -framework Foundation -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-JSQSystemSoundPlayer.a36"CB29FF63-052B-46E7-BF2F-1E5DD228B656-
+bF4530DF1-BD8E-4E68-9B7B-9B7A02F4926B
+
+CProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-fbyimckttdwnfygcbcjibgvtdeun/Pods-JSQSystemSoundPlayer-prefix.pch.pch Pods-JSQSystemSoundPlayer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408587580.364328
+e408587581.290538
+r1
+xProcessPCH
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-fbyimckttdwnfygcbcjibgvtdeun/Pods-JSQSystemSoundPlayer-prefix.pch.pch
+xPods-JSQSystemSoundPlayer-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-prefix.pch
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile Pods-JSQSystemSoundPlayer-prefix.pch304"ProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-fbyimckttdwnfygcbcjibgvtdeun/Pods-JSQSystemSoundPlayer-prefix.pch.pch Pods-JSQSystemSoundPlayer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6ccf603c8d5ab841^ae614a3d8d5ab841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-prefix.pch0000000000000000^4280"ProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-fbyimckttdwnfygcbcjibgvtdeun/Pods-JSQSystemSoundPlayer-prefix.pch.pch Pods-JSQSystemSoundPlayer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-fbyimckttdwnfygcbcjibgvtdeun/Pods-JSQSystemSoundPlayer-prefix.pch.dia -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-fbyimckttdwnfygcbcjibgvtdeun/Pods-JSQSystemSoundPlayer-prefix.pch.d -c /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-prefix.pch -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-fbyimckttdwnfygcbcjibgvtdeun/Pods-JSQSystemSoundPlayer-prefix.pch.pch36"65EA34C6-6986-4DD7-AC35-8E83D4E627A7-
+bF4530DF1-BD8E-4E68-9B7B-9B7A02F4926B
+
+CProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-foveuahuslabyagmmvbgsqfnasqv/Pods-JSQSystemSoundPlayer-prefix.pch.pch Pods-JSQSystemSoundPlayer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408587580.363939
+e408587581.290542
+r1
+xProcessPCH
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-foveuahuslabyagmmvbgsqfnasqv/Pods-JSQSystemSoundPlayer-prefix.pch.pch
+xPods-JSQSystemSoundPlayer-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-prefix.pch
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile Pods-JSQSystemSoundPlayer-prefix.pch304"ProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-foveuahuslabyagmmvbgsqfnasqv/Pods-JSQSystemSoundPlayer-prefix.pch.pch Pods-JSQSystemSoundPlayer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler85cd603c8d5ab841^94674a3d8d5ab841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-prefix.pch0000000000000000^4291"ProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-foveuahuslabyagmmvbgsqfnasqv/Pods-JSQSystemSoundPlayer-prefix.pch.pch Pods-JSQSystemSoundPlayer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/Pods-JSQSystemSoundPlayer-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSQSystemSoundPlayer.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -fobjc-arc --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-foveuahuslabyagmmvbgsqfnasqv/Pods-JSQSystemSoundPlayer-prefix.pch.dia -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-foveuahuslabyagmmvbgsqfnasqv/Pods-JSQSystemSoundPlayer-prefix.pch.d -c /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSQSystemSoundPlayer-prefix.pch -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-foveuahuslabyagmmvbgsqfnasqv/Pods-JSQSystemSoundPlayer-prefix.pch.pch36"479D91AB-5984-4C15-BBAF-AAFBEBDBBA1C-
+bF4530DF1-BD8E-4E68-9B7B-9B7A02F4926B
+
+CProcessPCH /Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/EBDominoMessager-aficcwopuswpyacbebsfglguirjd/Index/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-glcglvhsgescwgducztmfnrrnqax_ast/Pods-JSQSystemSoundPlayer-prefix.pch.pch Pods-JSQSystemSoundPlayer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/EBDominoMessager-aficcwopuswpyacbebsfglguirjd/Index/PrecompiledHeaders/Pods-JSQSystemSoundPlayer-prefix-hdckawfyirltpmedsrcgnfqobvuq_ast/Pods-JSQSystemSoundPlayer-prefix.pch.pch Pods-JSQSystemSoundPlayer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

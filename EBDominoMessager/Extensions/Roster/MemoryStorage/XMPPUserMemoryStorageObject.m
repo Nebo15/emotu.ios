@@ -70,9 +70,9 @@
 	
 	for (XMPPJID *key in resources)
 	{
-		XMPPResourceMemoryStorageObject *resourceCopy = [[resources objectForKey:key] copy];
+		XMPPResourceMemoryStorageObject *resourceCopy = [resources[key] copy];
 		
-		[deepCopy->resources setObject:resourceCopy forKey:key];
+		deepCopy->resources[key] = resourceCopy;
 	}
 	
 	[deepCopy recalculatePrimaryResource];
@@ -168,7 +168,7 @@
 
 - (NSString *)nickname
 {
-	return (NSString *)[itemAttributes objectForKey:@"name"];
+	return (NSString *)itemAttributes[@"name"];
 }
 
 - (NSString *)displayName
@@ -191,8 +191,8 @@
 	// <item ask='subscribe' subscription='none' jid='robbiehanson@deusty.com'/>
 	// <item ask='subscribe' subscription='from' jid='robbiehanson@deusty.com'/>
 	
-	NSString *subscription = [itemAttributes objectForKey:@"subscription"];
-	NSString *ask = [itemAttributes objectForKey:@"ask"];
+	NSString *subscription = itemAttributes[@"subscription"];
+	NSString *ask = itemAttributes[@"ask"];
 	
 	if ([subscription isEqualToString:@"none"] || [subscription isEqualToString:@"from"])
 	{
@@ -212,7 +212,7 @@
 
 - (id <XMPPResource>)resourceForJID:(XMPPJID *)aJid
 {
-	return [resources objectForKey:aJid];
+	return resources[aJid];
 }
 
 - (NSArray *)allResources
@@ -256,7 +256,7 @@
 	NSArray *sortedResources = [[self allResources] sortedArrayUsingSelector:@selector(compare:)];
 	if ([sortedResources count] > 0)
 	{
-		XMPPResourceMemoryStorageObject *possiblePrimary = [sortedResources objectAtIndex:0];
+		XMPPResourceMemoryStorageObject *possiblePrimary = sortedResources[0];
 		
 		// Primary resource must have a non-negative priority
 		if ([[possiblePrimary presence] priority] >= 0)
@@ -286,7 +286,7 @@
 		NSString *key   = [node name];
 		NSString *value = [node stringValue];
 		
-		[itemAttributes setObject:value forKey:key];
+		itemAttributes[key] = value;
 	}
 }
 
@@ -302,7 +302,7 @@
 	
 	if ([presenceType isEqualToString:@"unavailable"] || [presenceType isEqualToString:@"error"])
 	{
-		resource = [resources objectForKey:key];
+		resource = resources[key];
 		if (resource)
 		{
 			[resources removeObjectForKey:key];
@@ -313,7 +313,7 @@
 	}
 	else
 	{
-		resource = [resources objectForKey:key];
+		resource = resources[key];
 		if (resource)
 		{
 			[self willUpdateResource:resource withPresence:presence];
@@ -326,7 +326,7 @@
 		{
 			resource = (XMPPResourceMemoryStorageObject *)[[resourceClass alloc] initWithPresence:presence];
 			
-			[resources setObject:resource forKey:key];
+			resources[key] = resource;
 			[self didAddResource:resource withPresence:presence];
 			
 			result = XMPP_USER_ADDED_RESOURCE;

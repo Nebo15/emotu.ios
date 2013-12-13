@@ -2887,39 +2887,39 @@ enum GCDAsyncSocketConfig
 
 - (NSError *)badConfigError:(NSString *)errMsg
 {
-	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:errMsg forKey:NSLocalizedDescriptionKey];
+	NSDictionary *userInfo = @{NSLocalizedDescriptionKey: errMsg};
 	
 	return [NSError errorWithDomain:GCDAsyncSocketErrorDomain code:GCDAsyncSocketBadConfigError userInfo:userInfo];
 }
 
 - (NSError *)badParamError:(NSString *)errMsg
 {
-	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:errMsg forKey:NSLocalizedDescriptionKey];
+	NSDictionary *userInfo = @{NSLocalizedDescriptionKey: errMsg};
 	
 	return [NSError errorWithDomain:GCDAsyncSocketErrorDomain code:GCDAsyncSocketBadParamError userInfo:userInfo];
 }
 
 - (NSError *)gaiError:(int)gai_error
 {
-	NSString *errMsg = [NSString stringWithCString:gai_strerror(gai_error) encoding:NSASCIIStringEncoding];
-	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:errMsg forKey:NSLocalizedDescriptionKey];
+	NSString *errMsg = @(gai_strerror(gai_error));
+	NSDictionary *userInfo = @{NSLocalizedDescriptionKey: errMsg};
 	
 	return [NSError errorWithDomain:@"kCFStreamErrorDomainNetDB" code:gai_error userInfo:userInfo];
 }
 
 - (NSError *)errnoErrorWithReason:(NSString *)reason
 {
-	NSString *errMsg = [NSString stringWithUTF8String:strerror(errno)];
-	NSDictionary *userInfo = [NSDictionary dictionaryWithObjectsAndKeys:errMsg, NSLocalizedDescriptionKey,
-	                                                                    reason, NSLocalizedFailureReasonErrorKey, nil];
+	NSString *errMsg = @(strerror(errno));
+	NSDictionary *userInfo = @{NSLocalizedDescriptionKey: errMsg,
+	                                                                    NSLocalizedFailureReasonErrorKey: reason};
 	
 	return [NSError errorWithDomain:NSPOSIXErrorDomain code:errno userInfo:userInfo];
 }
 
 - (NSError *)errnoError
 {
-	NSString *errMsg = [NSString stringWithUTF8String:strerror(errno)];
-	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:errMsg forKey:NSLocalizedDescriptionKey];
+	NSString *errMsg = @(strerror(errno));
+	NSDictionary *userInfo = @{NSLocalizedDescriptionKey: errMsg};
 	
 	return [NSError errorWithDomain:NSPOSIXErrorDomain code:errno userInfo:userInfo];
 }
@@ -2927,7 +2927,7 @@ enum GCDAsyncSocketConfig
 - (NSError *)sslError:(OSStatus)ssl_error
 {
 	NSString *msg = @"Error code definition can be found in Apple's SecureTransport.h";
-	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:msg forKey:NSLocalizedRecoverySuggestionErrorKey];
+	NSDictionary *userInfo = @{NSLocalizedRecoverySuggestionErrorKey: msg};
 	
 	return [NSError errorWithDomain:@"kCFStreamErrorDomainSSL" code:ssl_error userInfo:userInfo];
 }
@@ -2938,7 +2938,7 @@ enum GCDAsyncSocketConfig
 	                                                     @"GCDAsyncSocket", [NSBundle mainBundle],
 	                                                     @"Attempt to connect to host timed out", nil);
 	
-	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:errMsg forKey:NSLocalizedDescriptionKey];
+	NSDictionary *userInfo = @{NSLocalizedDescriptionKey: errMsg};
 	
 	return [NSError errorWithDomain:GCDAsyncSocketErrorDomain code:GCDAsyncSocketConnectTimeoutError userInfo:userInfo];
 }
@@ -2952,7 +2952,7 @@ enum GCDAsyncSocketConfig
 														 @"GCDAsyncSocket", [NSBundle mainBundle],
 														 @"Read operation reached set maximum length", nil);
 	
-	NSDictionary *info = [NSDictionary dictionaryWithObject:errMsg forKey:NSLocalizedDescriptionKey];
+	NSDictionary *info = @{NSLocalizedDescriptionKey: errMsg};
 	
 	return [NSError errorWithDomain:GCDAsyncSocketErrorDomain code:GCDAsyncSocketReadMaxedOutError userInfo:info];
 }
@@ -2966,7 +2966,7 @@ enum GCDAsyncSocketConfig
 	                                                     @"GCDAsyncSocket", [NSBundle mainBundle],
 	                                                     @"Read operation timed out", nil);
 	
-	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:errMsg forKey:NSLocalizedDescriptionKey];
+	NSDictionary *userInfo = @{NSLocalizedDescriptionKey: errMsg};
 	
 	return [NSError errorWithDomain:GCDAsyncSocketErrorDomain code:GCDAsyncSocketReadTimeoutError userInfo:userInfo];
 }
@@ -2980,7 +2980,7 @@ enum GCDAsyncSocketConfig
 	                                                     @"GCDAsyncSocket", [NSBundle mainBundle],
 	                                                     @"Write operation timed out", nil);
 	
-	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:errMsg forKey:NSLocalizedDescriptionKey];
+	NSDictionary *userInfo = @{NSLocalizedDescriptionKey: errMsg};
 	
 	return [NSError errorWithDomain:GCDAsyncSocketErrorDomain code:GCDAsyncSocketWriteTimeoutError userInfo:userInfo];
 }
@@ -2991,14 +2991,14 @@ enum GCDAsyncSocketConfig
 	                                                     @"GCDAsyncSocket", [NSBundle mainBundle],
 	                                                     @"Socket closed by remote peer", nil);
 	
-	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:errMsg forKey:NSLocalizedDescriptionKey];
+	NSDictionary *userInfo = @{NSLocalizedDescriptionKey: errMsg};
 	
 	return [NSError errorWithDomain:GCDAsyncSocketErrorDomain code:GCDAsyncSocketClosedError userInfo:userInfo];
 }
 
 - (NSError *)otherError:(NSString *)errMsg
 {
-	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:errMsg forKey:NSLocalizedDescriptionKey];
+	NSDictionary *userInfo = @{NSLocalizedDescriptionKey: errMsg};
 	
 	return [NSError errorWithDomain:GCDAsyncSocketErrorDomain code:GCDAsyncSocketOtherError userInfo:userInfo];
 }
@@ -3461,7 +3461,7 @@ enum GCDAsyncSocketConfig
 	NSArray *components = [interfaceDescription componentsSeparatedByString:@":"];
 	if ([components count] > 0)
 	{
-		NSString *temp = [components objectAtIndex:0];
+		NSString *temp = components[0];
 		if ([temp length] > 0)
 		{
 			interface = temp;
@@ -3469,7 +3469,7 @@ enum GCDAsyncSocketConfig
 	}
 	if ([components count] > 1 && port == 0)
 	{
-		long portL = strtol([[components objectAtIndex:1] UTF8String], NULL, 10);
+		long portL = strtol([components[1] UTF8String], NULL, 10);
 		
 		if (portL > 0 && portL <= UINT16_MAX)
 		{
@@ -3986,7 +3986,7 @@ enum GCDAsyncSocketConfig
 		if ([readQueue count] > 0)
 		{
 			// Dequeue the next object in the write queue
-			currentRead = [readQueue objectAtIndex:0];
+			currentRead = readQueue[0];
 			[readQueue removeObjectAtIndex:0];
 			
 			
@@ -5235,7 +5235,7 @@ enum GCDAsyncSocketConfig
 		if ([writeQueue count] > 0)
 		{
 			// Dequeue the next object in the write queue
-			currentWrite = [writeQueue objectAtIndex:0];
+			currentWrite = writeQueue[0];
 			[writeQueue removeObjectAtIndex:0];
 			
 			
@@ -5799,7 +5799,7 @@ enum GCDAsyncSocketConfig
         // 
         // So we use an empty dictionary instead, which works perfectly.
         
-        tlsSettings = [NSDictionary dictionary];
+        tlsSettings = @{};
     }
 	
 	GCDAsyncSpecialPacket *packet = [[GCDAsyncSpecialPacket alloc] initWithTLSSettings:tlsSettings];
@@ -5842,19 +5842,19 @@ enum GCDAsyncSocketConfig
                 
                 NSNumber *value = nil;
                 
-                value = [tlsSettings objectForKey:(NSString *)kCFStreamSSLAllowsAnyRoot];
+                value = tlsSettings[(NSString *)kCFStreamSSLAllowsAnyRoot];
                 if (value && [value boolValue] == YES)
                     canUseSecureTransport = NO;
                 
-                value = [tlsSettings objectForKey:(NSString *)kCFStreamSSLAllowsExpiredRoots];
+                value = tlsSettings[(NSString *)kCFStreamSSLAllowsExpiredRoots];
                 if (value && [value boolValue] == YES)
                     canUseSecureTransport = NO;
                 
-                value = [tlsSettings objectForKey:(NSString *)kCFStreamSSLValidatesCertificateChain];
+                value = tlsSettings[(NSString *)kCFStreamSSLValidatesCertificateChain];
                 if (value && [value boolValue] == NO)
                     canUseSecureTransport = NO;
                 
-                value = [tlsSettings objectForKey:(NSString *)kCFStreamSSLAllowsExpiredCertificates];
+                value = tlsSettings[(NSString *)kCFStreamSSLAllowsExpiredCertificates];
                 if (value && [value boolValue] == YES)
                     canUseSecureTransport = NO;
             }
@@ -6132,7 +6132,7 @@ static OSStatus SSLWriteFunction(SSLConnectionRef connection, const void *data, 
 	
 	// Create SSLContext, and setup IO callbacks and connection ref
 	
-	BOOL isServer = [[tlsSettings objectForKey:(NSString *)kCFStreamSSLIsServer] boolValue];
+	BOOL isServer = [tlsSettings[(NSString *)kCFStreamSSLIsServer] boolValue];
 	
 	#if TARGET_OS_IPHONE
 	{
@@ -6189,7 +6189,7 @@ static OSStatus SSLWriteFunction(SSLConnectionRef connection, const void *data, 
 	
 	// 1. kCFStreamSSLPeerName
 	
-	value = [tlsSettings objectForKey:(NSString *)kCFStreamSSLPeerName];
+	value = tlsSettings[(NSString *)kCFStreamSSLPeerName];
 	if ([value isKindOfClass:[NSString class]])
 	{
 		NSString *peerName = (NSString *)value;
@@ -6207,7 +6207,7 @@ static OSStatus SSLWriteFunction(SSLConnectionRef connection, const void *data, 
 	
 	// 2. kCFStreamSSLAllowsAnyRoot
 	
-	value = [tlsSettings objectForKey:(NSString *)kCFStreamSSLAllowsAnyRoot];
+	value = tlsSettings[(NSString *)kCFStreamSSLAllowsAnyRoot];
 	if (value)
 	{
 		#if TARGET_OS_IPHONE
@@ -6228,7 +6228,7 @@ static OSStatus SSLWriteFunction(SSLConnectionRef connection, const void *data, 
 	
 	// 3. kCFStreamSSLAllowsExpiredRoots
 	
-	value = [tlsSettings objectForKey:(NSString *)kCFStreamSSLAllowsExpiredRoots];
+	value = tlsSettings[(NSString *)kCFStreamSSLAllowsExpiredRoots];
 	if (value)
 	{
 		#if TARGET_OS_IPHONE
@@ -6249,7 +6249,7 @@ static OSStatus SSLWriteFunction(SSLConnectionRef connection, const void *data, 
 	
 	// 4. kCFStreamSSLValidatesCertificateChain
 	
-	value = [tlsSettings objectForKey:(NSString *)kCFStreamSSLValidatesCertificateChain];
+	value = tlsSettings[(NSString *)kCFStreamSSLValidatesCertificateChain];
 	if (value)
 	{
 		#if TARGET_OS_IPHONE
@@ -6270,7 +6270,7 @@ static OSStatus SSLWriteFunction(SSLConnectionRef connection, const void *data, 
 	
 	// 5. kCFStreamSSLAllowsExpiredCertificates
 	
-	value = [tlsSettings objectForKey:(NSString *)kCFStreamSSLAllowsExpiredCertificates];
+	value = tlsSettings[(NSString *)kCFStreamSSLAllowsExpiredCertificates];
 	if (value)
 	{
 		#if TARGET_OS_IPHONE
@@ -6291,7 +6291,7 @@ static OSStatus SSLWriteFunction(SSLConnectionRef connection, const void *data, 
 	
 	// 6. kCFStreamSSLCertificates
 	
-	value = [tlsSettings objectForKey:(NSString *)kCFStreamSSLCertificates];
+	value = tlsSettings[(NSString *)kCFStreamSSLCertificates];
 	if (value)
 	{
 		CFArrayRef certs = (__bridge CFArrayRef)value;
@@ -6308,10 +6308,10 @@ static OSStatus SSLWriteFunction(SSLConnectionRef connection, const void *data, 
 	
 	#if TARGET_OS_IPHONE
 	{
-		NSString *sslLevel = [tlsSettings objectForKey:(NSString *)kCFStreamSSLLevel];
+		NSString *sslLevel = tlsSettings[(NSString *)kCFStreamSSLLevel];
 		
-		NSString *sslMinLevel = [tlsSettings objectForKey:GCDAsyncSocketSSLProtocolVersionMin];
-		NSString *sslMaxLevel = [tlsSettings objectForKey:GCDAsyncSocketSSLProtocolVersionMax];
+		NSString *sslMinLevel = tlsSettings[GCDAsyncSocketSSLProtocolVersionMin];
+		NSString *sslMaxLevel = tlsSettings[GCDAsyncSocketSSLProtocolVersionMax];
 		
 		if (sslLevel)
 		{
@@ -6431,7 +6431,7 @@ static OSStatus SSLWriteFunction(SSLConnectionRef connection, const void *data, 
 	
 	// 8. GCDAsyncSocketSSLCipherSuites
 	
-	value = [tlsSettings objectForKey:GCDAsyncSocketSSLCipherSuites];
+	value = tlsSettings[GCDAsyncSocketSSLCipherSuites];
 	if (value)
 	{
 		NSArray *cipherSuites = (NSArray *)value;
@@ -6441,7 +6441,7 @@ static OSStatus SSLWriteFunction(SSLConnectionRef connection, const void *data, 
 		NSUInteger cipherIndex;
 		for (cipherIndex = 0; cipherIndex < numberCiphers; cipherIndex++)
 		{
-			NSNumber *cipherObject = [cipherSuites objectAtIndex:cipherIndex];
+			NSNumber *cipherObject = cipherSuites[cipherIndex];
 			ciphers[cipherIndex] = [cipherObject shortValue];
 		}
 		
@@ -7304,7 +7304,7 @@ static void CFWriteStreamCallback (CFWriteStreamRef stream, CFStreamEventType ty
 		addrBuf[0] = '\0';
 	}
 	
-	return [NSString stringWithCString:addrBuf encoding:NSASCIIStringEncoding];
+	return @(addrBuf);
 }
 
 + (NSString *)hostFromSockaddr6:(const struct sockaddr_in6 *)pSockaddr6
@@ -7316,7 +7316,7 @@ static void CFWriteStreamCallback (CFWriteStreamRef stream, CFStreamEventType ty
 		addrBuf[0] = '\0';
 	}
 	
-	return [NSString stringWithCString:addrBuf encoding:NSASCIIStringEncoding];
+	return @(addrBuf);
 }
 
 + (uint16_t)portFromSockaddr4:(const struct sockaddr_in *)pSockaddr4

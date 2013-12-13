@@ -113,7 +113,7 @@ const NSTimeInterval XMPPIDTrackerTimeoutNone = -1;
 {
 	AssertProperQueue();
 	
-	[dict setObject:trackingInfo forKey:elementID];
+	dict[elementID] = trackingInfo;
 	
 	[trackingInfo setElementID:elementID];
 	[trackingInfo createTimerWithDispatchQueue:queue];
@@ -125,7 +125,7 @@ const NSTimeInterval XMPPIDTrackerTimeoutNone = -1;
     
     if([[element elementID] length] == 0) return;
 	
-	[dict setObject:trackingInfo forKey:[element elementID]];
+	dict[[element elementID]] = trackingInfo;
 	
 	[trackingInfo setElementID:[element elementID]];
     [trackingInfo setElement:element];
@@ -136,7 +136,7 @@ const NSTimeInterval XMPPIDTrackerTimeoutNone = -1;
 {
 	AssertProperQueue();
 	
-	id <XMPPTrackingInfo> info = [dict objectForKey:elementID];
+	id <XMPPTrackingInfo> info = dict[elementID];
 	if (info)
 	{
 		[info invokeWithObject:obj];
@@ -160,7 +160,7 @@ const NSTimeInterval XMPPIDTrackerTimeoutNone = -1;
 {
 	AssertProperQueue();
 	
-	id <XMPPTrackingInfo> info = [dict objectForKey:elementID];
+	id <XMPPTrackingInfo> info = dict[elementID];
 	if (info)
 	{
 		[info cancelTimer];

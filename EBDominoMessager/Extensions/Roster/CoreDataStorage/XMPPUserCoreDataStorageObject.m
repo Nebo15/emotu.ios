@@ -101,7 +101,7 @@
 
 - (void)setSection:(NSInteger)value
 {
-	self.sectionNum = [NSNumber numberWithInteger:value];
+	self.sectionNum = @(value);
 }
 
 - (NSInteger)primitiveSection
@@ -284,7 +284,7 @@
 	NSArray *sortedResources = [[self allResources] sortedArrayUsingSelector:@selector(compare:)];
 	if ([sortedResources count] > 0)
 	{
-		XMPPResourceCoreDataStorageObject *resource = [sortedResources objectAtIndex:0];
+		XMPPResourceCoreDataStorageObject *resource = sortedResources[0];
 		
 		// Primary resource must have a non-negative priority
 		if ([resource priority] >= 0)

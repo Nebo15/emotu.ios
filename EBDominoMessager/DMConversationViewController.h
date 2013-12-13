@@ -8,12 +8,19 @@
 
 #import "JSMessagesViewController.h"
 @class XMPPStream;
+@class XMPPJID;
+@class XMPPRosterCoreDataStorage;
 
 @interface DMConversationViewController : JSMessagesViewController
 
 @property (strong, nonatomic) NSMutableArray *messages;
 @property (strong, nonatomic) NSMutableArray *timestamps;
 @property (strong, nonatomic) NSMutableArray *subtitles;
-@property (strong, nonatomic) NSDictionary *avatars;
+@property (strong, nonatomic) NSMutableDictionary *avatars;
+
+@property (strong, nonatomic) XMPPJID *jid;
+@property (strong, nonatomic) XMPPStream *xmppStream;
+@property (strong, nonatomic) XMPPRosterCoreDataStorage *xmppRosterStorage;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext_roster;
 
 @end

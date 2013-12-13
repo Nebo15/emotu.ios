@@ -143,7 +143,7 @@
 		member = [NSXMLElement elementWithName:@"member"];
 		name = [NSXMLElement elementWithName:@"name" stringValue:key];
 		[member addChild:name];
-		[member addChild:[self valueElementFromObject:[dictionary objectForKey:key]]];
+		[member addChild:[self valueElementFromObject:dictionary[key]]];
 	}
 	
 	return [self wrapValueElementAroundElement:structElement];
@@ -161,8 +161,7 @@
 
 +(NSXMLElement *)valueElementFromNumber:(NSNumber *)number {
 	// what type of NSNumber is this?
-    if ([[NSString stringWithCString: [number objCType] 
-							encoding: NSUTF8StringEncoding] isEqualToString: @"d"]) {
+    if ([@([number objCType]) isEqualToString: @"d"]) {
         return [self valueElementFromElementWithName:@"double" value:[number stringValue]];
     } else {
         return [self valueElementFromElementWithName:@"i4" value:[number stringValue]];

@@ -117,7 +117,7 @@
 		NSSortDescriptor *sd1 = [[NSSortDescriptor alloc] initWithKey:@"sectionNum" ascending:YES];
 		NSSortDescriptor *sd2 = [[NSSortDescriptor alloc] initWithKey:@"displayName" ascending:YES];
 		
-		NSArray *sortDescriptors = [NSArray arrayWithObjects:sd1, sd2, nil];
+		NSArray *sortDescriptors = @[sd1, sd2];
 		
 		NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
 		[fetchRequest setEntity:entity];
@@ -186,7 +186,7 @@
 	
 	if (sectionIndex < [sections count])
 	{
-		id <NSFetchedResultsSectionInfo> sectionInfo = [sections objectAtIndex:sectionIndex];
+		id <NSFetchedResultsSectionInfo> sectionInfo = sections[sectionIndex];
         
 		int section = [sectionInfo.name intValue];
 		switch (section)
@@ -206,7 +206,7 @@
 	
 	if (sectionIndex < [sections count])
 	{
-		id <NSFetchedResultsSectionInfo> sectionInfo = [sections objectAtIndex:sectionIndex];
+		id <NSFetchedResultsSectionInfo> sectionInfo = sections[sectionIndex];
 		return sectionInfo.numberOfObjects;
 	}
 	
@@ -519,12 +519,12 @@
 	
 	if (allowSelfSignedCertificates)
 	{
-		[settings setObject:[NSNumber numberWithBool:YES] forKey:(NSString *)kCFStreamSSLAllowsAnyRoot];
+		settings[(NSString *)kCFStreamSSLAllowsAnyRoot] = @YES;
 	}
 	
 	if (allowSSLHostNameMismatch)
 	{
-		[settings setObject:[NSNull null] forKey:(NSString *)kCFStreamSSLPeerName];
+		settings[(NSString *)kCFStreamSSLPeerName] = [NSNull null];
 	}
 	else
 	{
@@ -560,7 +560,7 @@
 		
 		if (expectedCertName)
 		{
-			[settings setObject:expectedCertName forKey:(NSString *)kCFStreamSSLPeerName];
+			settings[(NSString *)kCFStreamSSLPeerName] = expectedCertName;
 		}
 	}
 }

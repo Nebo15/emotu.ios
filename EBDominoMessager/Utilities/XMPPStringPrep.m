@@ -16,7 +16,7 @@
 	
 	if(stringprep_xmpp_nodeprep(buf, sizeof(buf)) != 0) return nil;
 	
-	return [NSString stringWithUTF8String:buf];
+	return @(buf);
 }
 
 + (NSString *)prepDomain:(NSString *)domain
@@ -31,7 +31,7 @@
 	
 	if(stringprep_nameprep(buf, sizeof(buf)) != 0) return nil;
 	
-	return [NSString stringWithUTF8String:buf];
+	return @(buf);
 }
 
 + (NSString *)prepResource:(NSString *)resource
@@ -46,7 +46,7 @@
 	
 	if(stringprep_xmpp_resourceprep(buf, sizeof(buf)) != 0) return nil;
 	
-	return [NSString stringWithUTF8String:buf];
+	return @(buf);
 }
 
 @end

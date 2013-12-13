@@ -17,6 +17,7 @@
     // Override point for customization after application launch.
     EBUserListViewController* ctrl = [EBUserListViewController new];
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:ctrl];
+    self.navigationController.navigationBar.translucent = NO;
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = self.navigationController;

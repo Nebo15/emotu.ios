@@ -109,7 +109,7 @@
 	NSUInteger i;
 	for (i = [delegateNodes count]; i > 0; i--)
 	{
-		GCDMulticastDelegateNode *node = [delegateNodes objectAtIndex:(i-1)];
+		GCDMulticastDelegateNode *node = delegateNodes[(i-1)];
 		
 		id nodeDelegate = node.delegate;
 		#if __has_feature(objc_arc_weak) && !TARGET_OS_IPHONE
@@ -574,7 +574,7 @@ static BOOL SupportsWeakReferences(id delegate)
 {
 	while (currentNodeIndex < numNodes)
 	{
-		GCDMulticastDelegateNode *node = [delegateNodes objectAtIndex:currentNodeIndex];
+		GCDMulticastDelegateNode *node = delegateNodes[currentNodeIndex];
 		currentNodeIndex++;
 		
 		id nodeDelegate = node.delegate; // snapshot atomic property
@@ -599,7 +599,7 @@ static BOOL SupportsWeakReferences(id delegate)
 {
 	while (currentNodeIndex < numNodes)
 	{
-		GCDMulticastDelegateNode *node = [delegateNodes objectAtIndex:currentNodeIndex];
+		GCDMulticastDelegateNode *node = delegateNodes[currentNodeIndex];
 		currentNodeIndex++;
 		
 		id nodeDelegate = node.delegate; // snapshot atomic property
@@ -624,7 +624,7 @@ static BOOL SupportsWeakReferences(id delegate)
 {
 	while (currentNodeIndex < numNodes)
 	{
-		GCDMulticastDelegateNode *node = [delegateNodes objectAtIndex:currentNodeIndex];
+		GCDMulticastDelegateNode *node = delegateNodes[currentNodeIndex];
 		currentNodeIndex++;
 		
 		id nodeDelegate = node.delegate; // snapshot atomic property

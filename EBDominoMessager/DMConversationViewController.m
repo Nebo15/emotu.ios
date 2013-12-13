@@ -11,6 +11,8 @@
 #import "XMPPMessage.h"
 #import "XMPPUserCoreDataStorageObject.h"
 #import "EBAppDelegate.h"
+#import "EBUserListViewController.h"
+#import "WUDemoKeyboardBuilder.h"
 
 #define kSubtitleJobs @"Jobs"
 #define kSubtitleWoz @"Steve Wozniak"
@@ -21,13 +23,6 @@
 @end
 
 @implementation DMConversationViewController
-
-#pragma mark Accessors
-
-- (EBAppDelegate *)appDelegate
-{
-	return (EBAppDelegate *)[[UIApplication sharedApplication] delegate];
-}
 
 - (void)viewDidLoad
 {
@@ -43,44 +38,19 @@
     
     [self.messageInputView.textView becomeFirstResponder];
     
+    [self.messageInputView.textView switchToEmoticonsKeyboard:[WUDemoKeyboardBuilder sharedEmoticonsKeyboard]];
+    
     [self setBackgroundColor:[UIColor whiteColor]];
     
-    self.messages = [[NSMutableArray alloc] initWithObjects:
-                     @"JSMessagesViewController is simple and easy to use.",
-                     @"It's highly customizable.",
-                     @"It even has data detectors. You can call me tonight. My cell number is 452-123-4567. \nMy website is www.hexedbits.com.",
-                     @"Group chat is possible. Sound effects and images included. Animations are smooth. Messages can be of arbitrary size!",
-                     nil];
+    self.messages = [NSMutableArray array];
     
-    self.timestamps = [[NSMutableArray alloc] initWithObjects:
-                       [NSDate distantPast],
-                       [NSDate distantPast],
-                       [NSDate distantPast],
-                       [NSDate date],
-                       nil];
+    self.timestamps = [NSMutableArray array];
     
-    self.subtitles = [[NSMutableArray alloc] initWithObjects:
-                      kSubtitleJobs,
-                      kSubtitleWoz,
-                      kSubtitleJobs,
-                      kSubtitleCook, nil];
+    self.subtitles = [NSMutableArray array];
     
-    self.avatars = [[NSDictionary alloc] initWithObjectsAndKeys:
-                    [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-jobs" croppedToCircle:YES], kSubtitleJobs,
-                    [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-woz" croppedToCircle:YES], kSubtitleWoz,
-                    [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-cook" croppedToCircle:YES], kSubtitleCook,
-                    nil];
+    self.avatars = [NSMutableDictionary dictionaryWithDictionary:@{kSubtitleJobs: [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-jobs" croppedToCircle:YES],
+                                                                   kSubtitleWoz: [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-woz" croppedToCircle:YES]}];
     
-    //    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFastForward
-    //                                                                                           target:self
-    //                                                                                           action:@selector(buttonPressed:)];
-}
-
-- (void)buttonPressed:(UIButton *)sender
-{
-    // Testing pushing/popping messages view
-    DMConversationViewController *vc = [[DMConversationViewController alloc] initWithNibName:nil bundle:nil];
-    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - Table view data source
@@ -94,40 +64,50 @@
 
 - (void)didSendText:(NSString *)text
 {
-    [self.messages addObject:text];
+    NSXMLElement *body = [NSXMLElement elementWithName:@"body"];
+    [body setStringValue:text];
+    
+    NSXMLElement *message = [NSXMLElement elementWithName:@"message"];
+    [message addAttributeWithName:@"type" stringValue:@"chat"];
+    [message addAttributeWithName:@"to" stringValue:[_jid full]];
+    [message addChild:body];
+    
+    [_xmppStream sendElement:message];
+    
+    
+    [self.messages addObject:message];
     
     [self.timestamps addObject:[NSDate date]];
     
-    if((self.messages.count - 1) % 2) {
-        [JSMessageSoundEffect playMessageSentSound];
+   
+    [JSMessageSoundEffect playMessageReceivedSound];
         
-        [self.subtitles addObject:arc4random_uniform(100) % 2 ? kSubtitleCook : kSubtitleWoz];
-    }
-    else {
-        [JSMessageSoundEffect playMessageReceivedSound];
-        
-        [self.subtitles addObject:kSubtitleJobs];
-    }
-    
+    [self.subtitles addObject:kSubtitleJobs];
+
     [self finishSend];
     [self scrollToBottomAnimated:YES];
 }
 
 - (JSBubbleMessageType)messageTypeForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return (indexPath.row % 2) ? JSBubbleMessageTypeIncoming : JSBubbleMessageTypeOutgoing;
+    return [[[(NSXMLElement *)_messages[indexPath.row] attributeForName:@"to"] stringValue] isEqualToString:[_jid full]] ? JSBubbleMessageTypeOutgoing : JSBubbleMessageTypeIncoming;
 }
 
 - (UIImageView *)bubbleImageViewWithType:(JSBubbleMessageType)type
                        forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.row % 2) {
-        return [JSBubbleImageViewFactory bubbleImageViewForType:type
-                                                          color:[UIColor js_bubbleLightGrayColor]];
+    UIImageView *bubbleUmageView;
+    switch (type) {
+        case JSBubbleMessageTypeIncoming:
+            bubbleUmageView = [JSBubbleImageViewFactory bubbleImageViewForType:type
+                                                       color:[UIColor js_bubbleLightGrayColor]];
+            break;
+        case JSBubbleMessageTypeOutgoing:
+            bubbleUmageView = [JSBubbleImageViewFactory bubbleImageViewForType:type
+                                                       color:[UIColor js_bubbleBlueColor]];
+            break;
     }
-    
-    return [JSBubbleImageViewFactory bubbleImageViewForType:type
-                                                      color:[UIColor js_bubbleBlueColor]];
+        return bubbleUmageView;
 }
 
 - (JSMessagesViewTimestampPolicy)timestampPolicy
@@ -200,24 +180,50 @@
 
 - (NSString *)textForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [self.messages objectAtIndex:indexPath.row];
+    return [[(NSXMLElement *)self.messages[indexPath.row] childAtIndex:0] stringValue];
 }
 
 - (NSDate *)timestampForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [self.timestamps objectAtIndex:indexPath.row];
+    return (self.timestamps)[indexPath.row];
 }
 
 - (UIImageView *)avatarImageViewForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *subtitle = [self.subtitles objectAtIndex:indexPath.row];
-    UIImage *image = [self.avatars objectForKey:subtitle];
+    NSString *subtitle = (self.subtitles)[indexPath.row];
+    UIImage *image = (self.avatars)[subtitle];
     return [[UIImageView alloc] initWithImage:image];
 }
 
 - (NSString *)subtitleForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [self.subtitles objectAtIndex:indexPath.row];
+    return (self.subtitles)[indexPath.row];
+}
+
+- (void)xmppStream:(XMPPStream *)sender didReceiveMessage:(XMPPMessage *)message
+{
+	//DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+    
+	// A simple example of inbound message handling.
+    
+	if ([message isChatMessageWithBody])
+	{
+		XMPPUserCoreDataStorageObject *user = [_xmppRosterStorage userForJID:[message from]
+		                                                         xmppStream:_xmppStream
+                                                      managedObjectContext:_managedObjectContext_roster];
+		[self.messages addObject:message];
+        
+        [self.timestamps addObject:[NSDate date]];
+        
+        
+        [JSMessageSoundEffect playMessageReceivedSound];
+        
+        [self.subtitles addObject:user.nickname];
+        [self.avatars setObject:user.photo?user.photo:[JSAvatarImageFactory avatarImageNamed:@"demo-avatar-woz" croppedToCircle:YES] forKey:user.nickname];
+        
+        [self finishSend];
+        [self scrollToBottomAnimated:YES];
+    }
 }
 
 @end

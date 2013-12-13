@@ -130,7 +130,7 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 		NSSortDescriptor *sd1 = [[NSSortDescriptor alloc] initWithKey:@"sectionNum" ascending:YES];
 		NSSortDescriptor *sd2 = [[NSSortDescriptor alloc] initWithKey:@"displayName" ascending:YES];
 		
-		NSArray *sortDescriptors = [NSArray arrayWithObjects:sd1, sd2, nil];
+		NSArray *sortDescriptors = @[sd1, sd2];
 		
 		NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
 		[fetchRequest setEntity:entity];
@@ -199,7 +199,7 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 	
 	if (sectionIndex < [sections count])
 	{
-		id <NSFetchedResultsSectionInfo> sectionInfo = [sections objectAtIndex:sectionIndex];
+		id <NSFetchedResultsSectionInfo> sectionInfo = sections[sectionIndex];
         
 		int section = [sectionInfo.name intValue];
 		switch (section)
@@ -219,7 +219,7 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 	
 	if (sectionIndex < [sections count])
 	{
-		id <NSFetchedResultsSectionInfo> sectionInfo = [sections objectAtIndex:sectionIndex];
+		id <NSFetchedResultsSectionInfo> sectionInfo = sections[sectionIndex];
 		return sectionInfo.numberOfObjects;
 	}
 	
@@ -247,7 +247,12 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self.navigationController pushViewController:[SettingsViewController new] animated:YES];
+    XMPPUserCoreDataStorageObject *user = [[self fetchedResultsController] objectAtIndexPath:indexPath];
+    _conversationVC.jid = user.jid;
+    _conversationVC.xmppStream = self.xmppStream;
+    _conversationVC.xmppRosterStorage = self.xmppRosterStorage;
+    _conversationVC.managedObjectContext_roster = self.managedObjectContext_roster;
+    [self.navigationController pushViewController:_conversationVC animated:YES];
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -376,8 +381,8 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
     
 	// Add ourself as a delegate to anything we may be interested in
     
-	[xmppStream addDelegate:self delegateQueue:dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND,0)];
-   // [xmppStream addDelegate:self.conversationVC delegateQueue:dispatch_get_main_queue()];
+	[xmppStream addDelegate:self delegateQueue:dispatch_get_main_queue()];
+    [xmppStream addDelegate:self.conversationVC delegateQueue:dispatch_get_main_queue()];
 	[xmppRoster addDelegate:self delegateQueue:dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND,0)];
     
     // Optional:
@@ -533,12 +538,12 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 	
 	if (allowSelfSignedCertificates)
 	{
-		[settings setObject:[NSNumber numberWithBool:YES] forKey:(NSString *)kCFStreamSSLAllowsAnyRoot];
+		settings[(NSString *)kCFStreamSSLAllowsAnyRoot] = @YES;
 	}
 	
 	if (allowSSLHostNameMismatch)
 	{
-		[settings setObject:[NSNull null] forKey:(NSString *)kCFStreamSSLPeerName];
+		settings[(NSString *)kCFStreamSSLPeerName] = [NSNull null];
 	}
 	else
 	{
@@ -574,7 +579,7 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 		
 		if (expectedCertName)
 		{
-			[settings setObject:expectedCertName forKey:(NSString *)kCFStreamSSLPeerName];
+			settings[(NSString *)kCFStreamSSLPeerName] = expectedCertName;
 		}
 	}
 }
@@ -623,7 +628,7 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
     
 	// A simple example of inbound message handling.
     
-	if ([message isChatMessageWithBody])
+	if ([message isChatMessageWithBody] && self.navigationController.visibleViewController == self)
 	{
 		XMPPUserCoreDataStorageObject *user = [xmppRosterStorage userForJID:[message from]
 		                                                         xmppStream:xmppStream
