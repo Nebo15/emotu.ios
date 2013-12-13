@@ -14,6 +14,7 @@
 
 #import <UIKit/UIKit.h>
 #import "JSBubbleView.h"
+#import <GMGridView.h>
 
 /**
  *  The `JSBubbleMessageCell` class defines the attributes and behavior of the cells that appear in `JSMessagesViewController`. This class includes properties and methods for setting and managing cell content.
@@ -44,6 +45,9 @@
  *  @see JSMessagesViewDataSource.
  */
 @property (weak, nonatomic, readonly) UILabel *subtitleLabel;
+
+
+@property (strong, nonatomic, readonly) UICollectionView *smilesCollectionView;
 
 #pragma mark - Initialization
 
@@ -95,6 +99,9 @@
  *  @param subtitle The subtitle text for the cell.
  */
 - (void)setSubtitle:(NSString *)subtitle;
+
+
+@property (nonatomic, copy) NSArray *elements;
 
 #pragma mark - Getters
 

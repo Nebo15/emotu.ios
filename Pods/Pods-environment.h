@@ -6,6 +6,12 @@
 // project.
 
 
+// GMGridView
+#define COCOAPODS_POD_AVAILABLE_GMGridView
+#define COCOAPODS_VERSION_MAJOR_GMGridView 1
+#define COCOAPODS_VERSION_MINOR_GMGridView 1
+#define COCOAPODS_VERSION_PATCH_GMGridView 1
+
 // JSMessagesViewController
 #define COCOAPODS_POD_AVAILABLE_JSMessagesViewController
 #define COCOAPODS_VERSION_MAJOR_JSMessagesViewController 3

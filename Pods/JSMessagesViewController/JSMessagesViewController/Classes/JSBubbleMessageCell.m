@@ -22,7 +22,7 @@ static const CGFloat kJSTimeStampLabelHeight = 15.0f;
 static const CGFloat kJSSubtitleLabelHeight = 15.0f;
 
 
-@interface JSBubbleMessageCell()
+@interface JSBubbleMessageCell()<UICollectionViewDataSource, UICollectionViewDelegate>
 
 - (void)setup;
 - (void)configureTimestampLabel;
@@ -66,6 +66,9 @@ static const CGFloat kJSSubtitleLabelHeight = 15.0f;
                                                                                              action:@selector(handleLongPressGesture:)];
     [recognizer setMinimumPressDuration:0.4f];
     [self addGestureRecognizer:recognizer];
+    
+    _elements = @[@"love", @"love", @"love",@"love", @"love", @"love",@"love", @"love", @"love",@"love", @"love", @"love",@"love", @"love", @"love",@"love", @"love", @"love"
+                  ];
 }
 
 - (void)configureTimestampLabel
@@ -167,6 +170,33 @@ static const CGFloat kJSSubtitleLabelHeight = 15.0f;
     [self.contentView addSubview:bubbleView];
     [self.contentView sendSubviewToBack:bubbleView];
     _bubbleView = bubbleView;
+    
+    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    [flowLayout setItemSize:CGSizeMake(30, 30)];
+    flowLayout.minimumLineSpacing = 0;
+    flowLayout.minimumInteritemSpacing = 0;
+    [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
+    
+    _smilesCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, MIN(240, [_elements count] * 33), (([_elements count] / 8) + 1) * 34 ) collectionViewLayout:flowLayout];
+    _smilesCollectionView.delegate = self;
+    _smilesCollectionView.dataSource = self;
+    [_smilesCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"myCell"];
+    _smilesCollectionView.backgroundColor = [UIColor clearColor];
+    
+    
+    [self.bubbleView addSubview:_smilesCollectionView];
+    
+    CGRect collectionFrame = _smilesCollectionView.frame;
+    
+    //align on top right
+    CGFloat xPosition = CGRectGetWidth(self.bubbleView.frame) - CGRectGetWidth(collectionFrame);
+    collectionFrame.origin = CGPointMake(ceil(xPosition), 7.0);
+    _smilesCollectionView.frame = collectionFrame;
+    
+    //autoresizing so it stays at top right (flexible left and flexible bottom margin)
+    _smilesCollectionView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin;
+    
+    [self.bubbleView bringSubviewToFront:_smilesCollectionView];
 }
 
 #pragma mark - Initialization
@@ -357,6 +387,24 @@ static const CGFloat kJSSubtitleLabelHeight = 15.0f;
                                              selector:@selector(handleMenuWillHideNotification:)
                                                  name:UIMenuControllerWillHideMenuNotification
                                                object:nil];
+}
+#pragma mark - UICollectionViewDataSource Methods
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return [_elements count];
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellIdentifier = @"myCell";
+    
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
+    
+     UIImageView* image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:_elements[indexPath.row]]];
+    [cell addSubview:image];
+
+    return cell;
 }
 
 @end

@@ -13,6 +13,7 @@
 #import "EBAppDelegate.h"
 #import "EBUserListViewController.h"
 #import "WUDemoKeyboardBuilder.h"
+#import "WUEmoticonsKeyboardKeyItemGroup.h"
 
 #define kSubtitleJobs @"Jobs"
 #define kSubtitleWoz @"Steve Wozniak"
@@ -140,12 +141,22 @@
     if([cell messageType] == JSBubbleMessageTypeOutgoing) {
         cell.bubbleView.textView.textColor = [UIColor whiteColor];
         
-        if([cell.bubbleView.textView respondsToSelector:@selector(linkTextAttributes)]) {
-            NSMutableDictionary *attrs = [cell.bubbleView.textView.linkTextAttributes mutableCopy];
-            [attrs setValue:[UIColor blueColor] forKey:UITextAttributeTextColor];
-            
-            cell.bubbleView.textView.linkTextAttributes = attrs;
-        }
+//        if([cell.bubbleView.textView respondsToSelector:@selector(linkTextAttributes)]) {
+//            NSMutableDictionary *attrs = [cell.bubbleView.textView.linkTextAttributes mutableCopy];
+//            [attrs setValue:[UIColor blueColor] forKey:UITextAttributeTextColor];
+//            
+//            cell.bubbleView.textView.linkTextAttributes = attrs;
+//        }
+        WUEmoticonsKeyboardKeyItemGroup *imageIconsGroup = [[WUDemoKeyboardBuilder sharedEmoticonsKeyboard] keyItemGroups][0];
+        __block UIImage *smile;
+        [imageIconsGroup.keyItems enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+            if([cell.bubbleView.textView.text rangeOfString:[(WUEmoticonsKeyboardKeyItem *)obj textToInput]].location != NSNotFound)
+            {
+                smile = [(WUEmoticonsKeyboardKeyItem *)obj image];
+                [cell.bubbleView.textView addSubview:[[UIImageView alloc] initWithImage:smile]];
+                cell.bubbleView.textView.hidden = YES;//[cell.bubbleView.textView.text stringByReplacingOccurrencesOfString:[(WUEmoticonsKeyboardKeyItem *)obj textToInput] withString:@""];
+            }
+        }];
     }
     
     if(cell.timestampLabel) {
