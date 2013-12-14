@@ -192,6 +192,8 @@ typedef NS_ENUM(NSUInteger, JSMessagesViewSubtitlePolicy) {
  */
 - (UIButton *)sendButtonForInputView;
 
+- (void)layoutAndAnimateMessageInputTextView:(UITextView *)textView;
+
 @end
 
 

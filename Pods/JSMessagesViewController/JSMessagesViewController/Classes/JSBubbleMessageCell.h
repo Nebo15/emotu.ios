@@ -47,7 +47,9 @@
 @property (weak, nonatomic, readonly) UILabel *subtitleLabel;
 
 
-@property (strong, nonatomic, readonly) UICollectionView *smilesCollectionView;
+@property (weak, nonatomic) UICollectionView *smilesCollectionView;
+
+@property (nonatomic, copy) NSArray *elements;
 
 #pragma mark - Initialization
 
@@ -100,8 +102,7 @@
  */
 - (void)setSubtitle:(NSString *)subtitle;
 
-
-@property (nonatomic, copy) NSArray *elements;
+- (void)transformTextToSmiles:(NSString *)message;
 
 #pragma mark - Getters
 

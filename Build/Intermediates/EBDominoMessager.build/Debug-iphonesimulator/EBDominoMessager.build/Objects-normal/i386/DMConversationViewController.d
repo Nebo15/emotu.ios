@@ -5,6 +5,9 @@ dependencies: \
   /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSBubbleMessageCell.h \
   /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSBubbleView.h \
   /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSBubbleImageViewFactory.h \
+  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView/GMGridView.h \
+  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView/GMGridView-Constants.h \
+  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView/GMGridViewCell.h \
   /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSMessageInputView.h \
   /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSMessageTextView.h \
   /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSDismissiveTextView.h \

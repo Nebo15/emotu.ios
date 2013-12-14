@@ -19,7 +19,10 @@
 #define kSubtitleWoz @"Steve Wozniak"
 #define kSubtitleCook @"Mr. Cook"
 
-@interface DMConversationViewController ()<JSMessagesViewDataSource, JSMessagesViewDelegate, XMPPStreamDelegate>
+@interface DMConversationViewController ()<JSMessagesViewDataSource, JSMessagesViewDelegate, XMPPStreamDelegate, UITextViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate>
+
+@property (nonatomic, strong) NSMutableArray *smilesKeys;
+@property (nonatomic, strong) UICollectionView *smilesCollectionView;
 
 @end
 
@@ -38,6 +41,8 @@
     self.messageInputView.textView.placeHolder = @"New Message";
     
     [self.messageInputView.textView becomeFirstResponder];
+    self.messageInputView.textView.delegate = self;
+    self.messageInputView.textView.textColor = [UIColor clearColor];
     
     [self.messageInputView.textView switchToEmoticonsKeyboard:[WUDemoKeyboardBuilder sharedEmoticonsKeyboard]];
     
@@ -49,9 +54,26 @@
     
     self.subtitles = [NSMutableArray array];
     
+    self.smilesKeys = [NSMutableArray array];
+    
     self.avatars = [NSMutableDictionary dictionaryWithDictionary:@{kSubtitleJobs: [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-jobs" croppedToCircle:YES],
                                                                    kSubtitleWoz: [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-woz" croppedToCircle:YES]}];
     
+    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    [flowLayout setItemSize:CGSizeMake(30, 30)];
+    flowLayout.minimumLineSpacing = 0;
+    flowLayout.minimumInteritemSpacing = 0;
+    [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
+    
+    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, MIN(240, [_smilesKeys count] * 33), (([_smilesKeys count] / 8) + 1) * 34 ) collectionViewLayout:flowLayout];
+    collectionView.delegate = self;
+    collectionView.dataSource = self;
+    [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"myCell"];
+    collectionView.backgroundColor = [UIColor clearColor];
+    
+    [self.messageInputView.textView addSubview:collectionView];
+    
+    _smilesCollectionView = collectionView;
 }
 
 #pragma mark - Table view data source
@@ -75,18 +97,20 @@
     
     [_xmppStream sendElement:message];
     
-    
     [self.messages addObject:message];
     
     [self.timestamps addObject:[NSDate date]];
     
-   
     [JSMessageSoundEffect playMessageReceivedSound];
         
     [self.subtitles addObject:kSubtitleJobs];
 
     [self finishSend];
     [self scrollToBottomAnimated:YES];
+    
+    [_smilesKeys removeAllObjects];
+    
+    [_smilesCollectionView reloadData];
 }
 
 - (JSBubbleMessageType)messageTypeForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -141,22 +165,17 @@
     if([cell messageType] == JSBubbleMessageTypeOutgoing) {
         cell.bubbleView.textView.textColor = [UIColor whiteColor];
         
-//        if([cell.bubbleView.textView respondsToSelector:@selector(linkTextAttributes)]) {
-//            NSMutableDictionary *attrs = [cell.bubbleView.textView.linkTextAttributes mutableCopy];
-//            [attrs setValue:[UIColor blueColor] forKey:UITextAttributeTextColor];
-//            
-//            cell.bubbleView.textView.linkTextAttributes = attrs;
-//        }
-        WUEmoticonsKeyboardKeyItemGroup *imageIconsGroup = [[WUDemoKeyboardBuilder sharedEmoticonsKeyboard] keyItemGroups][0];
-        __block UIImage *smile;
-        [imageIconsGroup.keyItems enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-            if([cell.bubbleView.textView.text rangeOfString:[(WUEmoticonsKeyboardKeyItem *)obj textToInput]].location != NSNotFound)
-            {
-                smile = [(WUEmoticonsKeyboardKeyItem *)obj image];
-                [cell.bubbleView.textView addSubview:[[UIImageView alloc] initWithImage:smile]];
-                cell.bubbleView.textView.hidden = YES;//[cell.bubbleView.textView.text stringByReplacingOccurrencesOfString:[(WUEmoticonsKeyboardKeyItem *)obj textToInput] withString:@""];
-            }
-        }];
+        if([cell.bubbleView.textView respondsToSelector:@selector(linkTextAttributes)]) {
+            NSMutableDictionary *attrs = [cell.bubbleView.textView.linkTextAttributes mutableCopy];
+            [attrs setValue:[UIColor blueColor] forKey:UITextAttributeTextColor];
+            
+            cell.bubbleView.textView.linkTextAttributes = attrs;
+        }
+    }
+    else
+    {
+        cell.bubbleView.textView.textColor = [UIColor grayColor];
+
     }
     
     if(cell.timestampLabel) {
@@ -235,6 +254,55 @@
         [self finishSend];
         [self scrollToBottomAnimated:YES];
     }
+}
+
+#pragma mark - UITextViewDelegate
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
+{
+    if (text.length == 0 && [_smilesKeys count] > 0) {
+        NSRange lastSmile = [textView.text rangeOfString:[NSString stringWithFormat:@"[%@]",_smilesKeys.lastObject] options:NSBackwardsSearch];
+        
+        if(lastSmile.location != NSNotFound) {
+            textView.text = [textView.text stringByReplacingCharactersInRange:lastSmile
+                                               withString: @""];
+        }
+        [_smilesKeys removeLastObject];
+        if ([_smilesKeys count] == 0) {
+            textView.text = nil;
+            self.messageInputView.sendButton.enabled = NO;
+        }
+    }
+    else if(text.length > 0)
+    {
+        textView.text = [NSString stringWithFormat:@"%@%@",textView.text,text];
+        text = [text stringByReplacingOccurrencesOfString:@"[" withString:@""];
+        text = [text stringByReplacingOccurrencesOfString:@"]" withString:@""];
+        [_smilesKeys addObject:text];
+        self.messageInputView.sendButton.enabled = YES;
+    }
+    [_smilesCollectionView setFrame:CGRectMake(0, 0, MIN(240, [_smilesKeys count] * 33), (([_smilesKeys count] / 8) + 1) * 34 )];
+    [_smilesCollectionView reloadData];
+    return NO;
+}
+
+#pragma mark - UICollectionViewDataSource Methods
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return [_smilesKeys count];
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellIdentifier = @"myCell";
+    
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
+    
+    UIImageView* image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:_smilesKeys[indexPath.row]]];
+    [cell addSubview:image];
+    
+    return cell;
 }
 
 @end

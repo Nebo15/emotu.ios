@@ -213,7 +213,7 @@
     BOOL hasAvatar = [self shouldHaveAvatarForRowAtIndexPath:indexPath];
 	BOOL hasSubtitle = [self shouldHaveSubtitleForRowAtIndexPath:indexPath];
     
-    NSString *CellIdentifier = [NSString stringWithFormat:@"MessageCell_%d_%d_%d_%d", type, hasTimestamp, hasAvatar, hasSubtitle];
+    NSString *CellIdentifier = [NSString stringWithFormat:@"MessageCell"];
     JSBubbleMessageCell *cell = (JSBubbleMessageCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if(!cell) {
@@ -237,7 +237,10 @@
 		[cell setSubtitle:[self.dataSource subtitleForRowAtIndexPath:indexPath]];
     }
     
+    [cell transformTextToSmiles:[self.dataSource textForRowAtIndexPath:indexPath]];
+    
     [cell setMessage:[self.dataSource textForRowAtIndexPath:indexPath]];
+    
     [cell setBackgroundColor:tableView.backgroundColor];
     
     cell.bubbleView.textView.dataDetectorTypes = UIDataDetectorTypeAll;

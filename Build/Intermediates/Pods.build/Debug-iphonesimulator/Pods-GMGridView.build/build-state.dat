@@ -1,0 +1,338 @@
+TPods-GMGridView
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-aykripbiyizhihaumefzimjwiegs/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052670DD90000000000A92BC0
+t1382485465
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000052670DD90000000000640E80
+t1382485465
+s6557312
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c0000000052817DEA0000000000000176
+t1384218090
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000523A32E500000000000003B5
+t1379545829
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052670DE100000000000001A0
+t1382485473
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000523A32FE0000000000000AC9
+t1379545854
+s2761
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o
+t1386977465
+s248424
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o
+t1386977465
+s95708
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o
+t1386977465
+s75112
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o
+t1386977465
+s3432
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView.LinkFileList
+c0000000052AB98B600000000000003EE
+t1386977462
+s1006
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o
+t1386977465
+s40996
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o
+t1386977465
+s44572
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-aykripbiyizhihaumefzimjwiegs/Pods-GMGridView-prefix.pch.pch
+t1386977463
+s115424
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch.pch
+t1386977463
+s117476
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a
+t1386977465
+s513880
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+c0000000052AB97970000000000000704
+t1386977175
+s1796
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.h
+c0000000052AB97970000000000002225
+t1386977175
+s8741
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.m
+c0000000052AB9797000000000000F806
+t1386977175
+s63494
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell+Extended.h
+c0000000052AB979700000000000009DB
+t1386977175
+s2523
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell.h
+c0000000052AB97970000000000000737
+t1386977175
+s1847
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell.m
+c0000000052AB97970000000000002981
+t1386977175
+s10625
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.h
+c0000000052AB9797000000000000198B
+t1386977175
+s6539
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m
+c0000000052AB97970000000000004999
+t1386977175
+s18841
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.h
+c0000000052AB979700000000000005F0
+t1386977175
+s1520
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m
+c0000000052AB979700000000000006C2
+t1386977175
+s1730
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.h
+c0000000052AB979700000000000005BE
+t1386977175
+s1470
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m
+c0000000052AB979700000000000008DE
+t1386977175
+s2270
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-dummy.m
+c0000000052AB97970000000000000086
+t1386977175
+s134
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-prefix.pch
+c0000000052AB9797000000000000004D
+t1386977175
+s77
+
+N/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-environment.h
+c0000000052AB9797000000000000039E
+t1386977175
+s926
+
+CBuild AST from /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd65680fe135cb841^0b7b82fe135cb841^---0#1#1#--18"Check dependencies36"FDA0A192-7FFB-4BA0-9BBC-1EB10EB039B4-
+
+CCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408670263.909918
+e408670265.620792
+r1
+xCompileC
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o
+x/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.m
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.h
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell.h
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell+Extended.h
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.h
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.m266"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o GMGridView/GMGridView/GMGridView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd009e937d05bb841^5bec9e39d05bb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.m0000000000000000^4306"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o GMGridView/GMGridView/GMGridView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.d --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.dia -c /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.m -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o36"072A7C69-3DD0-42D8-96DC-2AB843D0DAE5-
+b69002547-15C2-422B-BE43-5F7120FBB19F
+
+CCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408670263.910195
+e408670265.510009
+r1
+xCompileC
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o
+x/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell.m
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell+Extended.h
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.h
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell.h
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell.m274"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o GMGridView/GMGridView/GMGridViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere71be937d05bb841^71928239d05bb841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell.m0000000000000000^4330"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o GMGridView/GMGridView/GMGridViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.d --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.dia -c /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewCell.m -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o36"5F36B079-DC27-494A-96CF-F8DC818266BC-
+b69002547-15C2-422B-BE43-5F7120FBB19F
+
+CCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408670263.910518
+e408670265.548098
+r1
+xCompileC
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o
+x/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.h
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m298"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o GMGridView/GMGridView/GMGridViewLayoutStrategies.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3b37e937d05bb841^ce508c39d05bb841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m0000000000000000^4402"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o GMGridView/GMGridView/GMGridViewLayoutStrategies.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.d --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.dia -c /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o36"0183C0BD-0A93-4BE5-AD22-54255905B491-
+b69002547-15C2-422B-BE43-5F7120FBB19F
+
+CCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408670263.910796
+e408670265.096135
+r1
+xCompileC
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o
+x/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-dummy.m266"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o Pods-GMGridView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd446e937d05bb841^8c9d1839d05bb841^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-dummy.m0000000000000000^4294"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o Pods-GMGridView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -include /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-aykripbiyizhihaumefzimjwiegs/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.d --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.dia -c /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-dummy.m -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o36"2918B277-8B1D-4E21-B815-497555629AF1-
+b69002547-15C2-422B-BE43-5F7120FBB19F
+
+CCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408670263.911373
+e408670265.410052
+r1
+xCompileC
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o
+x/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.h
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m324"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0b7ce937d05bb841^83f86839d05bb841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m0000000000000000^4480"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.d --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.dia -c /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o36"E495EAB6-4CEE-4A46-BC30-6AC4C6CAACB8-
+b69002547-15C2-422B-BE43-5F7120FBB19F
+
+CCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408670263.911780
+e408670265.409835
+r1
+xCompileC
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o
+x/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.h
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m298"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o GMGridView/GMGridView/UIView+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4889e937d05bb841^46eb6839d05bb841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m0000000000000000^4402"CompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o GMGridView/GMGridView/UIView+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.d --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.dia -c /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o36"A168CBB1-286D-4F53-9405-250CDBF8283D-
+b69002547-15C2-422B-BE43-5F7120FBB19F
+
+CLibtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386
+s408670265.774983
+e408670265.785606
+r1
+xLibtool
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Libtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386124"Libtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i3863a74c639d05bb841^b81ec939d05bb841^---0#0#1#--1091"Libtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -filelist /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView.LinkFileList -framework Foundation -framework QuartzCore -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a36"5C56EC38-31F7-415D-B473-700F85AAEE67-
+b69002547-15C2-422B-BE43-5F7120FBB19F
+
+CProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-aykripbiyizhihaumefzimjwiegs/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408670262.948415
+e408670263.909218
+r1
+xProcessPCH
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-aykripbiyizhihaumefzimjwiegs/Pods-GMGridView-prefix.pch.pch
+xPods-GMGridView-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-prefix.pch
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Pods-GMGridView-prefix.pch274"ProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-aykripbiyizhihaumefzimjwiegs/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerdae3f536d05bb841^33c5e837d05bb841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-prefix.pch0000000000000000^4143"ProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-aykripbiyizhihaumefzimjwiegs/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-aykripbiyizhihaumefzimjwiegs/Pods-GMGridView-prefix.pch.dia -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-aykripbiyizhihaumefzimjwiegs/Pods-GMGridView-prefix.pch.d -c /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-prefix.pch -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-aykripbiyizhihaumefzimjwiegs/Pods-GMGridView-prefix.pch.pch36"A12946D2-D3F7-40A0-B8DB-A7AB68043507-
+b69002547-15C2-422B-BE43-5F7120FBB19F
+
+CProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408670262.947954
+e408670263.909269
+r1
+xProcessPCH
+x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch.pch
+xPods-GMGridView-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-prefix.pch
+d/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Pods-GMGridView-prefix.pch274"ProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler10e7f536d05bb841^81cee837d05bb841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-prefix.pch0000000000000000^4177"ProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch.dia -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch.d -c /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-GMGridView-prefix.pch -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-dcupqaochzjkrbefwkscjlyvgiug/Pods-GMGridView-prefix.pch.pch36"4D2063BE-364C-49F6-B3E3-D55CE65DAAA2-
+b69002547-15C2-422B-BE43-5F7120FBB19F
+
+CProcessPCH /Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/EBDominoMessager-aficcwopuswpyacbebsfglguirjd/Index/PrecompiledHeaders/Pods-GMGridView-prefix-awkvcqzgpcyzugdvtcmsdfdvyeug_ast/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/EBDominoMessager-aficcwopuswpyacbebsfglguirjd/Index/PrecompiledHeaders/Pods-GMGridView-prefix-fqcyxfoaiujyndbaxyrruwtrqgli_ast/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

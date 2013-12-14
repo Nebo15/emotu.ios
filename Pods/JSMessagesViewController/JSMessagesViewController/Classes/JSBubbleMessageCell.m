@@ -20,6 +20,7 @@
 static const CGFloat kJSLabelPadding = 5.0f;
 static const CGFloat kJSTimeStampLabelHeight = 15.0f;
 static const CGFloat kJSSubtitleLabelHeight = 15.0f;
+static const NSUInteger kSmileCollectionViewTag = 101;
 
 
 @interface JSBubbleMessageCell()<UICollectionViewDataSource, UICollectionViewDelegate>
@@ -33,7 +34,8 @@ static const CGFloat kJSSubtitleLabelHeight = 15.0f;
           bubbleImageView:(UIImageView *)bubbleImageView
                 timestamp:(BOOL)hasTimestamp
                    avatar:(BOOL)hasAvatar
-				 subtitle:(BOOL)hasSubtitle;
+				 subtitle:(BOOL)hasSubtitle
+                  message:(NSString *)message;
 
 - (void)handleLongPressGesture:(UILongPressGestureRecognizer *)longPress;
 
@@ -66,9 +68,6 @@ static const CGFloat kJSSubtitleLabelHeight = 15.0f;
                                                                                              action:@selector(handleLongPressGesture:)];
     [recognizer setMinimumPressDuration:0.4f];
     [self addGestureRecognizer:recognizer];
-    
-    _elements = @[@"love", @"love", @"love",@"love", @"love", @"love",@"love", @"love", @"love",@"love", @"love", @"love",@"love", @"love", @"love",@"love", @"love", @"love"
-                  ];
 }
 
 - (void)configureTimestampLabel
@@ -170,33 +169,6 @@ static const CGFloat kJSSubtitleLabelHeight = 15.0f;
     [self.contentView addSubview:bubbleView];
     [self.contentView sendSubviewToBack:bubbleView];
     _bubbleView = bubbleView;
-    
-    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
-    [flowLayout setItemSize:CGSizeMake(30, 30)];
-    flowLayout.minimumLineSpacing = 0;
-    flowLayout.minimumInteritemSpacing = 0;
-    [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
-    
-    _smilesCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, MIN(240, [_elements count] * 33), (([_elements count] / 8) + 1) * 34 ) collectionViewLayout:flowLayout];
-    _smilesCollectionView.delegate = self;
-    _smilesCollectionView.dataSource = self;
-    [_smilesCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"myCell"];
-    _smilesCollectionView.backgroundColor = [UIColor clearColor];
-    
-    
-    [self.bubbleView addSubview:_smilesCollectionView];
-    
-    CGRect collectionFrame = _smilesCollectionView.frame;
-    
-    //align on top right
-    CGFloat xPosition = CGRectGetWidth(self.bubbleView.frame) - CGRectGetWidth(collectionFrame);
-    collectionFrame.origin = CGPointMake(ceil(xPosition), 7.0);
-    _smilesCollectionView.frame = collectionFrame;
-    
-    //autoresizing so it stays at top right (flexible left and flexible bottom margin)
-    _smilesCollectionView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin;
-    
-    [self.bubbleView bringSubviewToFront:_smilesCollectionView];
 }
 
 #pragma mark - Initialization
@@ -242,10 +214,14 @@ static const CGFloat kJSSubtitleLabelHeight = 15.0f;
 - (void)prepareForReuse
 {
     [super prepareForReuse];
+    
     self.bubbleView.textView.text = nil;
     self.timestampLabel.text = nil;
     self.avatarImageView = nil;
     self.subtitleLabel.text = nil;
+   // self.elements = nil;
+   // [self.smilesCollectionView reloadData];
+    
 }
 
 - (void)setBackgroundColor:(UIColor *)color
@@ -259,7 +235,8 @@ static const CGFloat kJSSubtitleLabelHeight = 15.0f;
 
 - (void)setMessage:(NSString *)msg
 {
-    self.bubbleView.textView.text = msg;
+    self.bubbleView.textView.text = [self genRandStringLength:[_elements count] *3];
+    self.bubbleView.textView.hidden = YES;
 }
 
 - (void)setTimestamp:(NSDate *)date
@@ -280,6 +257,43 @@ static const CGFloat kJSSubtitleLabelHeight = 15.0f;
 - (void)setSubtitle:(NSString *)subtitle
 {
 	self.subtitleLabel.text = subtitle;
+}
+
+- (void)transformTextToSmiles:(NSString *)message
+{
+    [_smilesCollectionView removeFromSuperview];
+    _smilesCollectionView = nil;
+    
+    _elements = [[message stringByReplacingOccurrencesOfString:@"[" withString:@""] componentsSeparatedByString:@"]"];
+    
+    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    [flowLayout setItemSize:CGSizeMake(30, 30)];
+    flowLayout.minimumLineSpacing = 0;
+    flowLayout.minimumInteritemSpacing = 0;
+    [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
+    
+    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, MIN(240, [_elements count] * 33), (([_elements count] / 8) + 1) * 34 ) collectionViewLayout:flowLayout];
+    collectionView.delegate = self;
+    collectionView.dataSource = self;
+    [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"myCell"];
+    collectionView.backgroundColor = [UIColor clearColor];
+    collectionView.tag = kSmileCollectionViewTag;
+    
+    [self.bubbleView addSubview:collectionView];
+    
+    _smilesCollectionView = collectionView;
+    
+    CGRect collectionFrame = collectionView.frame;
+    
+    //align on top right
+    CGFloat xPosition = CGRectGetWidth(self.bubbleView.frame) - CGRectGetWidth(collectionFrame);
+    collectionFrame.origin = CGPointMake( self.messageType == JSBubbleMessageTypeOutgoing? ceil(xPosition) : 10.0, 10.0);
+    collectionView.frame = collectionFrame;
+    
+    //autoresizing so it stays at top right (flexible left and flexible bottom margin)
+    collectionView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin;
+    
+    [self.bubbleView bringSubviewToFront:collectionView];
 }
 
 #pragma mark - Getters
@@ -405,6 +419,21 @@ static const CGFloat kJSSubtitleLabelHeight = 15.0f;
     [cell addSubview:image];
 
     return cell;
+}
+
+#pragma mark - Random String
+
+NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+
+-(NSString *)genRandStringLength:(int)len {
+    
+    NSMutableString *randomString = [NSMutableString stringWithCapacity: len];
+    
+    for (int i=0; i<len; i++) {
+        [randomString appendFormat: @"%C", [letters characterAtIndex: arc4random() % [letters length]]];
+    }
+    
+    return randomString;
 }
 
 @end
