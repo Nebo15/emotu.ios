@@ -178,7 +178,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd65680fe135cb841^0b7b82fe135cb841^---0#1#1#--18"Check dependencies36"FDA0A192-7FFB-4BA0-9BBC-1EB10EB039B4-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0adb7f1a355db841^42b2801a355db841^---0#1#1#--18"Check dependencies36"5412836D-ABF2-489A-ADCC-8F2902742E54-
 
 CCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s408670263.909918

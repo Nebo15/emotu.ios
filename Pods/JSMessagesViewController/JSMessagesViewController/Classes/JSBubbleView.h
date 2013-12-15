@@ -82,4 +82,6 @@
  */
 + (CGFloat)neededHeightForText:(NSString *)text;
 
+- (void)adjustSubview;
+
 @end

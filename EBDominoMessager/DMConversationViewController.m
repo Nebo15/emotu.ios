@@ -58,22 +58,13 @@
     
     self.avatars = [NSMutableDictionary dictionaryWithDictionary:@{kSubtitleJobs: [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-jobs" croppedToCircle:YES],
                                                                    kSubtitleWoz: [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-woz" croppedToCircle:YES]}];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
     
-    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
-    [flowLayout setItemSize:CGSizeMake(30, 30)];
-    flowLayout.minimumLineSpacing = 0;
-    flowLayout.minimumInteritemSpacing = 0;
-    [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
-    
-    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, MIN(240, [_smilesKeys count] * 33), (([_smilesKeys count] / 8) + 1) * 34 ) collectionViewLayout:flowLayout];
-    collectionView.delegate = self;
-    collectionView.dataSource = self;
-    [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"myCell"];
-    collectionView.backgroundColor = [UIColor clearColor];
-    
-    [self.messageInputView.textView addSubview:collectionView];
-    
-    _smilesCollectionView = collectionView;
+    [self.messageInputView.textView becomeFirstResponder];
 }
 
 #pragma mark - Table view data source
@@ -87,8 +78,12 @@
 
 - (void)didSendText:(NSString *)text
 {
+    [_smilesKeys enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        obj = [NSString stringWithFormat:@"[%@",obj];
+    }];
+    NSString * combinedStuff = [_smilesKeys componentsJoinedByString:@"]"];
     NSXMLElement *body = [NSXMLElement elementWithName:@"body"];
-    [body setStringValue:text];
+    [body setStringValue:combinedStuff];
     
     NSXMLElement *message = [NSXMLElement elementWithName:@"message"];
     [message addAttributeWithName:@"type" stringValue:@"chat"];
@@ -110,7 +105,9 @@
     
     [_smilesKeys removeAllObjects];
     
-    [_smilesCollectionView reloadData];
+    [_smilesCollectionView removeFromSuperview];
+    _smilesCollectionView = nil;
+    
 }
 
 - (JSBubbleMessageType)messageTypeForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -165,12 +162,12 @@
     if([cell messageType] == JSBubbleMessageTypeOutgoing) {
         cell.bubbleView.textView.textColor = [UIColor whiteColor];
         
-        if([cell.bubbleView.textView respondsToSelector:@selector(linkTextAttributes)]) {
-            NSMutableDictionary *attrs = [cell.bubbleView.textView.linkTextAttributes mutableCopy];
-            [attrs setValue:[UIColor blueColor] forKey:UITextAttributeTextColor];
-            
-            cell.bubbleView.textView.linkTextAttributes = attrs;
-        }
+//        if([cell.bubbleView.textView respondsToSelector:@selector(linkTextAttributes)]) {
+//            NSMutableDictionary *attrs = [cell.bubbleView.textView.linkTextAttributes mutableCopy];
+//            [attrs setValue:[UIColor blueColor] forKey:NSForegroundColorAttributeName];
+//            
+//            cell.bubbleView.textView.linkTextAttributes = attrs;
+//        }
     }
     else
     {
@@ -260,14 +257,31 @@
 
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
-    if (text.length == 0 && [_smilesKeys count] > 0) {
-        NSRange lastSmile = [textView.text rangeOfString:[NSString stringWithFormat:@"[%@]",_smilesKeys.lastObject] options:NSBackwardsSearch];
+    if (!_smilesCollectionView) {
+        UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+        [flowLayout setItemSize:CGSizeMake(30, 30)];
+        flowLayout.minimumLineSpacing = 0;
+        flowLayout.minimumInteritemSpacing = 0;
+        [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
         
-        if(lastSmile.location != NSNotFound) {
-            textView.text = [textView.text stringByReplacingCharactersInRange:lastSmile
-                                               withString: @""];
-        }
+        UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 10, MIN(240, [_smilesKeys count] * 33), (([_smilesKeys count] / 8) + 1) * 34 ) collectionViewLayout:flowLayout];
+        collectionView.delegate = self;
+        collectionView.dataSource = self;
+        [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"myCell"];
+        collectionView.backgroundColor = [UIColor clearColor];
+        
+        [self.messageInputView.textView addSubview:collectionView];
+        
+        _smilesCollectionView = collectionView;
+    }
+    if (text.length == 0 && [_smilesKeys count] > 0) {
+        //NSRange lastSmile = [textView.text rangeOfString:[NSString stringWithFormat:@"[%@]",_smilesKeys.lastObject] options:NSBackwardsSearch];
+        
+       // if(lastSmile.location != NSNotFound) {
         [_smilesKeys removeLastObject];
+        
+        textView.text = [textView.text substringToIndex:4 *[_smilesKeys count]];
+       //}
         if ([_smilesKeys count] == 0) {
             textView.text = nil;
             self.messageInputView.sendButton.enabled = NO;
@@ -275,13 +289,14 @@
     }
     else if(text.length > 0)
     {
-        textView.text = [NSString stringWithFormat:@"%@%@",textView.text,text];
+        textView.text = [NSString stringWithFormat:@"%@aara",textView.text];
         text = [text stringByReplacingOccurrencesOfString:@"[" withString:@""];
         text = [text stringByReplacingOccurrencesOfString:@"]" withString:@""];
         [_smilesKeys addObject:text];
         self.messageInputView.sendButton.enabled = YES;
     }
-    [_smilesCollectionView setFrame:CGRectMake(0, 0, MIN(240, [_smilesKeys count] * 33), (([_smilesKeys count] / 8) + 1) * 34 )];
+    textView.selectedRange = NSMakeRange(4 *[_smilesKeys count], 0);
+    [_smilesCollectionView setFrame:CGRectMake(0, 0, 220, (([_smilesKeys count] / 7) + 1) * 34 )];
     [_smilesCollectionView reloadData];
     return NO;
 }

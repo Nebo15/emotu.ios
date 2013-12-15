@@ -68,7 +68,7 @@
         _bubbleImageView = bubbleImageView;
         
         UITextView *textView = [[UITextView alloc] init];
-        textView.font = [UIFont systemFontOfSize:16.0f];
+        textView.font = [UIFont systemFontOfSize:12.0f];
         textView.textColor = [UIColor blackColor];
         textView.editable = NO;
         textView.userInteractionEnabled = YES;
@@ -170,7 +170,7 @@
         return _font;
     }
     
-    return [UIFont systemFontOfSize:16.0f];
+    return [UIFont systemFontOfSize:22.0f];
 }
 
 #pragma mark - Getters
@@ -182,7 +182,9 @@
     return CGRectMake((self.type == JSBubbleMessageTypeOutgoing ? self.frame.size.width - bubbleSize.width : 0.0f),
                       kMarginTop,
                       bubbleSize.width,
-                      bubbleSize.height + kMarginTop);
+                      //dirty fucking hack
+                      bubbleSize.height < 50?
+                      bubbleSize.height + kMarginTop:bubbleSize.height + kMarginTop * 3);
 }
 
 #pragma mark - Layout
@@ -190,22 +192,7 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    
-    self.bubbleImageView.frame = [self bubbleFrame];
-    
-    CGFloat textX = self.bubbleImageView.frame.origin.x;
-    
-    if(self.type == JSBubbleMessageTypeIncoming) {
-        textX += (self.bubbleImageView.image.capInsets.left / 2.0f);
     }
-    
-    CGRect textFrame = CGRectMake(textX,
-                                  self.bubbleImageView.frame.origin.y,
-                                  self.bubbleImageView.frame.size.width - (self.bubbleImageView.image.capInsets.right / 2.0f),
-                                  self.bubbleImageView.frame.size.height - kMarginTop);
-    
-    self.textView.frame = textFrame;
-}
 
 #pragma mark - Bubble view
 
@@ -232,6 +219,25 @@
 {
     CGSize size = [JSBubbleView neededSizeForText:text];
     return size.height + kMarginTop + kMarginBottom;
+}
+
+- (void)adjustSubview
+{
+    self.bubbleImageView.frame = [self bubbleFrame];
+    
+    CGFloat textX = self.bubbleImageView.frame.origin.x;
+    
+    if(self.type == JSBubbleMessageTypeIncoming) {
+        textX += (self.bubbleImageView.image.capInsets.left / 2.0f);
+    }
+    
+    CGRect textFrame = CGRectMake(textX,
+                                  self.bubbleImageView.frame.origin.y,
+                                  self.bubbleImageView.frame.size.width - (self.bubbleImageView.image.capInsets.right / 2.0f),
+                                  self.bubbleImageView.frame.size.height - kMarginTop);
+    
+    self.textView.frame = textFrame;
+
 }
 
 @end

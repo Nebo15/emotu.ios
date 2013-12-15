@@ -209,6 +209,7 @@
     UIImageView *bubbleImageView = [self.delegate bubbleImageViewWithType:type
                                                         forRowAtIndexPath:indexPath];
     
+    
     BOOL hasTimestamp = [self shouldHaveTimestampForRowAtIndexPath:indexPath];
     BOOL hasAvatar = [self shouldHaveAvatarForRowAtIndexPath:indexPath];
 	BOOL hasSubtitle = [self shouldHaveSubtitleForRowAtIndexPath:indexPath];
@@ -426,7 +427,7 @@
     CGFloat changeInHeight = textView.contentSize.height - self.previousTextViewContentHeight;
     
     if(!isShrinking && (self.previousTextViewContentHeight == maxHeight || textView.text.length == 0)) {
-        changeInHeight = 0;
+        changeInHeight = -4;
     }
     else {
         changeInHeight = MIN(changeInHeight, maxHeight - self.previousTextViewContentHeight);

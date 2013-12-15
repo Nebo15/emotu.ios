@@ -23,7 +23,7 @@ static const CGFloat kJSSubtitleLabelHeight = 15.0f;
 static const NSUInteger kSmileCollectionViewTag = 101;
 
 
-@interface JSBubbleMessageCell()<UICollectionViewDataSource, UICollectionViewDelegate>
+@interface JSBubbleMessageCell()<UICollectionViewDataSource, UICollectionViewDelegate, NSLayoutManagerDelegate>
 
 - (void)setup;
 - (void)configureTimestampLabel;
@@ -237,6 +237,8 @@ static const NSUInteger kSmileCollectionViewTag = 101;
 {
     self.bubbleView.textView.text = [self genRandStringLength:[_elements count] *3];
     self.bubbleView.textView.hidden = YES;
+    
+    [self.bubbleView adjustSubview];
 }
 
 - (void)setTimestamp:(NSDate *)date
@@ -272,7 +274,7 @@ static const NSUInteger kSmileCollectionViewTag = 101;
     flowLayout.minimumInteritemSpacing = 0;
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
     
-    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, MIN(240, [_elements count] * 33), (([_elements count] / 8) + 1) * 34 ) collectionViewLayout:flowLayout];
+    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, MIN(230, [_elements count] * 33), (([_elements count] / 8) + 1) * 34 ) collectionViewLayout:flowLayout];
     collectionView.delegate = self;
     collectionView.dataSource = self;
     [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"myCell"];
@@ -287,13 +289,14 @@ static const NSUInteger kSmileCollectionViewTag = 101;
     
     //align on top right
     CGFloat xPosition = CGRectGetWidth(self.bubbleView.frame) - CGRectGetWidth(collectionFrame);
-    collectionFrame.origin = CGPointMake( self.messageType == JSBubbleMessageTypeOutgoing? ceil(xPosition) : 10.0, 10.0);
+    collectionFrame.origin = CGPointMake( self.messageType == JSBubbleMessageTypeOutgoing? ceil(xPosition - 15) : 10.0, 10.0);
     collectionView.frame = collectionFrame;
     
     //autoresizing so it stays at top right (flexible left and flexible bottom margin)
     collectionView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin;
     
-    [self.bubbleView bringSubviewToFront:collectionView];
+   // [self.bubbleView bringSubviewToFront:collectionView];
+   // [self.bubbleView.bubbleImageView setFrame:CGRectMake(self.bubbleView.bubbleImageView.frame.origin.x, self.bubbleView.bubbleImageView.frame.origin.y, collectionFrame.size.width, collectionFrame.size.height)];
 }
 
 #pragma mark - Getters
@@ -423,7 +426,7 @@ static const NSUInteger kSmileCollectionViewTag = 101;
 
 #pragma mark - Random String
 
-NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+NSString *letters = @"A";
 
 -(NSString *)genRandStringLength:(int)len {
     
@@ -434,6 +437,11 @@ NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ012345
     }
     
     return randomString;
+}
+
+- (CGFloat)layoutManager:(NSLayoutManager *)layoutManager lineSpacingAfterGlyphAtIndex:(NSUInteger)glyphIndex withProposedLineFragmentRect:(CGRect)rect
+{
+    return 20;
 }
 
 @end

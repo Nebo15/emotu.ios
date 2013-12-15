@@ -28,6 +28,7 @@
 
 @implementation JSMessageTextView
 
+
 #pragma mark - Initialization
 
 - (void)setup
@@ -123,7 +124,7 @@
 
 + (NSUInteger)numberOfLinesForMessage:(NSString *)text
 {
-    return (text.length / [JSMessageTextView maxCharactersPerLine]) + 1;
+    return (text.length / [JSMessageTextView maxCharactersPerLine]);
 }
 
 #pragma mark - Text view overrides

@@ -19,7 +19,7 @@
 #import "NSString+JSMessagesView.h"
 #import "UIColor+JSMessagesView.h"
 
-@interface JSMessageInputView ()
+@interface JSMessageInputView () <NSLayoutManagerDelegate>
 
 - (void)setup;
 - (void)configureInputBarWithStyle:(JSMessageInputViewStyle)style;
@@ -43,13 +43,14 @@
 
 - (void)configureInputBarWithStyle:(JSMessageInputViewStyle)style
 {
-    CGFloat sendButtonWidth = (style == JSMessageInputViewStyleClassic) ? 78.0f : 64.0f;
+   // CGFloat sendButtonWidth = (style == JSMessageInputViewStyleClassic) ? 78.0f : 64.0f;
     
-    CGFloat width = self.frame.size.width - sendButtonWidth;
+    CGFloat width = 235;//self.frame.size.width - sendButtonWidth;
     CGFloat height = [JSMessageInputView textViewLineHeight];
     
     JSMessageTextView *textView = [[JSMessageTextView  alloc] initWithFrame:CGRectZero];
     [self addSubview:textView];
+    textView.layoutManager.delegate = self;
 	_textView = textView;
     
     if(style == JSMessageInputViewStyleClassic) {
@@ -233,6 +234,11 @@
 + (CGFloat)maxHeight
 {
     return ([JSMessageInputView maxLines] + 1.0f) * [JSMessageInputView textViewLineHeight];
+}
+
+- (CGFloat)layoutManager:(NSLayoutManager *)layoutManager lineSpacingAfterGlyphAtIndex:(NSUInteger)glyphIndex withProposedLineFragmentRect:(CGRect)rect
+{
+    return 8.5; // For really wide spacing; pick your own value
 }
 
 @end

@@ -45,9 +45,9 @@ t1386977465
 s513880
 
 N/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-JSMessagesViewController.a
-c0000000052ABD03800000000000A1920
-t1386991672
-s661792
+c0000000052ACFA3C00000000000A3BE8
+t1387067964
+s670696
 
 N/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-JSQSystemSoundPlayer.a
 c0000000052AB98B9000000000000AA58
@@ -55,8 +55,8 @@ t1386977465
 s43608
 
 N/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods.a
-t1386991672
-s1222584
+t1387067964
+s1231488
 
 N/Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-dummy.m
 c0000000052AA55630000000000000070
@@ -68,7 +68,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd5e786fe135cb841^b9898afe135cb841^---0#1#1#--18"Check dependencies36"DA6CED25-2429-4DE6-A38A-4433CA807496-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies016d831a355db841^68ec831a355db841^---0#1#1#--18"Check dependencies36"60C752DF-F945-4F8E-B433-063046B45E0C-
 
 CCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s408670265.894002
@@ -86,13 +86,13 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile
 bC5744DEF-E40F-4A61-B3C5-D25D0901A761
 
 CLibtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods.a normal i386
-s408684472.354089
-e408684472.376153
+s408760764.274883
+e408760764.289429
 r1
 xLibtool
 x/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Libtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods.a normal i386113"Libtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods.a normal i386c0b25ab8075cb841^7b4c60b8075cb841^---0#0#1#--1103"Libtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods.a normal i386    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -filelist /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-GMGridView -lPods-JSMessagesViewController -lPods-JSQSystemSoundPlayer -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods.a36"609B4B96-1067-4D2A-8376-07A66D38D6D7-
-bE3708ECE-7716-4052-B14E-F7EE4936B996
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Libtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods.a normal i386113"Libtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods.a normal i386d36c46bc315db841^fc194abc315db841^---0#0#1#--1103"Libtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods.a normal i386    cd /Users/evgenbakumenko/Documents/DominoMessager/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -filelist /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-GMGridView -lPods-JSMessagesViewController -lPods-JSQSystemSoundPlayer -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods.a36"32400D28-6426-4D80-A9C4-6EFB1F06C1FE-
+bD4A223BC-7C12-4854-BBF9-7904CC6E2CB7
 
