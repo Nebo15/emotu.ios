@@ -419,6 +419,9 @@ static const NSUInteger kSmileCollectionViewTag = 101;
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     
      UIImageView* image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:_elements[indexPath.row]]];
+    image.frame = CGRectMake(0, 0, 30, 30);
+    image.contentMode = UIViewContentModeScaleAspectFit;
+
     [cell addSubview:image];
 
     return cell;

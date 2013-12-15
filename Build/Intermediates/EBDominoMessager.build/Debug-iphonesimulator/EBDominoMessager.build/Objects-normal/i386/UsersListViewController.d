@@ -70,16 +70,16 @@ dependencies: \
   /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/SettingsViewController.h \
   /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Vendor/CocoaLumberjack/DDLog.h \
   /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/DMConversationViewController.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSMessagesViewController.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSBubbleMessageCell.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSBubbleView.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSBubbleImageViewFactory.h \
+  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/JSMessagesViewController.h \
+  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/JSBubbleMessageCell.h \
+  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/JSBubbleView.h \
+  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/Factories/JSBubbleImageViewFactory.h \
   /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView/GMGridView.h \
   /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView/GMGridView-Constants.h \
   /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/GMGridView/GMGridViewCell.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSMessageInputView.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSMessageTextView.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSDismissiveTextView.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSAvatarImageFactory.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/JSMessageSoundEffect.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Headers/JSMessagesViewController/UIColor+JSMessagesView.h
+  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/JSMessageInputView.h \
+  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/JSMessageTextView.h \
+  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/JSDismissiveTextView.h \
+  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/Factories/JSAvatarImageFactory.h \
+  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/JSMessageSoundEffect.h \
+  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/Categories/UIColor+JSMessagesView.h

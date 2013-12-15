@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>amazing</string>
+	<string>anger</string>
+	<string>bad_egg</string>
+	<string>bad_smile</string>
+	<string>beaten</string>
+	<string>big_smile</string>
+	<string>black_heart</string>
+	<string>cry</string>
+	<string>electric_shock</string>
+	<string>exciting</string>
+	<string>eyes_droped</string>
+	<string>girl</string>
+	<string>greedy</string>
+	<string>grimace</string>
+	<string>haha</string>
+	<string>happy</string>
+	<string>horror</string>
+	<string>money</string>
+	<string>nothing</string>
+	<string>nothing_to_say</string>
+	<string>red_heart</string>
+	<string>scorn</string>
+	<string>secret_smile</string>
+	<string>shame</string>
+	<string>shocked</string>
+	<string>super_man</string>
+	<string>the_iron_man</string>
+	<string>unhappy</string>
+	<string>victory</string>
+	<string>what</string>
+</array>
+</plist>

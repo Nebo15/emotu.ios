@@ -1,228 +1,0 @@
-TEBDominoMessagerTests
-v6
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/Info.plist /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests-Info.plist
-cProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/EBDominoMessager-Prefix-gbxdtkbttwylxkfrjatxyedpynji/EBDominoMessager-Prefix.pch.pch EBDominoMessager/EBDominoMessager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.o /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests normal i386
-cGenerateDSYMFile /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest.dSYM /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests
-cCopyStringsFile /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/en.lproj/InfoPlist.strings EBDominoMessagerTests/en.lproj/InfoPlist.strings
-cTouch /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
-c0000000052817DEA0000000000000176
-t1384218090
-s374
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
-c00000000523A32E500000000000003B5
-t1379545829
-s949
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000052670DE100000000000001A0
-t1382485473
-s416
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
-c00000000523A32FE0000000000000AC9
-t1379545854
-s2761
-
-N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.LinkFileList
-c0000000052AA627200000000000000B8
-t1386898034
-s184
-
-N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.o
-t1386898036
-s8328
-
-N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/EBDominoMessager-Prefix-gbxdtkbttwylxkfrjatxyedpynji/EBDominoMessager-Prefix.pch.pch
-t1386898036
-s108992
-
-N/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest
-t1386898036
-s170
-
-N/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest.dSYM
-t2
-s0
-
-N/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests
-t1386898036
-s10600
-
-N/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/Info.plist
-t1386898034
-s517
-
-N/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/en.lproj/InfoPlist.strings
-t1386898036
-s42
-
-N/Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/EBDominoMessager-Prefix.pch
-c0000000052AA55630000000000000158
-t1386894691
-s344
-
-N/Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests-Info.plist
-c0000000052AA556300000000000002AB
-t1386894691
-s683
-
-N/Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests.m
-c0000000052AA556300000000000002A9
-t1386894691
-s681
-
-N/Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/en.lproj/InfoPlist.strings
-c0000000052AA5563000000000000002D
-t1386894691
-s45
-
-CBuild AST from /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies48f872f2995ab841^369274f2995ab841^---0#1#1#--18"Check dependencies36"79066E48-71A4-4B64-B0A0-EA780F4198FE-
-
-CCompileC Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.o /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s408590836.321841
-e408590836.430281
-r1
-xCompileC
-xBuild/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.o
-x/Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests.m259"CompileC Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.o EBDominoMessagerTests/EBDominoMessagerTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb47752f4995ab841^4a276ef4995ab841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests.m0000000000000000^4437"CompileC Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.o EBDominoMessagerTests/EBDominoMessagerTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/EBDominoMessagerTests-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/EBDominoMessagerTests-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/EBDominoMessagerTests-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/EBDominoMessagerTests-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/EBDominoMessager-Prefix-gbxdtkbttwylxkfrjatxyedpynji/EBDominoMessager-Prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.d --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.dia -c /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests.m -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.o36"0EF64C77-2807-4E5A-901E-EFEBC040D639-
-bFC01DD8C-F244-43DE-A11F-8510E7996B1D
-
-CCopyStringsFile /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/en.lproj/InfoPlist.strings EBDominoMessagerTests/en.lproj/InfoPlist.strings
-s408590836.531858
-e408590836.537418
-r1
-xCopyStringsFile
-x/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/en.lproj/InfoPlist.strings
-xEBDominoMessagerTests/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy EBDominoMessagerTests/en.lproj/InfoPlist.strings157"CopyStringsFile Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/en.lproj/InfoPlist.strings EBDominoMessagerTests/en.lproj/InfoPlist.stringsca3288f4995ab841^c89689f4995ab841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/en.lproj/InfoPlist.strings0000000000000000^671"CopyStringsFile Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/en.lproj/InfoPlist.strings EBDominoMessagerTests/en.lproj/InfoPlist.strings    cd /Users/evgenbakumenko/Documents/DominoMessager    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/en.lproj -- EBDominoMessagerTests/en.lproj/InfoPlist.strings36"4D8C55F8-CDB6-47DA-B586-8D078DDEF543-
-bFC01DD8C-F244-43DE-A11F-8510E7996B1D
-
-CGenerateDSYMFile /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest.dSYM /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests
-s408590836.519034
-e408590836.531510
-r1
-xGenerateDSYMFile
-x/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest.dSYM
-x/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Generate /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest.dSYM175"GenerateDSYMFile Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest.dSYM Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests9aeb84f4995ab841^7b1288f4995ab841^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest.dSYM0034c46addffdf42^781"GenerateDSYMFile Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest.dSYM Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests    cd /Users/evgenbakumenko/Documents/DominoMessager    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest.dSYM36"9932FCCC-40AA-480C-8069-D54328689BF2-
-bFC01DD8C-F244-43DE-A11F-8510E7996B1D
-
-CLd /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests normal i386
-s408590836.430786
-e408590836.518346
-r1
-xLd
-x/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests
-xnormal
-xi386
-d/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.LinkFileList
-d/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessager.app/EBDominoMessager
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/bundle1.o
-d/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks/XCTest.framework/XCTest
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
-d/usr/lib/libSystem.B.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
-d/usr/lib/system/libcache.dylib
-d/usr/lib/system/libcommonCrypto.dylib
-d/usr/lib/system/libcompiler_rt.dylib
-d/usr/lib/system/libcopyfile.dylib
-d/usr/lib/system/libcorecrypto.dylib
-d/usr/lib/system/libkeymgr.dylib
-d/usr/lib/system/liblaunch.dylib
-d/usr/lib/system/libmacho.dylib
-d/usr/lib/system/libquarantine.dylib
-d/usr/lib/system/libremovefile.dylib
-d/usr/lib/system/libsystem_asl.dylib
-d/usr/lib/system/libsystem_blocks.dylib
-d/usr/lib/system/libsystem_c.dylib
-d/usr/lib/system/libsystem_configuration.dylib
-d/usr/lib/system/libsystem_dnssd.dylib
-d/usr/lib/system/libsystem_info.dylib
-d/usr/lib/system/libsystem_kernel.dylib
-d/usr/lib/system/libsystem_m.dylib
-d/usr/lib/system/libsystem_malloc.dylib
-d/usr/lib/system/libsystem_notify.dylib
-d/usr/lib/system/libsystem_platform.dylib
-d/usr/lib/system/libsystem_pthread.dylib
-d/usr/lib/system/libsystem_sandbox.dylib
-d/usr/lib/system/libunc.dylib
-d/usr/lib/system/libunwind.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Link /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests102"Ld Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests normal i3867d5d6ef4995ab841^c8b284f4995ab841^---0#0#1#--1948"Ld Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests normal i386    cd /Users/evgenbakumenko/Documents/DominoMessager    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -filelist /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests.LinkFileList -bundle_loader /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessager.app/EBDominoMessager -Xlinker -objc_abi_version -Xlinker 2 -framework XCTest -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -Xlinker -dependency_info -Xlinker /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/Objects-normal/i386/EBDominoMessagerTests_dependency_info.dat -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/EBDominoMessagerTests36"426E3D99-33BE-4F4F-BA7E-718B71006D2F-
-bFC01DD8C-F244-43DE-A11F-8510E7996B1D
-
-CProcessInfoPlistFile /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/Info.plist /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests-Info.plist
-s408590834.455897
-e408590834.456684
-r1
-xProcessInfoPlistFile
-x/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/Info.plist
-x/Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Process /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests-Info.plist152"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/Info.plist EBDominoMessagerTests/EBDominoMessagerTests-Info.plist7bc074f2995ab841^4bea74f2995ab841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests-Info.plist0000000000000000^722"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/Info.plist EBDominoMessagerTests/EBDominoMessagerTests-Info.plist    cd /Users/evgenbakumenko/Documents/DominoMessager    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessagerTests/EBDominoMessagerTests-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest/Info.plist36"47947934-8B01-4D69-A7F6-CAA172634E1B-
-bFC01DD8C-F244-43DE-A11F-8510E7996B1D
-
-CProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/EBDominoMessager-Prefix-gbxdtkbttwylxkfrjatxyedpynji/EBDominoMessager-Prefix.pch.pch EBDominoMessager/EBDominoMessager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s408590834.457234
-e408590836.321232
-r1
-xProcessPCH
-x/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/EBDominoMessager-Prefix-gbxdtkbttwylxkfrjatxyedpynji/EBDominoMessager-Prefix.pch.pch
-xEBDominoMessager/EBDominoMessager-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/EBDominoMessager-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile EBDominoMessager/EBDominoMessager-Prefix.pch247"ProcessPCH Build/Intermediates/PrecompiledHeaders/EBDominoMessager-Prefix-gbxdtkbttwylxkfrjatxyedpynji/EBDominoMessager-Prefix.pch.pch EBDominoMessager/EBDominoMessager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1a3375f2995ab841^3e3d52f4995ab841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/EBDominoMessager-Prefix.pch0000000000000000^4212"ProcessPCH Build/Intermediates/PrecompiledHeaders/EBDominoMessager-Prefix-gbxdtkbttwylxkfrjatxyedpynji/EBDominoMessager-Prefix.pch.pch EBDominoMessager/EBDominoMessager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Documents/DominoMessager    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/EBDominoMessagerTests-generated-files.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/EBDominoMessagerTests-own-target-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/EBDominoMessagerTests-all-target-headers.hmap -iquote /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/EBDominoMessagerTests-project-headers.hmap -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/DerivedSources/i386 -I/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/EBDominoMessager.build/Debug-iphonesimulator/EBDominoMessagerTests.build/DerivedSources -F/Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks --serialize-diagnostics /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/EBDominoMessager-Prefix-gbxdtkbttwylxkfrjatxyedpynji/EBDominoMessager-Prefix.pch.dia -MMD -MT dependencies -MF /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/EBDominoMessager-Prefix-gbxdtkbttwylxkfrjatxyedpynji/EBDominoMessager-Prefix.pch.d -c /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/EBDominoMessager-Prefix.pch -o /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/EBDominoMessager-Prefix-gbxdtkbttwylxkfrjatxyedpynji/EBDominoMessager-Prefix.pch.pch36"43E179DF-3DBB-46D8-BDFB-751A95AADDDB-
-bFC01DD8C-F244-43DE-A11F-8510E7996B1D
-
-CProcessPCH /Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/EBDominoMessager-aficcwopuswpyacbebsfglguirjd/Index/PrecompiledHeaders/EBDominoMessager-Prefix-btxpzpehyqtvrpfayjltmqbwgeua_ast/EBDominoMessager-Prefix.pch.pch EBDominoMessager/EBDominoMessager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CTouch /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/EBDominoMessagerTests.xctest
-r0
-

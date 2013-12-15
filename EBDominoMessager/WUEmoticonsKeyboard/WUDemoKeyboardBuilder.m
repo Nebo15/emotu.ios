@@ -32,9 +32,19 @@
         weicoKey.image = [UIImage imageNamed:@"weico"];
         weicoKey.textToInput = @"[weico]";
         
+        NSArray *imageKeys = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"blackSmiles" ofType:@"plist"]];
+        
+        NSMutableArray *imageKeyItems = [NSMutableArray array];
+        for (NSString *image in imageKeys) {
+            WUEmoticonsKeyboardKeyItem *keyItem = [[WUEmoticonsKeyboardKeyItem alloc] init];
+            keyItem.image = [UIImage imageNamed:image];
+            keyItem.textToInput = image;
+            [imageKeyItems addObject:keyItem];
+        }
+        
         //Icon key group
         WUEmoticonsKeyboardKeyItemGroup *imageIconsGroup = [[WUEmoticonsKeyboardKeyItemGroup alloc] init];
-        imageIconsGroup.keyItems = @[loveKey,applaudKey,weicoKey];
+        imageIconsGroup.keyItems = imageKeyItems;
         imageIconsGroup.image = [UIImage imageNamed:@"keyboard_emotion"];
         imageIconsGroup.selectedImage = [UIImage imageNamed:@"keyboard_emotion_selected"];
         

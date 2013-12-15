@@ -15,7 +15,7 @@
 #import "WUDemoKeyboardBuilder.h"
 #import "WUEmoticonsKeyboardKeyItemGroup.h"
 
-#define kSubtitleJobs @"Jobs"
+#define kSubtitleYou @"You"
 #define kSubtitleWoz @"Steve Wozniak"
 #define kSubtitleCook @"Mr. Cook"
 
@@ -56,8 +56,7 @@
     
     self.smilesKeys = [NSMutableArray array];
     
-    self.avatars = [NSMutableDictionary dictionaryWithDictionary:@{kSubtitleJobs: [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-jobs" croppedToCircle:YES],
-                                                                   kSubtitleWoz: [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-woz" croppedToCircle:YES]}];
+    self.avatars = [NSMutableDictionary dictionaryWithDictionary:@{kSubtitleYou: [JSAvatarImageFactory avatarImageNamed:@"avatar-placeholder" croppedToCircle:YES]}];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -98,7 +97,7 @@
     
     [JSMessageSoundEffect playMessageReceivedSound];
         
-    [self.subtitles addObject:kSubtitleJobs];
+    [self.subtitles addObject:kSubtitleYou];
 
     [self finishSend];
     [self scrollToBottomAnimated:YES];
@@ -246,7 +245,7 @@
         [JSMessageSoundEffect playMessageReceivedSound];
         
         [self.subtitles addObject:user.nickname];
-        [self.avatars setObject:user.photo?user.photo:[JSAvatarImageFactory avatarImageNamed:@"demo-avatar-woz" croppedToCircle:YES] forKey:user.nickname];
+        [self.avatars setObject:user.photo?user.photo:[JSAvatarImageFactory avatarImageNamed:@"avatar-placeholder" croppedToCircle:YES] forKey:user.nickname];
         
         [self finishSend];
         [self scrollToBottomAnimated:YES];
@@ -315,6 +314,8 @@
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     
     UIImageView* image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:_smilesKeys[indexPath.row]]];
+    image.frame = CGRectMake(0, 0, 30, 30);
+    image.contentMode = UIViewContentModeScaleAspectFit;
     [cell addSubview:image];
     
     return cell;
