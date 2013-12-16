@@ -18,7 +18,7 @@
 @property (strong, nonatomic) NSMutableArray *subtitles;
 @property (strong, nonatomic) NSMutableDictionary *avatars;
 
-@property (strong, nonatomic) XMPPJID *jid;
+@property (strong, nonatomic) NSString *jid;
 @property (strong, nonatomic) XMPPStream *xmppStream;
 @property (strong, nonatomic) XMPPRosterCoreDataStorage *xmppRosterStorage;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext_roster;

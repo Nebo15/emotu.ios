@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/JSMessagesViewController/JSMessagesViewController/Classes/JSDismissiveTextView.m \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/JSMessagesViewController/JSMessagesViewController/Classes/JSDismissiveTextView.h
+  /Users/evgenbakumenko/Downloads/Emotu/Pods/JSMessagesViewController/JSMessagesViewController/Classes/JSDismissiveTextView.m \
+  /Users/evgenbakumenko/Downloads/Emotu/Pods/JSMessagesViewController/JSMessagesViewController/Classes/JSDismissiveTextView.h

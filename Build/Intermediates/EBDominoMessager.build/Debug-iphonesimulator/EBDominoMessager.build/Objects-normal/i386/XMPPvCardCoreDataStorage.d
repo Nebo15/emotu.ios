@@ -1,14 +1,14 @@
 dependencies: \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorage.m \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorage.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/CoreDataStorage/XMPPCoreDataStorage.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempModule.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Core/XMPP.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Core/XMPPJID.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Core/XMPPStream.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Authentication/XMPPSASLAuthentication.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Vendor/KissXML/DDXML.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Vendor/KissXML/DDXMLNode.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorage.m \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorage.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/CoreDataStorage/XMPPCoreDataStorage.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempModule.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Core/XMPP.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Core/XMPPJID.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Core/XMPPStream.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Authentication/XMPPSASLAuthentication.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Vendor/KissXML/DDXML.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Vendor/KissXML/DDXMLNode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/xmlexports.h \
@@ -30,34 +30,34 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/SAX.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/xlink.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/SAX2.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Vendor/KissXML/DDXMLElement.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Vendor/KissXML/DDXMLDocument.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Vendor/CocoaAsyncSocket/GCDAsyncSocket.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Utilities/GCDMulticastDelegate.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Core/XMPPElement.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Core/XMPPIQ.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Core/XMPPMessage.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Core/XMPPPresence.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Core/XMPPModule.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Authentication/Digest-MD5/XMPPDigestMD5Authentication.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Authentication/Plain/XMPPPlainAuthentication.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Authentication/X-Facebook-Platform/XMPPXFacebookPlatformAuthentication.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Authentication/Anonymous/XMPPAnonymousAuthentication.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Authentication/Deprecated-Plain/XMPPDeprecatedPlainAuthentication.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Authentication/Deprecated-Digest/XMPPDeprecatedDigestAuthentication.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Categories/NSXMLElement+XMPP.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0153/XMPPvCardAvatarModule.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorageObject.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/CoreDataStorage/XMPPvCardTempCoreDataStorageObject.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTemp.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/Roster/XMPPUser.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempAdr.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempAdrTypes.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempBase.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempEmail.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempLabel.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempTel.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/XEP-0054/CoreDataStorage/XMPPvCardAvatarCoreDataStorageObject.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Extensions/CoreDataStorage/XMPPCoreDataStorageProtected.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Core/XMPPLogging.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/Vendor/CocoaLumberjack/DDLog.h
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Vendor/KissXML/DDXMLElement.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Vendor/KissXML/DDXMLDocument.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Vendor/CocoaAsyncSocket/GCDAsyncSocket.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Utilities/GCDMulticastDelegate.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Core/XMPPElement.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Core/XMPPIQ.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Core/XMPPMessage.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Core/XMPPPresence.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Core/XMPPModule.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Authentication/Digest-MD5/XMPPDigestMD5Authentication.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Authentication/Plain/XMPPPlainAuthentication.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Authentication/X-Facebook-Platform/XMPPXFacebookPlatformAuthentication.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Authentication/Anonymous/XMPPAnonymousAuthentication.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Authentication/Deprecated-Plain/XMPPDeprecatedPlainAuthentication.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Authentication/Deprecated-Digest/XMPPDeprecatedDigestAuthentication.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Categories/NSXMLElement+XMPP.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0153/XMPPvCardAvatarModule.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorageObject.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/CoreDataStorage/XMPPvCardTempCoreDataStorageObject.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTemp.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/Roster/XMPPUser.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempAdr.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempAdrTypes.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempBase.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempEmail.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempLabel.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/XMPPvCardTempTel.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/XEP-0054/CoreDataStorage/XMPPvCardAvatarCoreDataStorageObject.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Extensions/CoreDataStorage/XMPPCoreDataStorageProtected.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Core/XMPPLogging.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Vendor/CocoaLumberjack/DDLog.h

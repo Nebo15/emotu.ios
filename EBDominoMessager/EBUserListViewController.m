@@ -32,6 +32,7 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 - (void)goOffline;
 
 @property (nonatomic, strong) DMConversationViewController* conversationVC;
+@property (nonatomic, strong) NSArray * users;
 
 @end
 
@@ -48,18 +49,14 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 
 @synthesize loginButton;
 
-
 #pragma mark Accessors
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 - (EBAppDelegate *)appDelegate
 {
 	return (EBAppDelegate *)[[UIApplication sharedApplication] delegate];
 }
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark View lifecycle
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 - (void)viewDidLoad
 {
@@ -114,9 +111,7 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 	[super viewWillDisappear:animated];
 }
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark NSFetchedResultsController
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 - (NSFetchedResultsController *)fetchedResultsController
 {
@@ -190,7 +185,7 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-	return [[[self fetchedResultsController] sections] count];
+	return 1;//[[[self fetchedResultsController] sections] count];
 }
 
 - (NSString *)tableView:(UITableView *)sender titleForHeaderInSection:(NSInteger)sectionIndex
@@ -215,15 +210,15 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)sectionIndex
 {
-	NSArray *sections = [[self fetchedResultsController] sections];
+//	NSArray *sections = [[self fetchedResultsController] sections];
+//	
+//	if (sectionIndex < [sections count])
+//	{
+//		id <NSFetchedResultsSectionInfo> sectionInfo = sections[sectionIndex];
+//		return sectionInfo.numberOfObjects;
+//	}
 	
-	if (sectionIndex < [sections count])
-	{
-		id <NSFetchedResultsSectionInfo> sectionInfo = sections[sectionIndex];
-		return sectionInfo.numberOfObjects;
-	}
-	
-	return 0;
+	return [_users count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -237,18 +232,18 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
                                       reuseIdentifier:CellIdentifier];
 	}
 	
-	XMPPUserCoreDataStorageObject *user = [[self fetchedResultsController] objectAtIndexPath:indexPath];
+	//XMPPUserCoreDataStorageObject *user = [[self fetchedResultsController] objectAtIndexPath:indexPath];
 	
-	cell.textLabel.text = user.displayName;
-	[self configurePhotoForCell:cell user:user];
+	cell.textLabel.text = _users[indexPath.row];
+	//[self configurePhotoForCell:cell user:user];
 	
 	return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    XMPPUserCoreDataStorageObject *user = [[self fetchedResultsController] objectAtIndexPath:indexPath];
-    _conversationVC.jid = user.jid;
+    //XMPPUserCoreDataStorageObject *user = [[self fetchedResultsController] objectAtIndexPath:indexPath];
+    _conversationVC.jid = _users[indexPath.row];
     _conversationVC.xmppStream = self.xmppStream;
     _conversationVC.xmppRosterStorage = self.xmppRosterStorage;
     _conversationVC.managedObjectContext_roster = self.managedObjectContext_roster;
@@ -264,10 +259,7 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 	[self.navigationController presentViewController:[SettingsViewController new] animated:YES completion:NULL];
 }
 
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark Core Data
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 - (NSManagedObjectContext *)managedObjectContext_roster
 {
@@ -396,7 +388,7 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 	//
 	// If you don't specify a hostPort, then the default (5222) will be used.
 	
-	[xmppStream setHostName:@"talk.google.com"];
+	[xmppStream setHostName:@"xmpp.nebo15.me"];
 	[xmppStream setHostPort:5222];
 	
     
@@ -457,6 +449,14 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
     }
 	
 	[[self xmppStream] sendElement:presence];
+    
+    [[EBNebo15APIClient sharedClient] getUserListWithCompletion:^(BOOL success, NSArray *users) {
+        if (users) {
+            _users = users;
+            [[self tableView] reloadData];
+        }
+    }];
+    
 }
 
 - (void)goOffline

@@ -86,7 +86,7 @@
     
     NSXMLElement *message = [NSXMLElement elementWithName:@"message"];
     [message addAttributeWithName:@"type" stringValue:@"chat"];
-    [message addAttributeWithName:@"to" stringValue:[_jid full]];
+    [message addAttributeWithName:@"to" stringValue:_jid];
     [message addChild:body];
     
     [_xmppStream sendElement:message];
@@ -111,7 +111,7 @@
 
 - (JSBubbleMessageType)messageTypeForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [[[(NSXMLElement *)_messages[indexPath.row] attributeForName:@"to"] stringValue] isEqualToString:[_jid full]] ? JSBubbleMessageTypeOutgoing : JSBubbleMessageTypeIncoming;
+    return [[[(NSXMLElement *)_messages[indexPath.row] attributeForName:@"to"] stringValue] isEqualToString:_jid] ? JSBubbleMessageTypeOutgoing : JSBubbleMessageTypeIncoming;
 }
 
 - (UIImageView *)bubbleImageViewWithType:(JSBubbleMessageType)type
@@ -234,9 +234,9 @@
     
 	if ([message isChatMessageWithBody])
 	{
-		XMPPUserCoreDataStorageObject *user = [_xmppRosterStorage userForJID:[message from]
-		                                                         xmppStream:_xmppStream
-                                                      managedObjectContext:_managedObjectContext_roster];
+		//XMPPUserCoreDataStorageObject *user = [_xmppRosterStorage userForJID:[message from]
+		                                                        // xmppStream:_xmppStream
+                                                     // managedObjectContext:_managedObjectContext_roster];
 		[self.messages addObject:message];
         
         [self.timestamps addObject:[NSDate date]];
@@ -244,8 +244,10 @@
         
         [JSMessageSoundEffect playMessageReceivedSound];
         
-        [self.subtitles addObject:user.nickname];
-        [self.avatars setObject:user.photo?user.photo:[JSAvatarImageFactory avatarImageNamed:@"avatar-placeholder" croppedToCircle:YES] forKey:user.nickname];
+        NSString * userName = [[message fromStr] substringFromIndex:[[message fromStr] rangeOfString:@"/"].location];
+        
+        [self.subtitles addObject:userName];
+        [self.avatars setObject:[JSAvatarImageFactory avatarImageNamed:@"avatar-placeholder" croppedToCircle:YES] forKey:userName];
         
         [self finishSend];
         [self scrollToBottomAnimated:YES];
@@ -256,7 +258,7 @@
 
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
-    if (!_smilesCollectionView) {
+    if (_smilesCollectionView.superview != self.messageInputView.textView) {
         UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
         [flowLayout setItemSize:CGSizeMake(30, 30)];
         flowLayout.minimumLineSpacing = 0;

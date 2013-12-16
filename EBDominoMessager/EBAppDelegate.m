@@ -5,16 +5,19 @@
 //  Created by Evgen Bakumenko on 12/12/13.
 //  Copyright (c) 2013 Evgen Bakumenko. All rights reserved.
 //
-#import "UsersListViewController.h"
 #import "SettingsViewController.h"
 #import "EBAppDelegate.h"
 #import "EBUserListViewController.h"
+#import <TestFlight.h>
 
 @implementation EBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [TestFlight takeOff:@"074d96c7-b8ae-4bc9-a401-31f42c14e988"];
+    
     EBUserListViewController* ctrl = [EBUserListViewController new];
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:ctrl];
     self.navigationController.navigationBar.translucent = NO;

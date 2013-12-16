@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/JSMessagesViewController/JSMessagesViewController/Classes/Factories/JSBubbleImageViewFactory.m \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/JSMessagesViewController/JSMessagesViewController/Classes/Factories/JSBubbleImageViewFactory.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/Categories/UIImage+JSMessagesView.h \
-  /Users/evgenbakumenko/Documents/DominoMessager/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/Categories/UIColor+JSMessagesView.h
+  /Users/evgenbakumenko/Downloads/Emotu/Pods/JSMessagesViewController/JSMessagesViewController/Classes/Factories/JSBubbleImageViewFactory.m \
+  /Users/evgenbakumenko/Downloads/Emotu/Pods/JSMessagesViewController/JSMessagesViewController/Classes/Factories/JSBubbleImageViewFactory.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/Categories/UIImage+JSMessagesView.h \
+  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/../Pods/JSMessagesViewController/JSMessagesViewController/Classes/Categories/UIColor+JSMessagesView.h

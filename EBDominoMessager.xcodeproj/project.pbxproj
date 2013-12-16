@@ -121,7 +121,6 @@
 		316D917F185A4DE300B874BC /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D90FD185A4DE300B874BC /* DDXMLNode.m */; };
 		316D9180185A4DE300B874BC /* build-libidn.sh in Resources */ = {isa = PBXBuildFile; fileRef = 316D9101185A4DE300B874BC /* build-libidn.sh */; };
 		316D9181185A4DE300B874BC /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 316D9103185A4DE300B874BC /* libidn.a */; };
-		316D9188185A4E1800B874BC /* UsersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D9183185A4E1800B874BC /* UsersListViewController.m */; };
 		316D918A185A4E1800B874BC /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D9186185A4E1800B874BC /* SettingsViewController.m */; };
 		316D918B185A4E1800B874BC /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 316D9187185A4E1800B874BC /* SettingsViewController.xib */; };
 		316D918E185A4EDB00B874BC /* DMConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D918D185A4EDB00B874BC /* DMConversationViewController.m */; };
@@ -137,7 +136,6 @@
 		31B7A39B185A575100AA727A /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B7A39A185A575100AA727A /* libresolv.dylib */; };
 		31B7A39D185A578600AA727A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B7A39C185A578600AA727A /* QuartzCore.framework */; };
 		31B7A39F185A57BA00AA727A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B7A39E185A57BA00AA727A /* CoreData.framework */; };
-		31B7A3A3185A5B9700AA727A /* UsersListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B7A3A2185A5B9700AA727A /* UsersListViewController.xib */; };
 		31B7A3A7185A5D4000AA727A /* EBUserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B7A3A5185A5D4000AA727A /* EBUserListViewController.m */; };
 		31B7A3A8185A5D4000AA727A /* EBUserListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B7A3A6185A5D4000AA727A /* EBUserListViewController.xib */; };
 		81795D63185A8E53008B0588 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81795D62185A8E53008B0588 /* libidn.a */; };
@@ -299,6 +297,7 @@
 		8192CB20185D3C3D002E17B7 /* victory.png in Resources */ = {isa = PBXBuildFile; fileRef = 8192CB02185D3C3D002E17B7 /* victory.png */; };
 		8192CB21185D3C3D002E17B7 /* what.png in Resources */ = {isa = PBXBuildFile; fileRef = 8192CB03185D3C3D002E17B7 /* what.png */; };
 		8192CB23185D3C58002E17B7 /* blackSmiles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8192CB22185D3C58002E17B7 /* blackSmiles.plist */; };
+		8192CB27185DEB05002E17B7 /* EBNebo15APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8192CB26185DEB05002E17B7 /* EBNebo15APIClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -549,8 +548,6 @@
 		316D9102185A4DE300B874BC /* idn-int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "idn-int.h"; sourceTree = "<group>"; };
 		316D9103185A4DE300B874BC /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
 		316D9104185A4DE300B874BC /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
-		316D9182185A4E1800B874BC /* UsersListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersListViewController.h; sourceTree = "<group>"; };
-		316D9183185A4E1800B874BC /* UsersListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersListViewController.m; sourceTree = "<group>"; };
 		316D9185185A4E1800B874BC /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		316D9186185A4E1800B874BC /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		316D9187185A4E1800B874BC /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
@@ -569,7 +566,6 @@
 		31B7A39A185A575100AA727A /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		31B7A39C185A578600AA727A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		31B7A39E185A57BA00AA727A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		31B7A3A2185A5B9700AA727A /* UsersListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsersListViewController.xib; sourceTree = "<group>"; };
 		31B7A3A4185A5D4000AA727A /* EBUserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBUserListViewController.h; sourceTree = "<group>"; };
 		31B7A3A5185A5D4000AA727A /* EBUserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBUserListViewController.m; sourceTree = "<group>"; };
 		31B7A3A6185A5D4000AA727A /* EBUserListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBUserListViewController.xib; sourceTree = "<group>"; };
@@ -744,6 +740,8 @@
 		8192CB02185D3C3D002E17B7 /* victory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = victory.png; sourceTree = "<group>"; };
 		8192CB03185D3C3D002E17B7 /* what.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = what.png; sourceTree = "<group>"; };
 		8192CB22185D3C58002E17B7 /* blackSmiles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = blackSmiles.plist; sourceTree = "<group>"; };
+		8192CB25185DEB05002E17B7 /* EBNebo15APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBNebo15APIClient.h; sourceTree = "<group>"; };
+		8192CB26185DEB05002E17B7 /* EBNebo15APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBNebo15APIClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -821,25 +819,23 @@
 		316D8F8C185A4D7A00B874BC /* EBDominoMessager */ = {
 			isa = PBXGroup;
 			children = (
+				8192CB24185DEA09002E17B7 /* Networking */,
 				8192CA2B185D35FF002E17B7 /* JSMessagesViewController */,
 				81795D84185AA055008B0588 /* Resources */,
 				81795D64185A9FD7008B0588 /* WUEmoticonsKeyboard */,
 				316D8FBF185A4DBB00B874BC /* XMPP */,
 				316D8F95185A4D7A00B874BC /* EBAppDelegate.h */,
 				316D8F96185A4D7A00B874BC /* EBAppDelegate.m */,
-				316D9182185A4E1800B874BC /* UsersListViewController.h */,
-				316D9183185A4E1800B874BC /* UsersListViewController.m */,
-				31B7A3A2185A5B9700AA727A /* UsersListViewController.xib */,
 				316D9185185A4E1800B874BC /* SettingsViewController.h */,
 				316D9186185A4E1800B874BC /* SettingsViewController.m */,
 				316D9187185A4E1800B874BC /* SettingsViewController.xib */,
 				316D918C185A4EDB00B874BC /* DMConversationViewController.h */,
 				316D918D185A4EDB00B874BC /* DMConversationViewController.m */,
-				316D8FA1185A4D7A00B874BC /* Images.xcassets */,
-				316D8F8D185A4D7A00B874BC /* Supporting Files */,
 				31B7A3A4185A5D4000AA727A /* EBUserListViewController.h */,
 				31B7A3A5185A5D4000AA727A /* EBUserListViewController.m */,
 				31B7A3A6185A5D4000AA727A /* EBUserListViewController.xib */,
+				316D8FA1185A4D7A00B874BC /* Images.xcassets */,
+				316D8F8D185A4D7A00B874BC /* Supporting Files */,
 			);
 			path = EBDominoMessager;
 			sourceTree = "<group>";
@@ -1755,6 +1751,15 @@
 			path = PNG;
 			sourceTree = "<group>";
 		};
+		8192CB24185DEA09002E17B7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8192CB25185DEB05002E17B7 /* EBNebo15APIClient.h */,
+				8192CB26185DEB05002E17B7 /* EBNebo15APIClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1864,7 +1869,6 @@
 				8192CAB3185D368D002E17B7 /* avatar in Resources */,
 				8192CAC7185D368D002E17B7 /* bubble-classic-typing.png in Resources */,
 				8192CB1F185D3C3D002E17B7 /* unhappy.png in Resources */,
-				31B7A3A3185A5B9700AA727A /* UsersListViewController.xib in Resources */,
 				81795DCF185AA065008B0588 /* keyboard_text_selected.png in Resources */,
 				81795DB0185AA065008B0588 /* weico.png in Resources */,
 				81795DCC185AA065008B0588 /* keyboard_switch_pressed@2x.png in Resources */,
@@ -2067,6 +2071,7 @@
 				316D9166185A4DE300B874BC /* NSXMLElement+XEP_0203.m in Sources */,
 				316D915D185A4DE300B874BC /* XMPPvCardAvatarModule.m in Sources */,
 				316D916E185A4DE300B874BC /* GCDMulticastDelegate.m in Sources */,
+				8192CB27185DEB05002E17B7 /* EBNebo15APIClient.m in Sources */,
 				316D913B185A4DE300B874BC /* XMPPvCardCoreDataStorage.m in Sources */,
 				316D9135185A4DE300B874BC /* XMPPRoomOccupantMemoryStorageObject.m in Sources */,
 				316D9154185A4DE300B874BC /* XMPPCapabilitiesCoreDataStorage.m in Sources */,
@@ -2125,7 +2130,6 @@
 				316D9117185A4DE300B874BC /* XMPPCoreDataStorage.m in Sources */,
 				316D9109185A4DE300B874BC /* XMPPPlainAuthentication.m in Sources */,
 				316D917E185A4DE300B874BC /* DDXMLElement.m in Sources */,
-				316D9188185A4E1800B874BC /* UsersListViewController.m in Sources */,
 				316D9171185A4DE300B874BC /* XMPPSRVResolver.m in Sources */,
 				316D910D185A4DE300B874BC /* NSXMLElement+XMPP.m in Sources */,
 				316D9144185A4DE300B874BC /* XMPPvCardTempModule.m in Sources */,
@@ -2278,8 +2282,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78E90A51C14C45E5A725AF6C /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yevhen Bakumenko (L4AHK85NBL)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/warexi/Desktop/EBDominoMessager,
@@ -2301,6 +2307,7 @@
 					/Users/evgenbakumenko/Documents/DominoMessager,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2FC1B876-24D6-4A29-AD06-9109BB93CC31";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2309,8 +2316,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78E90A51C14C45E5A725AF6C /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yevhen Bakumenko (L4AHK85NBL)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/warexi/Desktop/EBDominoMessager,
@@ -2332,6 +2341,7 @@
 					/Users/evgenbakumenko/Documents/DominoMessager,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2FC1B876-24D6-4A29-AD06-9109BB93CC31";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -1,0 +1,238 @@
+TPods
+v6
+r1
+cCheck dependencies
+cSymLink /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/libPods.a /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
+cCompileC /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7
+cLibtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s
+cLibtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/libPods.a normal arm64
+cCreateUniversalBinary /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a normal armv7\ armv7s\ arm64
+cSetOwnerAndGroup evgenbakumenko:staff /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
+cSetMode u+w,go-w,a+rX /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c0000000052817DDD0000000000000110
+t1384218077
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c00000000523A32D9000000000000036B
+t1379545817
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052670DD800000000000001A0
+t1382485464
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052670DD90000000000A92BC0
+t1382485465
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000523A32FE0000000000000AC9
+t1379545854
+s2761
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/libPods-GMGridView.a
+c0000000052AD13E5000000000016F5B4
+t1387074533
+s1504692
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/libPods-JSMessagesViewController.a
+c0000000052AD13E600000000001EF7D4
+t1387074534
+s2029524
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/libPods-JSQSystemSoundPlayer.a
+c0000000052AD13E4000000000002364C
+t1387074532
+s144972
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/libPods-TestFlightSDK.a
+c0000000052AD13E4000000000000308C
+t1387074532
+s12428
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/libPods.a
+t2
+s0
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o
+t1387074534
+s4080
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/Pods.LinkFileList
+c0000000052AD13E600000000000000C4
+t1387074534
+s196
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/libPods.a
+t1387074534
+s1311112
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o
+t1387074534
+s3504
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList
+c0000000052AD13E600000000000000C4
+t1387074534
+s196
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a
+t1387074534
+s1195688
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
+t1387074534
+s3504
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList
+c0000000052AD13E600000000000000C5
+t1387074534
+s197
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a
+t1387074534
+s1195200
+
+N/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
+t2
+s0
+
+N/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m
+c0000000052AD0B900000000000000070
+t1387072400
+s112
+
+CBuild AST from /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3cda24664b5db841^57d127664b5db841^---0#1#1#--18"Check dependencies36"BB7D7B16-4CFE-449D-8B61-C2ECC9C4AF35-
+
+CCompileC /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408767334.152171
+e408767334.175715
+r1
+xCompileC
+x/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o
+x/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m286"CompileC /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler530927664b5db841^0dfc2c664b5db841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m0000000000000000^4346"CompileC /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Downloads/Emotu/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/include -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers/TestFlightSDK -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/DerivedSources/arm64 -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/DerivedSources -F/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -MMD -MT dependencies -MF /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.d --serialize-diagnostics /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.dia -c /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m -o /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o36"1DA7D030-55D9-4942-8E4D-2B1FD30B1321-
+b0D5ADCD0-E7B0-4496-A975-16185429443B
+
+CCompileC /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408767334.151752
+e408767334.178239
+r1
+xCompileC
+x/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o
+x/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m286"CompileC /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler28f026664b5db841^2fa22d664b5db841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m0000000000000000^4346"CompileC /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Downloads/Emotu/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/include -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers/TestFlightSDK -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/DerivedSources -F/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -MMD -MT dependencies -MF /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.d --serialize-diagnostics /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.dia -c /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m -o /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o36"FB2B018B-AAF6-413D-975A-B54A0618A052-
+b0D5ADCD0-E7B0-4496-A975-16185429443B
+
+CCompileC /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408767334.151947
+e408767334.178283
+r1
+xCompileC
+x/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
+x/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m288"CompileC /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler83f626664b5db841^3bab2d664b5db841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m0000000000000000^4353"CompileC /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Downloads/Emotu/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/include -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/Headers/TestFlightSDK -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/DerivedSources -F/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -MMD -MT dependencies -MF /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.d --serialize-diagnostics /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.dia -c /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m -o /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o36"B6B60467-85F5-4E6C-A20B-7DF9185A1E24-
+b0D5ADCD0-E7B0-4496-A975-16185429443B
+
+CCreateUniversalBinary /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a normal armv7\ armv7s\ arm64
+s408767334.243403
+e408767334.364883
+r1
+xCreateUniversalBinary
+x/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
+xnormal
+xarmv7 armv7s arm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection176"Create universal binary /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a202"CreateUniversalBinary /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a normal armv7\ armv7s\ arm64685e3e664b5db841^2f895f664b5db841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a0034c46addffdf42^1197"CreateUniversalBinary /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a normal armv7\ armv7s\ arm64    cd /Users/evgenbakumenko/Downloads/Emotu/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    libtool -static /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/libPods.a -o /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a36"EE5FAE83-5FAB-4EF2-A502-BE8A69EA77F9-
+b0D5ADCD0-E7B0-4496-A975-16185429443B
+
+CLibtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/libPods.a normal arm64
+s408767334.179350
+e408767334.230709
+r1
+xLibtool
+x/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/libPods.a
+xnormal
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection213"Libtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/libPods.a normal arm64213"Libtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/libPods.a normal arm641afc2d664b5db841^471d3d664b5db841^---0#0#1#--1457"Libtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/libPods.a normal arm64    cd /Users/evgenbakumenko/Downloads/Emotu/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos -L/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/TestFlightSDK -filelist /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/Pods.LinkFileList -framework Foundation -lPods-GMGridView -lPods-JSMessagesViewController -lPods-JSQSystemSoundPlayer -lPods-TestFlightSDK -o /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/arm64/libPods.a36"9A9A2B12-88D2-4B7E-BCA4-D0D094E67E64-
+b0D5ADCD0-E7B0-4496-A975-16185429443B
+
+CLibtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7
+s408767334.178937
+e408767334.242883
+r1
+xLibtool
+x/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a
+xnormal
+xarmv7
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection213"Libtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7213"Libtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv765df2d664b5db841^b36141664b5db841^---0#0#1#--1457"Libtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7    cd /Users/evgenbakumenko/Downloads/Emotu/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos -L/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/TestFlightSDK -filelist /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList -framework Foundation -lPods-GMGridView -lPods-JSMessagesViewController -lPods-JSQSystemSoundPlayer -lPods-TestFlightSDK -o /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a36"7E9DB1AD-DD03-412D-A191-03D2A5C108FB-
+b0D5ADCD0-E7B0-4496-A975-16185429443B
+
+CLibtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s
+s408767334.179131
+e408767334.238605
+r1
+xLibtool
+x/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a
+xnormal
+xarmv7s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection215"Libtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s215"Libtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s24ee2d664b5db841^b0203d664b5db841^---0#0#1#--1462"Libtool /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s    cd /Users/evgenbakumenko/Downloads/Emotu/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos -L/Users/evgenbakumenko/Downloads/Emotu/Pods/Pods/TestFlightSDK -filelist /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList -framework Foundation -lPods-GMGridView -lPods-JSMessagesViewController -lPods-JSQSystemSoundPlayer -lPods-TestFlightSDK -o /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a36"0220A02A-FDF7-4D42-BDD4-E05E1F94446E-
+b0D5ADCD0-E7B0-4496-A975-16185429443B
+
+CSetMode u+w,go-w,a+rX /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
+s408767334.370667
+e408767334.375879
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection174"SetMode u+w,go-w,a+rX /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a174"SetMode u+w,go-w,a+rX /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.aa5f65e664b5db841^113a60664b5db841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a0000000000000000^599"SetMode u+w,go-w,a+rX /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a    cd /Users/evgenbakumenko/Downloads/Emotu/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /bin/chmod -RH u+w,go-w,a+rX /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a36"42F43476-D5B7-4BC5-9F09-779DAF7DB3FB-
+b0D5ADCD0-E7B0-4496-A975-16185429443B
+
+CSetOwnerAndGroup evgenbakumenko:staff /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
+s408767334.365194
+e408767334.370349
+r1
+xSetOwnerAndGroup
+xevgenbakumenko:staff
+x/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"SetOwnerAndGroup evgenbakumenko:staff /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a190"SetOwnerAndGroup evgenbakumenko:staff /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a48895d664b5db841^478f5f664b5db841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a0000000000000000^627"SetOwnerAndGroup evgenbakumenko:staff /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a    cd /Users/evgenbakumenko/Downloads/Emotu/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/sbin/chown -RH evgenbakumenko:staff /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a36"0D9F2B38-FA08-4C25-A5EE-9AB3BC16C342-
+b0D5ADCD0-E7B0-4496-A975-16185429443B
+
+CSymLink /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/libPods.a /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
+s408767334.146932
+e408767334.151211
+r1
+xSymLink
+x/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/libPods.a
+x/Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Process /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/libPods.a301"SymLink /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/libPods.a /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a0cae25664b5db841^9dd427664b5db841^---0#0#1#--850"SymLink /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/libPods.a /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a    cd /Users/evgenbakumenko/Downloads/Emotu/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /bin/ln -sf /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/IntermediateBuildFilesPath/UninstalledProducts/libPods.a /Users/evgenbakumenko/Downloads/Emotu/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/BuildProductsPath/Release-iphoneos/libPods.a36"993FC831-F097-4587-94E1-3C70C4B0355E-
+b0D5ADCD0-E7B0-4496-A975-16185429443B
+

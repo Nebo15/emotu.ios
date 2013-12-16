@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-JSMessagesViewController-dummy.m
+  /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-JSMessagesViewController-dummy.m
