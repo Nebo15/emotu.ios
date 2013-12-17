@@ -66,6 +66,12 @@
 #define COCOAPODS_VERSION_MINOR_JSQSystemSoundPlayer 3
 #define COCOAPODS_VERSION_PATCH_JSQSystemSoundPlayer 1
 
+// SwipeView
+#define COCOAPODS_POD_AVAILABLE_SwipeView
+#define COCOAPODS_VERSION_MAJOR_SwipeView 1
+#define COCOAPODS_VERSION_MINOR_SwipeView 2
+#define COCOAPODS_VERSION_PATCH_SwipeView 10
+
 // TestFlightSDK
 #define COCOAPODS_POD_AVAILABLE_TestFlightSDK
 #define COCOAPODS_VERSION_MAJOR_TestFlightSDK 2

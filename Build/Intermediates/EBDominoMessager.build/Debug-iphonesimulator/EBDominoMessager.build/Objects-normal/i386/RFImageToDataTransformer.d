@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Utilities/RFImageToDataTransformer.m \
-  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Utilities/RFImageToDataTransformer.h
+  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Utilities/RFImageToDataTransformer.m \
+  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Utilities/RFImageToDataTransformer.h

@@ -20,79 +20,36 @@
         WUEmoticonsKeyboard *keyboard = [WUEmoticonsKeyboard keyboard];
         
         //Icon keys
-        WUEmoticonsKeyboardKeyItem *loveKey = [[WUEmoticonsKeyboardKeyItem alloc] init];
-        loveKey.image = [UIImage imageNamed:@"love"];
-        loveKey.textToInput = @"[love]";
-        
-        WUEmoticonsKeyboardKeyItem *applaudKey = [[WUEmoticonsKeyboardKeyItem alloc] init];
-        applaudKey.image = [UIImage imageNamed:@"applaud"];
-        applaudKey.textToInput = @"[applaud]";
-        
-        WUEmoticonsKeyboardKeyItem *weicoKey = [[WUEmoticonsKeyboardKeyItem alloc] init];
-        weicoKey.image = [UIImage imageNamed:@"weico"];
-        weicoKey.textToInput = @"[weico]";
-        
-        NSArray *imageKeys = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"blackSmiles" ofType:@"plist"]];
+        NSArray *imageKeys = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"emoji" ofType:@"plist"]];
         
         NSMutableArray *imageKeyItems = [NSMutableArray array];
-        for (NSString *image in imageKeys) {
+        for (NSDictionary *imageDic in imageKeys) {
             WUEmoticonsKeyboardKeyItem *keyItem = [[WUEmoticonsKeyboardKeyItem alloc] init];
-            keyItem.image = [UIImage imageNamed:image];
-            keyItem.textToInput = image;
+            keyItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageDic[@"1"]]];
+            keyItem.textToInput = [NSString stringWithFormat:@"%@",imageDic[@"1"]];
             [imageKeyItems addObject:keyItem];
         }
         
-        //Icon key group
-        WUEmoticonsKeyboardKeyItemGroup *imageIconsGroup = [[WUEmoticonsKeyboardKeyItemGroup alloc] init];
-        imageIconsGroup.keyItems = imageKeyItems;
-        imageIconsGroup.image = [UIImage imageNamed:@"keyboard_emotion"];
-        imageIconsGroup.selectedImage = [UIImage imageNamed:@"keyboard_emotion_selected"];
-        
-        //Text keys
-        NSArray *textKeys = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"EmotionTextKeys" ofType:@"plist"]];
-        
-        NSMutableArray *textKeyItems = [NSMutableArray array];
-        for (NSString *text in textKeys) {
-            WUEmoticonsKeyboardKeyItem *keyItem = [[WUEmoticonsKeyboardKeyItem alloc] init];
-            keyItem.title = text;
-            keyItem.textToInput = text;
-            [textKeyItems addObject:keyItem];
+        NSMutableArray *groupsArray = [NSMutableArray array];
+        for (int i  = 0; i < [imageKeys count]; i+=141) {
+            WUEmoticonsKeyboardKeyItemGroup *imageIconsGroup = [[WUEmoticonsKeyboardKeyItemGroup alloc] init];
+            imageIconsGroup.keyItems = [imageKeyItems subarrayWithRange:NSMakeRange(i, 141)];
+            imageIconsGroup.image = [(WUEmoticonsKeyboardKeyItem *)imageKeyItems[i] image];
+            //imageIconsGroup2.selectedImage = [UIImage imageNamed:@"keyboard_emotion_selected"];
+            [groupsArray addObject:imageIconsGroup];
         }
         
-        //Text key group
-        WUEmoticonsKeyboardKeysPageFlowLayout *textIconsLayout = [[WUEmoticonsKeyboardKeysPageFlowLayout alloc] init];
-        textIconsLayout.itemSize = CGSizeMake(80, 142/3.0);
-        textIconsLayout.itemSpacing = 0;
-        textIconsLayout.lineSpacing = 0;
-        textIconsLayout.pageContentInsets = UIEdgeInsetsMake(0,0,0,0);
-        
-        WUEmoticonsKeyboardKeyItemGroup *textIconsGroup = [[WUEmoticonsKeyboardKeyItemGroup alloc] init];
-        textIconsGroup.keyItems = textKeyItems;
-        textIconsGroup.keyItemsLayout = textIconsLayout;
-        textIconsGroup.keyItemCellClass = WUDemoKeyboardTextKeyCell.class;
-        textIconsGroup.image = [UIImage imageNamed:@"keyboard_text"];
-        textIconsGroup.selectedImage = [UIImage imageNamed:@"keyboard_text_selected"];
-        
         //Set keyItemGroups
-        keyboard.keyItemGroups = @[imageIconsGroup,textIconsGroup];
+        keyboard.keyItemGroups = [[[NSArray arrayWithArray:groupsArray] reverseObjectEnumerator] allObjects];
         
         //Setup cell popup view
         [keyboard setKeyItemGroupPressedKeyCellChangedBlock:^(WUEmoticonsKeyboardKeyItemGroup *keyItemGroup, WUEmoticonsKeyboardKeyCell *fromCell, WUEmoticonsKeyboardKeyCell *toCell) {
             [WUDemoKeyboardBuilder sharedEmotionsKeyboardKeyItemGroup:keyItemGroup pressedKeyCellChangedFromCell:fromCell toCell:toCell];
         }];
-
-        //Keyboard appearance
-        
-        //Custom text icons scroll background
-        UIView *textGridBackgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [textIconsLayout collectionViewContentSize].width, [textIconsLayout collectionViewContentSize].height)];
-        textGridBackgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-        textGridBackgroundView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"keyboard_grid_bg"]];
-        [textIconsLayout.collectionView addSubview:textGridBackgroundView];
-        
         //Custom utility keys
-        [keyboard setImage:[UIImage imageNamed:@"keyboard_switch"] forButton:WUEmoticonsKeyboardButtonKeyboardSwitch state:UIControlStateNormal];
+       // [keyboard setImage:[UIImage imageNamed:@"keyboard_switch"] forButton:WUEmoticonsKeyboardButtonKeyboardSwitch state:UIControlStateNormal];
         [keyboard setImage:[UIImage imageNamed:@"keyboard_del"] forButton:WUEmoticonsKeyboardButtonBackspace state:UIControlStateNormal];
-        [keyboard setImage:[UIImage imageNamed:@"keyboard_switch_pressed"] forButton:WUEmoticonsKeyboardButtonKeyboardSwitch state:UIControlStateHighlighted];
+       // [keyboard setImage:[UIImage imageNamed:@"keyboard_switch_pressed"] forButton:WUEmoticonsKeyboardButtonKeyboardSwitch state:UIControlStateHighlighted];
         [keyboard setImage:[UIImage imageNamed:@"keyboard_del_pressed"] forButton:WUEmoticonsKeyboardButtonBackspace state:UIControlStateHighlighted];
         
         //Keyboard background

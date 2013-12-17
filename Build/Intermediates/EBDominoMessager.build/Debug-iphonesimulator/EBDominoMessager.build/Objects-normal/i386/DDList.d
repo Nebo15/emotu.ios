@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Utilities/DDList.m \
-  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/Utilities/DDList.h
+  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Utilities/DDList.m \
+  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Utilities/DDList.h

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeysPageFlowLayout.m \
-  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeysPageFlowLayout.h
+  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeysPageFlowLayout.m \
+  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeysPageFlowLayout.h

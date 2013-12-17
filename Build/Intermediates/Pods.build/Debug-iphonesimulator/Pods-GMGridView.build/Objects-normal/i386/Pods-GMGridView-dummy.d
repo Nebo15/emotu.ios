@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-GMGridView-dummy.m
+  /Users/evgenbakumenko/Downloads/Emotu2/Pods/Pods-GMGridView-dummy.m

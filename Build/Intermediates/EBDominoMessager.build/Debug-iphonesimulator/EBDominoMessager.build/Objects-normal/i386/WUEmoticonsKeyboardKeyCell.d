@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyCell.m \
-  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyCell.h \
-  /Users/evgenbakumenko/Downloads/Emotu/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItem.h
+  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyCell.m \
+  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyCell.h \
+  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItem.h

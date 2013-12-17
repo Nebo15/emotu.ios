@@ -1,1 +1,1 @@
-dependencies: /Users/evgenbakumenko/Downloads/Emotu/Pods/Pods-dummy.m
+dependencies: /Users/evgenbakumenko/Downloads/Emotu2/Pods/Pods-dummy.m

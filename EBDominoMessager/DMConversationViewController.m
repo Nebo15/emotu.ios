@@ -238,9 +238,7 @@
 		                                                        // xmppStream:_xmppStream
                                                      // managedObjectContext:_managedObjectContext_roster];
 		[self.messages addObject:message];
-        
         [self.timestamps addObject:[NSDate date]];
-        
         
         [JSMessageSoundEffect playMessageReceivedSound];
         

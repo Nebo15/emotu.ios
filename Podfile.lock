@@ -21,6 +21,7 @@ PODS:
   - JSMessagesViewController (3.4.0):
     - JSQSystemSoundPlayer
   - JSQSystemSoundPlayer (1.3.1)
+  - SwipeView (1.2.10)
   - TestFlightSDK (2.0.2)
 
 DEPENDENCIES:
@@ -28,6 +29,7 @@ DEPENDENCIES:
   - GMGridView (~> 1.1.1)
   - JSMessagesViewController
   - JSQSystemSoundPlayer (~> 1.3.1)
+  - SwipeView (~> 1.2.10)
   - TestFlightSDK (~> 2.0.2)
 
 SPEC CHECKSUMS:
@@ -35,6 +37,7 @@ SPEC CHECKSUMS:
   GMGridView: a17a31f010990eb8f802abb4cab50e6e03e993ea
   JSMessagesViewController: f01a5fcbaa20ad7758a4cb350677a0a55aa02bf6
   JSQSystemSoundPlayer: dd7319270841f836286e1211133f4fa6fd2752b6
+  SwipeView: 0218f1fe1a271a610279815101b808a054fe631a
   TestFlightSDK: 0811097c1f831afb71f68ccd07ae71325cb90f43
 
 COCOAPODS: 0.28.0
