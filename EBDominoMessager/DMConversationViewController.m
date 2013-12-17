@@ -14,10 +14,13 @@
 #import "EBUserListViewController.h"
 #import "WUDemoKeyboardBuilder.h"
 #import "WUEmoticonsKeyboardKeyItemGroup.h"
+#import "EBContact.h"
 
 #define kSubtitleYou @"You"
 #define kSubtitleWoz @"Steve Wozniak"
 #define kSubtitleCook @"Mr. Cook"
+
+static NSInteger const kCollectionViewCellImageTag = 101;
 
 @interface DMConversationViewController ()<JSMessagesViewDataSource, JSMessagesViewDelegate, XMPPStreamDelegate, UITextViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate>
 
@@ -86,7 +89,7 @@
     
     NSXMLElement *message = [NSXMLElement elementWithName:@"message"];
     [message addAttributeWithName:@"type" stringValue:@"chat"];
-    [message addAttributeWithName:@"to" stringValue:_jid];
+    [message addAttributeWithName:@"to" stringValue:[_jid jid]];
     [message addChild:body];
     
     [_xmppStream sendElement:message];
@@ -111,7 +114,7 @@
 
 - (JSBubbleMessageType)messageTypeForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [[[(NSXMLElement *)_messages[indexPath.row] attributeForName:@"to"] stringValue] isEqualToString:_jid] ? JSBubbleMessageTypeOutgoing : JSBubbleMessageTypeIncoming;
+    return [[[(NSXMLElement *)_messages[indexPath.row] attributeForName:@"to"] stringValue] isEqualToString:_jid.jid] ? JSBubbleMessageTypeOutgoing : JSBubbleMessageTypeIncoming;
 }
 
 - (UIImageView *)bubbleImageViewWithType:(JSBubbleMessageType)type
@@ -242,7 +245,7 @@
         
         [JSMessageSoundEffect playMessageReceivedSound];
         
-        NSString * userName = [[message fromStr] substringFromIndex:[[message fromStr] rangeOfString:@"/"].location];
+        NSString * userName = _jid.name? _jid.name : _jid.numbers[0];
         
         [self.subtitles addObject:userName];
         [self.avatars setObject:[JSAvatarImageFactory avatarImageNamed:@"avatar-placeholder" croppedToCircle:YES] forKey:userName];
@@ -278,6 +281,7 @@
         
        // if(lastSmile.location != NSNotFound) {
         [_smilesKeys removeLastObject];
+        [_smilesCollectionView reloadData];
         
         textView.text = [textView.text substringToIndex:4 *[_smilesKeys count]];
        //}
@@ -289,14 +293,12 @@
     else if(text.length > 0)
     {
         textView.text = [NSString stringWithFormat:@"%@aara",textView.text];
-        text = [text stringByReplacingOccurrencesOfString:@"[" withString:@""];
-        text = [text stringByReplacingOccurrencesOfString:@"]" withString:@""];
         [_smilesKeys addObject:text];
+        [_smilesCollectionView reloadData];
         self.messageInputView.sendButton.enabled = YES;
     }
     textView.selectedRange = NSMakeRange(4 *[_smilesKeys count], 0);
     [_smilesCollectionView setFrame:CGRectMake(0, 0, 220, (([_smilesKeys count] / 7) + 1) * 34 )];
-    [_smilesCollectionView reloadData];
     return NO;
 }
 
@@ -313,11 +315,20 @@
     
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     
-    UIImageView* image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:_smilesKeys[indexPath.row]]];
-    image.frame = CGRectMake(0, 0, 30, 30);
-    image.contentMode = UIViewContentModeScaleAspectFit;
-    [cell addSubview:image];
+    UIImageView* image;
+    if ([cell viewWithTag:kCollectionViewCellImageTag]) {
+        image = (UIImageView *)[cell viewWithTag:kCollectionViewCellImageTag];
+    }
+    else
+    {
+        image = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+        image.contentMode = UIViewContentModeScaleAspectFit;
+        image.tag = kCollectionViewCellImageTag;
+        [cell addSubview:image];
+    }
     
+    image.image = [UIImage imageNamed:_smilesKeys[indexPath.row]];
+
     return cell;
 }
 

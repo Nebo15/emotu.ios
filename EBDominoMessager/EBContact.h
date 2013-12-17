@@ -10,4 +10,10 @@
 
 @interface EBContact : NSObject
 
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, strong) UIImage *image;
+@property (nonatomic, copy) NSArray *numbers;
+@property (nonatomic, copy) NSArray *emails;
+@property (nonatomic, copy) NSString *jid;
+
 @end

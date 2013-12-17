@@ -51,13 +51,6 @@ NSString *const kXMPPmyPassword = @"kXMPPmyPassword";
     _confirmCodeTextField.layer.cornerRadius = 7.0;
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-  [super viewWillAppear:animated];
-  
- // jidField.text = [[NSUserDefaults standardUserDefaults] stringForKey:kXMPPmyJID];
- // passwordField.text = [[NSUserDefaults standardUserDefaults] stringForKey:kXMPPmyPassword];
-}
-
 #pragma mark Private
 
 - (void)setField:(NSString *)field forKey:(NSString *)key

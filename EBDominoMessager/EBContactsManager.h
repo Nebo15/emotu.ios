@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface EBContactsManager : NSObject
-
++ (EBContactsManager *)sharedManager;
+- (NSArray *)getAllContacts;
 @end

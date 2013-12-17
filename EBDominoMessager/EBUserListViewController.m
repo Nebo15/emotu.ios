@@ -8,13 +8,12 @@
 
 #import "EBUserListViewController.h"
 #import "EBAppDelegate.h"
-
 #import "SettingsViewController.h"
-
 #import "XMPPFramework.h"
 #import "DDLog.h"
-
 #import "DMConversationViewController.h"
+#import "EBContactsManager.h"
+#import "EBContact.h"
 
 // Log levels: off, error, warn, info, verbose
 #if DEBUG
@@ -27,12 +26,12 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 
 - (void)setupStream;
 - (void)teardownStream;
-
 - (void)goOnline;
 - (void)goOffline;
 
 @property (nonatomic, strong) DMConversationViewController* conversationVC;
-@property (nonatomic, strong) NSArray * users;
+@property (nonatomic, copy) NSMutableArray *users;
+@property (nonatomic, copy) NSMutableArray *contacts;
 
 @end
 
@@ -46,7 +45,6 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 @synthesize xmppvCardAvatarModule;
 @synthesize xmppCapabilities;
 @synthesize xmppCapabilitiesStorage;
-
 @synthesize loginButton;
 
 #pragma mark Accessors
@@ -75,6 +73,8 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 		});
 	}
     
+    _contacts = [[NSMutableArray alloc] initWithArray:[[EBContactsManager sharedManager] getAllContacts]];
+    _users = [NSMutableArray array];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -83,20 +83,15 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
     
 	UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 400, 44)];
 	titleLabel.backgroundColor = [UIColor clearColor];
-	titleLabel.textColor = [UIColor whiteColor];
+	titleLabel.textColor = [UIColor blackColor
+                            ];
 	titleLabel.font = [UIFont boldSystemFontOfSize:20.0];
 	titleLabel.numberOfLines = 1;
 	titleLabel.adjustsFontSizeToFitWidth = YES;
 	titleLabel.shadowColor = [UIColor colorWithWhite:0.0 alpha:0.5];
 	titleLabel.textAlignment = NSTextAlignmentCenter;
     
-	if ([self connect])
-	{
-		titleLabel.text = [[[self xmppStream] myJID] bare];
-	} else
-	{
-		titleLabel.text = @"No JID";
-	}
+    titleLabel.text = @"Emotu";
 	
 	[titleLabel sizeToFit];
     
@@ -185,26 +180,17 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-	return 1;//[[[self fetchedResultsController] sections] count];
+	return 2;//[[[self fetchedResultsController] sections] count];
 }
 
 - (NSString *)tableView:(UITableView *)sender titleForHeaderInSection:(NSInteger)sectionIndex
 {
-	NSArray *sections = [[self fetchedResultsController] sections];
-	
-	if (sectionIndex < [sections count])
-	{
-		id <NSFetchedResultsSectionInfo> sectionInfo = sections[sectionIndex];
-        
-		int section = [sectionInfo.name intValue];
-		switch (section)
-		{
-			case 0  : return @"Available";
-			case 1  : return @"Away";
-			default : return @"Offline";
-		}
-	}
-	
+    switch (sectionIndex)
+    {
+        case 0  : return @"Using Emotu";
+        case 1  : return @"Invite";
+        default : return @"Offline";
+    }
 	return @"";
 }
 
@@ -217,8 +203,13 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 //		id <NSFetchedResultsSectionInfo> sectionInfo = sections[sectionIndex];
 //		return sectionInfo.numberOfObjects;
 //	}
+    
+    if (sectionIndex == 0) {
+        return [_users count];
+    }
+    else
+        return [_contacts count];
 	
-	return [_users count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -234,7 +225,13 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 	
 	//XMPPUserCoreDataStorageObject *user = [[self fetchedResultsController] objectAtIndexPath:indexPath];
 	
-	cell.textLabel.text = _users[indexPath.row];
+    if (indexPath.section == 0) {
+        EBContact *contact = _users[indexPath.row];
+        cell.textLabel.text = [contact name]?[contact name] : [contact numbers][0];
+    }
+    else
+        cell.textLabel.text = [_contacts[indexPath.row] name];
+	
 	//[self configurePhotoForCell:cell user:user];
 	
 	return cell;
@@ -243,11 +240,14 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //XMPPUserCoreDataStorageObject *user = [[self fetchedResultsController] objectAtIndexPath:indexPath];
-    _conversationVC.jid = _users[indexPath.row];
-    _conversationVC.xmppStream = self.xmppStream;
-    _conversationVC.xmppRosterStorage = self.xmppRosterStorage;
-    _conversationVC.managedObjectContext_roster = self.managedObjectContext_roster;
-    [self.navigationController pushViewController:_conversationVC animated:YES];
+    if (indexPath.section == 0) {
+        _conversationVC.jid = _users[indexPath.row];
+        _conversationVC.xmppStream = self.xmppStream;
+        _conversationVC.xmppRosterStorage = self.xmppRosterStorage;
+        _conversationVC.managedObjectContext_roster = self.managedObjectContext_roster;
+        [self.navigationController pushViewController:_conversationVC animated:YES];
+    }
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -452,7 +452,44 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
     
     [[EBNebo15APIClient sharedClient] getUserListWithCompletion:^(BOOL success, NSArray *users) {
         if (users) {
-            _users = users;
+            NSMutableArray *userContacts = [NSMutableArray array];
+            [users enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+                EBContact *user = [EBContact new];
+                [user setNumbers:@[[(NSString*)obj substringToIndex:[obj rangeOfString:@"@"].location]]];
+                [user setJid:obj];
+                [userContacts addObject:user];
+            }];
+            _users = userContacts;
+            [_users enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+                NSString * number = [[obj numbers][0] substringFromIndex:2];
+                NSPredicate *numberPredicate = [NSPredicate predicateWithFormat:@"SELF CONTAINS %@",number];
+                [_contacts enumerateObjectsUsingBlock:^(id obj1, NSUInteger idx1, BOOL *stop1) {
+                    NSArray *numbers = [obj1 numbers];
+                    NSArray * filteredArray = [numbers filteredArrayUsingPredicate:numberPredicate];
+                    if ([filteredArray count] > 0) {
+                        [_contacts removeObject:obj1];
+                        [obj1 setJid:[obj jid]];
+                        [_users removeObject:obj];
+                        [_users addObject:obj1];
+                    }
+                }];
+            }];
+            
+//            [_contacts enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+//                NSString * number = [obj numbers][0];
+//                NSPredicate *numberPredicate = [NSPredicate predicateWithFormat:@"SELF CONTAINS %@",number];
+//                [_users enumerateObjectsUsingBlock:^(id obj1, NSUInteger idx1, BOOL *stop1) {
+//                    NSArray *numbers = [obj1 numbers];
+//                    NSArray * filteredArray = [numbers filteredArrayUsingPredicate:numberPredicate];
+//                    if ([filteredArray count] > 0) {
+//                        [_users removeObject:obj1];
+//                        [obj1 setName:[obj name]];
+//                        [_contacts removeObject:obj];
+//                        [_contacts addObject:obj1];
+//                    }
+//                }];
+//            }];
+            
             [[self tableView] reloadData];
         }
     }];

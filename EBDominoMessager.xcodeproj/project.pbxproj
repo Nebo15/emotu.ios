@@ -64,6 +64,9 @@
 		312360811860A2D7009205E5 /* JSMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 312360481860A2D7009205E5 /* JSMessageTextView.m */; };
 		312360821860A2D7009205E5 /* message-received.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3123604A1860A2D7009205E5 /* message-received.aiff */; };
 		312360831860A2D7009205E5 /* message-sent.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3123604B1860A2D7009205E5 /* message-sent.aiff */; };
+		316AC17E1860A8F500D62192 /* EBContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 316AC17D1860A8F500D62192 /* EBContactsManager.m */; };
+		316AC1801860A90A00D62192 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316AC17F1860A90A00D62192 /* AddressBook.framework */; };
+		316AC1841860A96D00D62192 /* EBContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 316AC1831860A96D00D62192 /* EBContact.m */; };
 		316D8F91185A4D7A00B874BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 316D8F8F185A4D7A00B874BC /* InfoPlist.strings */; };
 		316D8F93185A4D7A00B874BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D8F92185A4D7A00B874BC /* main.m */; };
 		316D8F97185A4D7A00B874BC /* EBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D8F96185A4D7A00B874BC /* EBAppDelegate.m */; };
@@ -1203,6 +1206,11 @@
 		312360481860A2D7009205E5 /* JSMessageTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSMessageTextView.m; path = EBDominoMessager/JSMessageViewController/JSMessageTextView.m; sourceTree = SOURCE_ROOT; };
 		3123604A1860A2D7009205E5 /* message-received.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "message-received.aiff"; sourceTree = "<group>"; };
 		3123604B1860A2D7009205E5 /* message-sent.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "message-sent.aiff"; sourceTree = "<group>"; };
+		316AC17C1860A8F500D62192 /* EBContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBContactsManager.h; sourceTree = "<group>"; };
+		316AC17D1860A8F500D62192 /* EBContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBContactsManager.m; sourceTree = "<group>"; };
+		316AC17F1860A90A00D62192 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		316AC1821860A96D00D62192 /* EBContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBContact.h; sourceTree = "<group>"; };
+		316AC1831860A96D00D62192 /* EBContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBContact.m; sourceTree = "<group>"; };
 		316D8F83185A4D7A00B874BC /* EBDominoMessager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBDominoMessager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		316D8F8E185A4D7A00B874BC /* EBDominoMessager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EBDominoMessager-Info.plist"; sourceTree = "<group>"; };
 		316D8F90185A4D7A00B874BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -2459,6 +2467,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316AC1801860A90A00D62192 /* AddressBook.framework in Frameworks */,
 				31B7A39F185A57BA00AA727A /* CoreData.framework in Frameworks */,
 				31B7A39D185A578600AA727A /* QuartzCore.framework in Frameworks */,
 				31B7A39B185A575100AA727A /* libresolv.dylib in Frameworks */,
@@ -2620,6 +2629,24 @@
 			path = EBDominoMessager/JSMessageViewController/Sounds;
 			sourceTree = SOURCE_ROOT;
 		};
+		316AC17B1860A8D000D62192 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				316AC17C1860A8F500D62192 /* EBContactsManager.h */,
+				316AC17D1860A8F500D62192 /* EBContactsManager.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		316AC1811860A94000D62192 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				316AC1821860A96D00D62192 /* EBContact.h */,
+				316AC1831860A96D00D62192 /* EBContact.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		316D8F7A185A4D7A00B874BC = {
 			isa = PBXGroup;
 			children = (
@@ -2643,6 +2670,7 @@
 		316D8F85185A4D7A00B874BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				316AC17F1860A90A00D62192 /* AddressBook.framework */,
 				81795D62185A8E53008B0588 /* libidn.a */,
 				31B7A39E185A57BA00AA727A /* CoreData.framework */,
 				31B7A39C185A578600AA727A /* QuartzCore.framework */,
@@ -2663,6 +2691,8 @@
 		316D8F8C185A4D7A00B874BC /* EBDominoMessager */ = {
 			isa = PBXGroup;
 			children = (
+				316AC1811860A94000D62192 /* Models */,
+				316AC17B1860A8D000D62192 /* Utils */,
 				8192CB24185DEA09002E17B7 /* Networking */,
 				8192CA2B185D35FF002E17B7 /* JSMessagesViewController */,
 				81795D84185AA055008B0588 /* Resources */,
@@ -5599,6 +5629,7 @@
 				316D9145185A4DE300B874BC /* XMPPvCardTempTel.m in Sources */,
 				316D9150185A4DE300B874BC /* XMPPSoftwareVersion.m in Sources */,
 				316D917F185A4DE300B874BC /* DDXMLNode.m in Sources */,
+				316AC1841860A96D00D62192 /* EBContact.m in Sources */,
 				316D8F97185A4D7A00B874BC /* EBAppDelegate.m in Sources */,
 				316D911D185A4DE300B874BC /* XMPPRoster.xcdatamodel in Sources */,
 				316D9155185A4DE300B874BC /* XMPPCapsCoreDataStorageObject.m in Sources */,
@@ -5613,6 +5644,7 @@
 				316D912A185A4DE300B874BC /* XMPPPrivacy.m in Sources */,
 				316D9158185A4DE300B874BC /* XMPPMessageArchiving.xcdatamodeld in Sources */,
 				316D913A185A4DE300B874BC /* XMPPvCardAvatarCoreDataStorageObject.m in Sources */,
+				316AC17E1860A8F500D62192 /* EBContactsManager.m in Sources */,
 				316D912B185A4DE300B874BC /* XMPPRoom.xcdatamodeld in Sources */,
 				316D915A185A4DE300B874BC /* XMPPMessageArchiving_Message_CoreDataObject.m in Sources */,
 				316D9165185A4DE300B874BC /* XMPPTime.m in Sources */,
@@ -5810,7 +5842,7 @@
 					/Users/evgenbakumenko/Documents/DominoMessager,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2FC1B876-24D6-4A29-AD06-9109BB93CC31";
+				PROVISIONING_PROFILE = "AF580882-F70B-4D26-A14E-C084C6E39901";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -5844,7 +5876,7 @@
 					/Users/evgenbakumenko/Documents/DominoMessager,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2FC1B876-24D6-4A29-AD06-9109BB93CC31";
+				PROVISIONING_PROFILE = "AF580882-F70B-4D26-A14E-C084C6E39901";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
