@@ -452,14 +452,13 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
     
     [[EBNebo15APIClient sharedClient] getUserListWithCompletion:^(BOOL success, NSArray *users) {
         if (users) {
-            NSMutableArray *userContacts = [NSMutableArray array];
             [users enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
                 EBContact *user = [EBContact new];
                 [user setNumbers:@[[(NSString*)obj substringToIndex:[obj rangeOfString:@"@"].location]]];
                 [user setJid:obj];
-                [userContacts addObject:user];
+                [_users addObject:user];
             }];
-            _users = userContacts;
+           // _users = [NSMutableArray arrayWithArray:userContacts];
             [_users enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
                 NSString * number = [[obj numbers][0] substringFromIndex:2];
                 NSPredicate *numberPredicate = [NSPredicate predicateWithFormat:@"SELF CONTAINS %@",number];
@@ -469,8 +468,8 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
                     if ([filteredArray count] > 0) {
                         [_contacts removeObject:obj1];
                         [obj1 setJid:[obj jid]];
-                        [_users removeObject:obj];
-                        [_users addObject:obj1];
+                        
+                        [_users replaceObjectAtIndex:idx withObject:obj1];
                     }
                 }];
             }];

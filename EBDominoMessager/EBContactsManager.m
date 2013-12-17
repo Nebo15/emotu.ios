@@ -96,6 +96,7 @@
                 phoneNumber = [phoneNumber stringByReplacingOccurrencesOfString:@")" withString:@""];
                 phoneNumber = [phoneNumber stringByReplacingOccurrencesOfString:@" " withString:@""];
                 phoneNumber = [phoneNumber stringByReplacingOccurrencesOfString:@"-" withString:@""];
+                phoneNumber = [phoneNumber stringByReplacingOccurrencesOfString:@" " withString:@""];
                 [phoneNumbers addObject:phoneNumber];
                 
                 //NSLog(@"All numbers %@", phoneNumbers);

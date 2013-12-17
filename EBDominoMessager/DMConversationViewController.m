@@ -83,7 +83,7 @@ static NSInteger const kCollectionViewCellImageTag = 101;
     [_smilesKeys enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         obj = [NSString stringWithFormat:@"[%@",obj];
     }];
-    NSString * combinedStuff = [_smilesKeys componentsJoinedByString:@"]"];
+    NSString * combinedStuff = [_smilesKeys componentsJoinedByString:@","];
     NSXMLElement *body = [NSXMLElement elementWithName:@"body"];
     [body setStringValue:combinedStuff];
     
