@@ -72,19 +72,6 @@ NSString *const kXMPPmyPassword = @"kXMPPmyPassword";
 
 #pragma mark Actions
 
-//- (IBAction)done:(id)sender
-//{
-//  [self setField:jidField forKey:kXMPPmyJID];
-//  [self setField:passwordField forKey:kXMPPmyPassword];
-//
-//  [self dismissViewControllerAnimated:YES completion:NULL];
-//}
-
-- (IBAction)hideKeyboard:(id)sender {
-  [sender resignFirstResponder];
-  [self done:sender];
-}
-
 - (IBAction)registerWithNumberClicked:(id)sender
 {
     if (_phoneNumberTextField.text.length != 9) {
@@ -92,7 +79,7 @@ NSString *const kXMPPmyPassword = @"kXMPPmyPassword";
         [errorAlert show];
     }
     else
-        [[EBNebo15APIClient sharedClient] registerWithPhoneNumber:[NSString stringWithFormat:@"+380%@",_phoneNumberTextField.text] withCompletion:^(BOOL success){
+       // [[EBNebo15APIClient sharedClient] registerWithPhoneNumber:[NSString stringWithFormat:@"+380%@",_phoneNumberTextField.text] withCompletion:^(BOOL success){
             [UIView animateWithDuration:0.3 animations:^{
                 CGRect buttonFrame = [_nextButton frame];
                 buttonFrame.origin.y = 240;
@@ -106,7 +93,7 @@ NSString *const kXMPPmyPassword = @"kXMPPmyPassword";
                 [_nextButton removeTarget:self action:@selector(registerWithNumberClicked:) forControlEvents:UIControlEventTouchUpInside];
                 [_nextButton addTarget:self action:@selector(confirmClicked:) forControlEvents:UIControlEventTouchUpInside];
             }];
-        }];
+       // }];
 }
 
 - (IBAction)confirmClicked:(id)sender
@@ -123,12 +110,5 @@ NSString *const kXMPPmyPassword = @"kXMPPmyPassword";
             [self dismissViewControllerAnimated:YES completion:NULL];
         }];
 }
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-#pragma mark Getter/setter methods
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-@synthesize jidField;
-@synthesize passwordField;
 
 @end
