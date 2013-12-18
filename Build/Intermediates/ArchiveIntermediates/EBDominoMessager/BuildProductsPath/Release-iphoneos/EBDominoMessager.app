@@ -1,1 +1,1 @@
-/Users/evgenbakumenko/Downloads/Emotu2/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/InstallationBuildProductsLocation/Applications/EBDominoMessager.app
+/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/ArchiveIntermediates/EBDominoMessager/InstallationBuildProductsLocation/Applications/EBDominoMessager.app

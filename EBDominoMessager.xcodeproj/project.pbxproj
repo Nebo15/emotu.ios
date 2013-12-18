@@ -5842,7 +5842,7 @@
 					/Users/evgenbakumenko/Documents/DominoMessager,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "AF580882-F70B-4D26-A14E-C084C6E39901";
+				PROVISIONING_PROFILE = "AF6FAF08-1543-438F-968D-928D5A1F8622";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -5876,7 +5876,7 @@
 					/Users/evgenbakumenko/Documents/DominoMessager,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "AF580882-F70B-4D26-A14E-C084C6E39901";
+				PROVISIONING_PROFILE = "AF6FAF08-1543-438F-968D-928D5A1F8622";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -223,7 +223,7 @@
 
 + (CGFloat)textViewLineHeight
 {
-    return 36.0f; // for fontSize 16.0f
+    return 33.0f; // for fontSize 16.0f
 }
 
 + (CGFloat)maxLines
@@ -238,7 +238,11 @@
 
 - (CGFloat)layoutManager:(NSLayoutManager *)layoutManager lineSpacingAfterGlyphAtIndex:(NSUInteger)glyphIndex withProposedLineFragmentRect:(CGRect)rect
 {
-    return 8.5; // For really wide spacing; pick your own value
+    if (glyphIndex > 26) {
+        return 9;
+    }
+    else
+    return 6; // For really wide spacing; pick your own value
 }
 
 @end

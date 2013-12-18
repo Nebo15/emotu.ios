@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView-Constants.h

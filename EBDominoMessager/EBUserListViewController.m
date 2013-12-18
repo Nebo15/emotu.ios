@@ -73,7 +73,6 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 		});
 	}
     
-    _contacts = [[NSMutableArray alloc] initWithArray:[[EBContactsManager sharedManager] getAllContacts]];
     _users = [NSMutableArray array];
 }
 
@@ -96,6 +95,13 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 	[titleLabel sizeToFit];
     
 	self.navigationItem.titleView = titleLabel;
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    _contacts = [[NSMutableArray alloc] initWithArray:[[EBContactsManager sharedManager] getAllContacts]];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -154,23 +160,18 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 #pragma mark UITableViewCell helpers
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-- (void)configurePhotoForCell:(UITableViewCell *)cell user:(XMPPUserCoreDataStorageObject *)user
+- (void)configurePhotoForCell:(UITableViewCell *)cell user:(EBContact *)user
 {
 	// Our xmppRosterStorage will cache photos as they arrive from the xmppvCardAvatarModule.
 	// We only need to ask the avatar module for a photo, if the roster doesn't have it.
 	
-	if (user.photo != nil)
+	if (user.image != nil)
 	{
-		cell.imageView.image = user.photo;
+		cell.imageView.image = user.image;
 	}
 	else
 	{
-		NSData *photoData = [xmppvCardAvatarModule photoDataForJID:user.jid];
-        
-		if (photoData != nil)
-			cell.imageView.image = [UIImage imageWithData:photoData];
-		else
-			cell.imageView.image = [UIImage imageNamed:@"defaultPerson"];
+        cell.imageView.image = [UIImage imageNamed:@"avatar-placeholder"];
 	}
 }
 
@@ -196,14 +197,6 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)sectionIndex
 {
-//	NSArray *sections = [[self fetchedResultsController] sections];
-//	
-//	if (sectionIndex < [sections count])
-//	{
-//		id <NSFetchedResultsSectionInfo> sectionInfo = sections[sectionIndex];
-//		return sectionInfo.numberOfObjects;
-//	}
-    
     if (sectionIndex == 0) {
         return [_users count];
     }
@@ -228,12 +221,20 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
     if (indexPath.section == 0) {
         EBContact *contact = _users[indexPath.row];
         cell.textLabel.text = [contact name]?[contact name] : [contact numbers][0];
+        [self configurePhotoForCell:cell user:_users[indexPath.row]];
+        cell.textLabel.font = [UIFont boldSystemFontOfSize:17];
     }
     else
+    {
         cell.textLabel.text = [_contacts[indexPath.row] name];
-	
-	//[self configurePhotoForCell:cell user:user];
-	
+        [self configurePhotoForCell:cell user:_contacts[indexPath.row]];
+        cell.textLabel.font = [UIFont systemFontOfSize:16];
+    }
+    
+    cell.imageView.layer.masksToBounds = YES;
+    cell.imageView.layer.cornerRadius = 22.0;
+    cell.imageView.contentMode = UIViewContentModeScaleToFill;
+    
 	return cell;
 }
 
@@ -243,8 +244,8 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
     if (indexPath.section == 0) {
         _conversationVC.jid = _users[indexPath.row];
         _conversationVC.xmppStream = self.xmppStream;
-        _conversationVC.xmppRosterStorage = self.xmppRosterStorage;
-        _conversationVC.managedObjectContext_roster = self.managedObjectContext_roster;
+       // _conversationVC.xmppRosterStorage = self.xmppRosterStorage;
+       // _conversationVC.managedObjectContext_roster = self.managedObjectContext_roster;
         [self.navigationController pushViewController:_conversationVC animated:YES];
     }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];

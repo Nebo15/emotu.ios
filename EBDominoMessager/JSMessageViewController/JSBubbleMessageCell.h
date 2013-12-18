@@ -104,6 +104,10 @@
 
 - (void)transformTextToSmiles:(NSString *)message;
 
+- (void)setBubbleViewType:(JSBubbleMessageType)type andBubbleImage:(UIImageView *)bubbleImage timestamp:(BOOL)hasTimestamp
+                   avatar:(BOOL)hasAvatar
+				 subtitle:(BOOL)hasSubtitle;
+
 #pragma mark - Getters
 
 /**

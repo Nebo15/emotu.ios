@@ -1,1 +1,1 @@
-dependencies: /Users/evgenbakumenko/Downloads/Emotu2/Pods/Pods-dummy.m
+dependencies: /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-dummy.m

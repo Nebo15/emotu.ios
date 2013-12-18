@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItemGroupView.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItemGroupView.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItemGroup.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItem.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyCell.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItemGroupView.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItemGroupView.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItemGroup.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItem.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyCell.h

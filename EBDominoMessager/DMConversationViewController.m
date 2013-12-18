@@ -15,6 +15,7 @@
 #import "WUDemoKeyboardBuilder.h"
 #import "WUEmoticonsKeyboardKeyItemGroup.h"
 #import "EBContact.h"
+#import <MBProgressHUD.h>
 
 #define kSubtitleYou @"You"
 #define kSubtitleWoz @"Steve Wozniak"
@@ -43,15 +44,14 @@ static NSInteger const kCollectionViewCellImageTag = 101;
     
     self.messageInputView.textView.placeHolder = @"New Message";
     
-    [self.messageInputView.textView becomeFirstResponder];
     self.messageInputView.textView.delegate = self;
     self.messageInputView.textView.textColor = [UIColor clearColor];
-    
-    [self.messageInputView.textView switchToEmoticonsKeyboard:[WUDemoKeyboardBuilder sharedEmoticonsKeyboard]];
     
     [self setBackgroundColor:[UIColor whiteColor]];
     
     self.messages = [NSMutableArray array];
+    
+    self.messageTypes = [NSMutableArray array];
     
     self.timestamps = [NSMutableArray array];
     
@@ -59,14 +59,22 @@ static NSInteger const kCollectionViewCellImageTag = 101;
     
     self.smilesKeys = [NSMutableArray array];
     
-    self.avatars = [NSMutableDictionary dictionaryWithDictionary:@{kSubtitleYou: [JSAvatarImageFactory avatarImageNamed:@"avatar-placeholder" croppedToCircle:YES]}];
+    self.avatars = [NSMutableDictionary dictionaryWithDictionary:@{kSubtitleYou:[JSAvatarImageFactory avatarImageNamed:@"avatar-placeholder" croppedToCircle:YES]}];
 }
 
-- (void)viewWillAppear:(BOOL)animated
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super viewWillAppear:animated];
+    [super viewDidAppear:animated];
     
-    [self.messageInputView.textView becomeFirstResponder];
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.labelText = @"Emoji are coming...";
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.messageInputView.textView switchToEmoticonsKeyboard:[WUDemoKeyboardBuilder sharedEmoticonsKeyboard]];
+        [MBProgressHUD hideHUDForView:self.view animated:YES];
+        [self.messageInputView.textView becomeFirstResponder];
+    });
 }
 
 #pragma mark - Table view data source
@@ -83,7 +91,7 @@ static NSInteger const kCollectionViewCellImageTag = 101;
     [_smilesKeys enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         obj = [NSString stringWithFormat:@"[%@",obj];
     }];
-    NSString * combinedStuff = [_smilesKeys componentsJoinedByString:@","];
+    NSString * combinedStuff = [_smilesKeys componentsJoinedByString:@"]"];
     NSXMLElement *body = [NSXMLElement elementWithName:@"body"];
     [body setStringValue:combinedStuff];
     
@@ -95,6 +103,8 @@ static NSInteger const kCollectionViewCellImageTag = 101;
     [_xmppStream sendElement:message];
     
     [self.messages addObject:message];
+    
+    [self.messageTypes addObject:@(JSBubbleMessageTypeOutgoing)];
     
     [self.timestamps addObject:[NSDate date]];
     
@@ -114,7 +124,8 @@ static NSInteger const kCollectionViewCellImageTag = 101;
 
 - (JSBubbleMessageType)messageTypeForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [[[(NSXMLElement *)_messages[indexPath.row] attributeForName:@"to"] stringValue] isEqualToString:_jid.jid] ? JSBubbleMessageTypeOutgoing : JSBubbleMessageTypeIncoming;
+    NSLog(@"%@",[_messageTypes description]);
+    return [_messageTypes[indexPath.row] integerValue];
 }
 
 - (UIImageView *)bubbleImageViewWithType:(JSBubbleMessageType)type
@@ -241,6 +252,7 @@ static NSInteger const kCollectionViewCellImageTag = 101;
 		                                                        // xmppStream:_xmppStream
                                                      // managedObjectContext:_managedObjectContext_roster];
 		[self.messages addObject:message];
+        [self.messageTypes addObject:@(JSBubbleMessageTypeIncoming)];
         [self.timestamps addObject:[NSDate date]];
         
         [JSMessageSoundEffect playMessageReceivedSound];
@@ -248,7 +260,7 @@ static NSInteger const kCollectionViewCellImageTag = 101;
         NSString * userName = _jid.name? _jid.name : _jid.numbers[0];
         
         [self.subtitles addObject:userName];
-        [self.avatars setObject:[JSAvatarImageFactory avatarImageNamed:@"avatar-placeholder" croppedToCircle:YES] forKey:userName];
+        [self.avatars setObject:_jid.image? [JSAvatarImageFactory avatarImage:_jid.image croppedToCircle:YES]:[JSAvatarImageFactory avatarImageNamed:@"avatar-placeholder" croppedToCircle:YES] forKey:userName];
         
         [self finishSend];
         [self scrollToBottomAnimated:YES];
@@ -298,7 +310,7 @@ static NSInteger const kCollectionViewCellImageTag = 101;
         self.messageInputView.sendButton.enabled = YES;
     }
     textView.selectedRange = NSMakeRange(4 *[_smilesKeys count], 0);
-    [_smilesCollectionView setFrame:CGRectMake(0, 0, 220, (([_smilesKeys count] / 7) + 1) * 34 )];
+    [_smilesCollectionView setFrame:CGRectMake(0, 3, 220, (([_smilesKeys count] / 7) + 1) * 34 )];
     return NO;
 }
 

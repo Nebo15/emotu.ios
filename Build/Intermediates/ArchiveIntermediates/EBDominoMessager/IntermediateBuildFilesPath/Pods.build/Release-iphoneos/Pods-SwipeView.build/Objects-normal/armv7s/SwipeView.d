@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/Pods/SwipeView/SwipeView/SwipeView.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/Pods/SwipeView/SwipeView/SwipeView.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/SwipeView/SwipeView/SwipeView.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/SwipeView/SwipeView/SwipeView.h

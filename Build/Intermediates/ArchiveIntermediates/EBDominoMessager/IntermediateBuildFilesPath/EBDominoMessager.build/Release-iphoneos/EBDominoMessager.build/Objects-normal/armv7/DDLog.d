@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/CocoaLumberjack/DDLog.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/CocoaLumberjack/DDLog.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/CocoaLumberjack/DDLog.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/CocoaLumberjack/DDLog.h

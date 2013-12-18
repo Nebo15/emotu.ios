@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/Pods/Pods-JSQSystemSoundPlayer-dummy.m
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-JSQSystemSoundPlayer-dummy.m

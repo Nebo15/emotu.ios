@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPParser.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPParser.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/DDXML.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/DDXMLNode.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPParser.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPParser.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/DDXML.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/DDXMLNode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/xmlexports.h \
@@ -24,11 +24,11 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/SAX.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/xlink.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/SAX2.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/DDXMLElement.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/DDXMLDocument.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPLogging.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/CocoaLumberjack/DDLog.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/DDXMLElement.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/DDXMLDocument.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPLogging.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/CocoaLumberjack/DDLog.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/parserInternals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/HTMLparser.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/chvalid.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/Private/DDXMLPrivate.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/Private/DDXMLPrivate.h

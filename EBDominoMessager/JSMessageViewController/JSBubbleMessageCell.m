@@ -89,7 +89,7 @@ static const NSUInteger kSmileCollectionViewTag = 101;
     _timestampLabel = label;
 }
 
-- (void)configureAvatarImageView:(UIImageView *)imageView forMessageType:(JSBubbleMessageType)type
+- (void)configureAvatarImageView:(UIImageView *)imageView forMessageType:(JSBubbleMessageType)type 
 {
     CGFloat avatarX = 0.5f;
     if(type == JSBubbleMessageTypeOutgoing) {
@@ -152,23 +152,6 @@ static const NSUInteger kSmileCollectionViewTag = 101;
         
         [self configureAvatarImageView:[[UIImageView alloc] init] forMessageType:type];
     }
-    
-    CGRect frame = CGRectMake(bubbleX - offsetX,
-                              bubbleY,
-                              self.contentView.frame.size.width - bubbleX,
-                              self.contentView.frame.size.height - _timestampLabel.frame.size.height - _subtitleLabel.frame.size.height);
-    
-    JSBubbleView *bubbleView = [[JSBubbleView alloc] initWithFrame:frame
-                                                        bubbleType:type
-                                                   bubbleImageView:bubbleImageView];
-    
-    bubbleView.autoresizingMask = (UIViewAutoresizingFlexibleWidth
-                                    | UIViewAutoresizingFlexibleHeight
-                                    | UIViewAutoresizingFlexibleBottomMargin);
-    
-    [self.contentView addSubview:bubbleView];
-    [self.contentView sendSubviewToBack:bubbleView];
-    _bubbleView = bubbleView;
 }
 
 #pragma mark - Initialization
@@ -241,6 +224,44 @@ static const NSUInteger kSmileCollectionViewTag = 101;
     [self.bubbleView adjustSubview];
 }
 
+- (void)setBubbleViewType:(JSBubbleMessageType)type andBubbleImage:(UIImageView *)bubbleImage timestamp:(BOOL)hasTimestamp
+                   avatar:(BOOL)hasAvatar
+				 subtitle:(BOOL)hasSubtitle
+{
+    [_bubbleView removeFromSuperview];
+    _bubbleView = nil;
+    
+    CGFloat bubbleY = 0.0f;
+    CGFloat bubbleX = 0.0f;
+    
+    CGFloat offsetX = 0.0f;
+    
+    if(hasTimestamp) {
+        bubbleY = 14.0f;
+    }
+    
+    if(hasAvatar) {
+        offsetX = 4.0f;
+        bubbleX = kJSAvatarImageSize;
+        if(type == JSBubbleMessageTypeOutgoing) {
+            offsetX = kJSAvatarImageSize - 4.0f;
+        }
+    }
+    
+    CGRect frame = CGRectMake(bubbleX - offsetX,bubbleY, self.contentView.frame.size.width - bubbleX, self.contentView.frame.size.height - _timestampLabel.frame.size.height - _subtitleLabel.frame.size.height);
+    
+    JSBubbleView *bubbleView = [[JSBubbleView alloc] initWithFrame:frame bubbleType:type
+                                                                                       bubbleImageView:bubbleImage];
+    
+    bubbleView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleBottomMargin);
+    
+    [self.contentView addSubview:bubbleView];
+    [self.contentView sendSubviewToBack:bubbleView];
+    _bubbleView = bubbleView;
+    
+    [self configureSubtitleLabelForMessageType:type];
+}
+
 - (void)setTimestamp:(NSDate *)date
 {
     self.timestampLabel.text = [NSDateFormatter localizedStringFromDate:date
@@ -274,7 +295,7 @@ static const NSUInteger kSmileCollectionViewTag = 101;
     flowLayout.minimumInteritemSpacing = 0;
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
     
-    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, MIN(230, [_elements count] * 33), (([_elements count] / 8) + 1) * 34 ) collectionViewLayout:flowLayout];
+    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, MIN(230, [_elements count] * 33), (([_elements count] / 7) + 1) * 34 ) collectionViewLayout:flowLayout];
     collectionView.delegate = self;
     collectionView.dataSource = self;
     [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"myCell"];
@@ -289,7 +310,7 @@ static const NSUInteger kSmileCollectionViewTag = 101;
     
     //align on top right
     CGFloat xPosition = CGRectGetWidth(self.bubbleView.frame) - CGRectGetWidth(collectionFrame);
-    collectionFrame.origin = CGPointMake( self.messageType == JSBubbleMessageTypeOutgoing? ceil(xPosition - 15) : 10.0, 10.0);
+    collectionFrame.origin = CGPointMake( self.messageType == JSBubbleMessageTypeOutgoing? ceil(xPosition - 15) : 15.0, 10.0);
     collectionView.frame = collectionFrame;
     
     //autoresizing so it stays at top right (flexible left and flexible bottom margin)
@@ -321,7 +342,7 @@ static const NSUInteger kSmileCollectionViewTag = 101;
     
     CGFloat bubbleHeight = [JSBubbleView neededHeightForText:text];
     
-    return subviewHeights + MAX(avatarHeight, bubbleHeight);
+    return subviewHeights + MAX(avatarHeight, bubbleHeight) + (bubbleHeight  < 50 ? 0: 40);
 }
 
 #pragma mark - Layout

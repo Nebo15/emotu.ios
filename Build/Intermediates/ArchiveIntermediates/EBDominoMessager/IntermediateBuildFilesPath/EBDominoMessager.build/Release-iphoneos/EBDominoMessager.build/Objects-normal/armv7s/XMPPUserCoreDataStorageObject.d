@@ -1,11 +1,11 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Extensions/Roster/CoreDataStorage/XMPPUserCoreDataStorageObject.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPP.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPJID.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPStream.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Authentication/XMPPSASLAuthentication.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/DDXML.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/DDXMLNode.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Extensions/Roster/CoreDataStorage/XMPPUserCoreDataStorageObject.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPP.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPJID.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPStream.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Authentication/XMPPSASLAuthentication.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/DDXML.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/DDXMLNode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/xmlexports.h \
@@ -27,28 +27,28 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/SAX.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/xlink.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/libxml2/libxml/SAX2.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/DDXMLElement.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/DDXMLDocument.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/CocoaAsyncSocket/GCDAsyncSocket.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Utilities/GCDMulticastDelegate.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPElement.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPIQ.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPMessage.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPPresence.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPModule.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Authentication/Digest-MD5/XMPPDigestMD5Authentication.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Authentication/Plain/XMPPPlainAuthentication.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Authentication/X-Facebook-Platform/XMPPXFacebookPlatformAuthentication.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Authentication/Anonymous/XMPPAnonymousAuthentication.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Authentication/Deprecated-Plain/XMPPDeprecatedPlainAuthentication.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Authentication/Deprecated-Digest/XMPPDeprecatedDigestAuthentication.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Categories/NSXMLElement+XMPP.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Extensions/Roster/CoreDataStorage/XMPPRosterCoreDataStorage.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Extensions/Roster/XMPPRoster.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Extensions/Roster/XMPPUser.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Extensions/Roster/XMPPResource.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Extensions/CoreDataStorage/XMPPCoreDataStorage.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Extensions/Roster/CoreDataStorage/XMPPUserCoreDataStorageObject.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Extensions/Roster/CoreDataStorage/XMPPGroupCoreDataStorageObject.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Extensions/Roster/CoreDataStorage/XMPPResourceCoreDataStorageObject.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Categories/NSNumber+XMPP.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/DDXMLElement.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/DDXMLDocument.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/CocoaAsyncSocket/GCDAsyncSocket.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Utilities/GCDMulticastDelegate.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPElement.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPIQ.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPMessage.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPPresence.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPModule.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Authentication/Digest-MD5/XMPPDigestMD5Authentication.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Authentication/Plain/XMPPPlainAuthentication.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Authentication/X-Facebook-Platform/XMPPXFacebookPlatformAuthentication.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Authentication/Anonymous/XMPPAnonymousAuthentication.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Authentication/Deprecated-Plain/XMPPDeprecatedPlainAuthentication.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Authentication/Deprecated-Digest/XMPPDeprecatedDigestAuthentication.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Categories/NSXMLElement+XMPP.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Extensions/Roster/CoreDataStorage/XMPPRosterCoreDataStorage.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Extensions/Roster/XMPPRoster.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Extensions/Roster/XMPPUser.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Extensions/Roster/XMPPResource.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Extensions/CoreDataStorage/XMPPCoreDataStorage.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Extensions/Roster/CoreDataStorage/XMPPUserCoreDataStorageObject.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Extensions/Roster/CoreDataStorage/XMPPGroupCoreDataStorageObject.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Extensions/Roster/CoreDataStorage/XMPPResourceCoreDataStorageObject.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Categories/NSNumber+XMPP.h

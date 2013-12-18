@@ -226,6 +226,8 @@
                                                reuseIdentifier:CellIdentifier];
     }
     
+    [cell setBubbleViewType:type andBubbleImage:bubbleImageView timestamp:hasTimestamp avatar:hasAvatar subtitle:hasSubtitle];
+    
     if(hasTimestamp) {
         [cell setTimestamp:[self.dataSource timestampForRowAtIndexPath:indexPath]];
     }
@@ -427,10 +429,14 @@
     CGFloat changeInHeight = textView.contentSize.height - self.previousTextViewContentHeight;
     
     if(!isShrinking && (self.previousTextViewContentHeight == maxHeight || textView.text.length == 0)) {
-        changeInHeight = -4;
+        changeInHeight = 0;
     }
     else {
         changeInHeight = MIN(changeInHeight, maxHeight - self.previousTextViewContentHeight);
+    }
+    
+    if (changeInHeight == 8) {
+        changeInHeight = 0;
     }
     
     if(changeInHeight != 0.0f) {

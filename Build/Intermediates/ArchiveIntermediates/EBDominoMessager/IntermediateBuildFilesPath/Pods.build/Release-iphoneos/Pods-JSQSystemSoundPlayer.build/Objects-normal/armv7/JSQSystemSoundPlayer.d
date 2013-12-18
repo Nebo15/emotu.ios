@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.h

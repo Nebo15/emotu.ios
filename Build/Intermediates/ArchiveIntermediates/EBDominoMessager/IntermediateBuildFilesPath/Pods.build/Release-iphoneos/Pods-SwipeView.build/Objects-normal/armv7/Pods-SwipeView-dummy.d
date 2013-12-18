@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/Pods/Pods-SwipeView-dummy.m
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-SwipeView-dummy.m

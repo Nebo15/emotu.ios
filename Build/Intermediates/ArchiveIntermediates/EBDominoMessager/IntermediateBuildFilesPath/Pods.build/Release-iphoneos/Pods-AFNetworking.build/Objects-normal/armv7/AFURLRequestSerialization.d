@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h

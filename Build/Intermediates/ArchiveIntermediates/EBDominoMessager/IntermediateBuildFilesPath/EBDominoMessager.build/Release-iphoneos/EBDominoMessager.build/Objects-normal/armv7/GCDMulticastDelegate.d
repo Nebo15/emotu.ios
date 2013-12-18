@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Utilities/GCDMulticastDelegate.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Utilities/GCDMulticastDelegate.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Utilities/GCDMulticastDelegate.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Utilities/GCDMulticastDelegate.h

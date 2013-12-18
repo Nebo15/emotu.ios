@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Categories/NSNumber+XMPP.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Categories/NSNumber+XMPP.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Categories/NSNumber+XMPP.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Categories/NSNumber+XMPP.h

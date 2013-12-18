@@ -16,6 +16,7 @@
 @property (strong, nonatomic) NSMutableArray *messages;
 @property (strong, nonatomic) NSMutableArray *timestamps;
 @property (strong, nonatomic) NSMutableArray *subtitles;
+@property (strong, nonatomic) NSMutableArray *messageTypes;
 @property (strong, nonatomic) NSMutableDictionary *avatars;
 
 @property (strong, nonatomic) EBContact *jid;

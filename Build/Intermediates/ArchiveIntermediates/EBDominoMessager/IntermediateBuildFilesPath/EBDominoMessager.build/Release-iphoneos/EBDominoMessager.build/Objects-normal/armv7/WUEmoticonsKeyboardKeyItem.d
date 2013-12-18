@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItem.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItem.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItem.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/WUEmoticonsKeyboard/WUEmoticonsKeyboardKeyItem.h

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/main.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/EBAppDelegate.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/main.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/EBAppDelegate.h
