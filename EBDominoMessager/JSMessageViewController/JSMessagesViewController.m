@@ -15,6 +15,7 @@
 #import "JSMessagesViewController.h"
 #import "JSMessageTextView.h"
 #import "NSString+JSMessagesView.h"
+#import "UIImage+animatedGIF.h"
 
 @interface JSMessagesViewController () <JSDismissiveTextViewDelegate>
 
@@ -60,13 +61,21 @@
     JSMessageInputViewStyle inputViewStyle = [self.delegate inputViewStyle];
     CGFloat inputViewHeight = (inputViewStyle == JSMessageInputViewStyleFlat) ? 45.0f : 40.0f;
     
-    CGRect tableFrame = CGRectMake(0.0f, 0.0f, size.width, size.height - inputViewHeight);
+    CGRect tableFrame = CGRectMake(0.0f, 0.0f, size.width, size.height - inputViewHeight - 150);
 	UITableView *tableView = [[UITableView alloc] initWithFrame:tableFrame style:UITableViewStylePlain];
 	tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 	tableView.dataSource = self;
 	tableView.delegate = self;
 	[self.view addSubview:tableView];
 	_tableView = tableView;
+    
+    UIImageView *sceneImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 110, 320, 150)];
+    
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"cartwheel" withExtension:@"gif"];
+    sceneImageView.image = [UIImage animatedImageWithAnimatedGIFData:[NSData dataWithContentsOfURL:url]];
+    sceneImageView.image = [UIImage animatedImageWithAnimatedGIFURL:url];
+    
+    [self.view addSubview:sceneImageView];
     
     [self setBackgroundColor:[UIColor js_backgroundColorClassic]];
     

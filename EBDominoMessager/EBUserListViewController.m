@@ -102,6 +102,8 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
     [super viewDidAppear:animated];
     
     _contacts = [[NSMutableArray alloc] initWithArray:[[EBContactsManager sharedManager] getAllContacts]];
+    
+    [self.tableView reloadData];
 }
 
 - (void)viewWillDisappear:(BOOL)animated

@@ -279,7 +279,7 @@ static const NSUInteger kSmileCollectionViewTag = 101;
 
 - (void)setSubtitle:(NSString *)subtitle
 {
-	self.subtitleLabel.text = subtitle;
+	//self.subtitleLabel.text = subtitle;
 }
 
 - (void)transformTextToSmiles:(NSString *)message

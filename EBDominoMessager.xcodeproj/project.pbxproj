@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1AA65C8A00A54A7BA3EF9019 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 133D18AF4B4D44BE9645EF41 /* libPods.a */; };
+		3110C33B1861F88700291EC9 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3110C33A1861F88700291EC9 /* UIImage+animatedGIF.m */; };
+		3110C33D1862039E00291EC9 /* C9Ssh.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3110C33C1862039E00291EC9 /* C9Ssh.gif */; };
+		3110C33F1862091F00291EC9 /* cartwheel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3110C33E1862091F00291EC9 /* cartwheel.gif */; };
 		3123604C1860A2D7009205E5 /* NSString+JSMessagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 312360001860A2D7009205E5 /* NSString+JSMessagesView.m */; };
 		3123604D1860A2D7009205E5 /* UIColor+JSMessagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 312360021860A2D7009205E5 /* UIColor+JSMessagesView.m */; };
 		3123604E1860A2D7009205E5 /* UIImage+JSMessagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 312360041860A2D7009205E5 /* UIImage+JSMessagesView.m */; };
@@ -1138,6 +1141,10 @@
 
 /* Begin PBXFileReference section */
 		133D18AF4B4D44BE9645EF41 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3110C3391861F88700291EC9 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		3110C33A1861F88700291EC9 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		3110C33C1862039E00291EC9 /* C9Ssh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = C9Ssh.gif; sourceTree = "<group>"; };
+		3110C33E1862091F00291EC9 /* cartwheel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cartwheel.gif; sourceTree = "<group>"; };
 		31235FFF1860A2D7009205E5 /* NSString+JSMessagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSMessagesView.h"; sourceTree = "<group>"; };
 		312360001860A2D7009205E5 /* NSString+JSMessagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSMessagesView.m"; sourceTree = "<group>"; };
 		312360011860A2D7009205E5 /* UIColor+JSMessagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JSMessagesView.h"; sourceTree = "<group>"; };
@@ -2495,6 +2502,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3110C3381861F84400291EC9 /* GIF Animation */ = {
+			isa = PBXGroup;
+			children = (
+				3110C3391861F88700291EC9 /* UIImage+animatedGIF.h */,
+				3110C33A1861F88700291EC9 /* UIImage+animatedGIF.m */,
+			);
+			name = "GIF Animation";
+			sourceTree = "<group>";
+		};
 		31235FFE1860A2D7009205E5 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -2691,6 +2707,7 @@
 		316D8F8C185A4D7A00B874BC /* EBDominoMessager */ = {
 			isa = PBXGroup;
 			children = (
+				3110C3381861F84400291EC9 /* GIF Animation */,
 				316AC1811860A94000D62192 /* Models */,
 				316AC17B1860A8D000D62192 /* Utils */,
 				8192CB24185DEA09002E17B7 /* Networking */,
@@ -3423,6 +3440,8 @@
 		81795D84185AA055008B0588 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3110C33C1862039E00291EC9 /* C9Ssh.gif */,
+				3110C33E1862091F00291EC9 /* cartwheel.gif */,
 				81BC31BC185FC649000D52D5 /* 160x160 */,
 				81BC31BA185FC56F000D52D5 /* emoji.plist */,
 				8192CAE5185D3C3D002E17B7 /* PNG */,
@@ -4585,6 +4604,7 @@
 				81BC36A9185FC64F000D52D5 /* 472.png in Resources */,
 				81BC3730185FC64F000D52D5 /* 594.png in Resources */,
 				81BC35DF185FC64F000D52D5 /* 290.png in Resources */,
+				3110C33F1862091F00291EC9 /* cartwheel.gif in Resources */,
 				81BC3589185FC64F000D52D5 /* 212.png in Resources */,
 				81BC36B2185FC64F000D52D5 /* 480.png in Resources */,
 				81BC3524185FC64F000D52D5 /* 121.png in Resources */,
@@ -5464,6 +5484,7 @@
 				81BC3562185FC64F000D52D5 /* 178.png in Resources */,
 				81BC3821185FC64F000D52D5 /* 810.png in Resources */,
 				81795DB3185AA065008B0588 /* keyboard_bg.png in Resources */,
+				3110C33D1862039E00291EC9 /* C9Ssh.gif in Resources */,
 				81BC3601185FC64F000D52D5 /* 320.png in Resources */,
 				81BC362F185FC64F000D52D5 /* 362.png in Resources */,
 				81BC3648185FC64F000D52D5 /* 385.png in Resources */,
@@ -5666,6 +5687,7 @@
 				316D9171185A4DE300B874BC /* XMPPSRVResolver.m in Sources */,
 				316D910D185A4DE300B874BC /* NSXMLElement+XMPP.m in Sources */,
 				3123607B1860A2D7009205E5 /* JSBubbleMessageCell.m in Sources */,
+				3110C33B1861F88700291EC9 /* UIImage+animatedGIF.m in Sources */,
 				316D9144185A4DE300B874BC /* XMPPvCardTempModule.m in Sources */,
 				316D916D185A4DE300B874BC /* DDList.m in Sources */,
 				316D911E185A4DE300B874BC /* XMPPRosterCoreDataStorage.m in Sources */,
@@ -5820,7 +5842,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Yevhen Bakumenko (L4AHK85NBL)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yevhen Bakumenko (J7PLX2GEXZ)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/warexi/Desktop/EBDominoMessager,
@@ -5842,7 +5864,7 @@
 					/Users/evgenbakumenko/Documents/DominoMessager,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "AF6FAF08-1543-438F-968D-928D5A1F8622";
+				PROVISIONING_PROFILE = "00E315F1-7C66-4AB7-922E-1A45E6BDFCFC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -5854,7 +5876,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Yevhen Bakumenko (L4AHK85NBL)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yevhen Bakumenko (J7PLX2GEXZ)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/warexi/Desktop/EBDominoMessager,
@@ -5876,7 +5898,7 @@
 					/Users/evgenbakumenko/Documents/DominoMessager,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "AF6FAF08-1543-438F-968D-928D5A1F8622";
+				PROVISIONING_PROFILE = "00E315F1-7C66-4AB7-922E-1A45E6BDFCFC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
