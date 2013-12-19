@@ -72,7 +72,7 @@ NSString *const kXMPPmyPassword = @"kXMPPmyPassword";
         [errorAlert show];
     }
     else
-        [[EBNebo15APIClient sharedClient] registerWithPhoneNumber:[NSString stringWithFormat:@"+380%@",_phoneNumberTextField.text] withCompletion:^(BOOL success){
+        //[[EBNebo15APIClient sharedClient] registerWithPhoneNumber:[NSString stringWithFormat:@"+380%@",_phoneNumberTextField.text] withCompletion:^(BOOL success){
             [UIView animateWithDuration:0.3 animations:^{
                 CGRect buttonFrame = [_nextButton frame];
                 buttonFrame.origin.y = 240;
@@ -86,7 +86,7 @@ NSString *const kXMPPmyPassword = @"kXMPPmyPassword";
                 [_nextButton removeTarget:self action:@selector(registerWithNumberClicked:) forControlEvents:UIControlEventTouchUpInside];
                 [_nextButton addTarget:self action:@selector(confirmClicked:) forControlEvents:UIControlEventTouchUpInside];
             }];
-        }];
+       // }];
 }
 
 - (IBAction)confirmClicked:(id)sender

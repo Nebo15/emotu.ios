@@ -149,7 +149,7 @@
     //create or reuse view
     if (view == nil)
     {
-        imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 40.0f, 40.0f)];
+        imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 30.0f, 30.0f)];
         view = imageView;
     }
     

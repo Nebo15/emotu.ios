@@ -23,7 +23,14 @@
 
 - (NSArray *)getAllContacts
 {
-    
+    if (!_contacts) {
+        _contacts = [self fetchContactsFromAddressBook];
+    }
+    return _contacts;
+}
+
+- (NSArray *)fetchContactsFromAddressBook
+{
     CFErrorRef *error = nil;
     
     
@@ -119,7 +126,7 @@
             }
             
             [contact setEmails:contactEmails];
-  
+            
             [items addObject:contact];
             
 #ifdef DEBUG
@@ -129,13 +136,14 @@
 #endif
         }
         return items;
-
+        
     } else {
 #ifdef DEBUG
-        NSLog(@"Cannot fetch Contacts :( ");        
+        NSLog(@"Cannot fetch Contacts :( ");
 #endif
         return NO;
     }
+
 }
 
 @end

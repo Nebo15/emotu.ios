@@ -13,7 +13,7 @@
 
 NSString * const WUEmoticonsKeyboardDidSwitchToDefaultKeyboardNotification = @"WUEmoticonsKeyboardDidSwitchToDefaultKeyboardNotification";
 
-CGSize  const WUEmoticonsKeyboardDefaultSize            = (CGSize){320,216};
+CGSize  const WUEmoticonsKeyboardDefaultSize            = (CGSize){320,150};
 CGFloat const WUEmoticonsKeyboardToolsViewDefaultHeight = 45;
 
 

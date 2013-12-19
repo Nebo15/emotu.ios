@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/Categories/NSString+DDXML.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/Categories/NSString+DDXML.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/Categories/NSString+DDXML.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/Categories/NSString+DDXML.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/xmlexports.h \

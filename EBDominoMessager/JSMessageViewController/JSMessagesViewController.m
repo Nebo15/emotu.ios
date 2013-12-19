@@ -22,6 +22,7 @@
 @property (assign, nonatomic, readonly) UIEdgeInsets originalTableViewContentInset;
 @property (assign, nonatomic) CGFloat previousTextViewContentHeight;
 @property (assign, nonatomic) BOOL isUserScrolling;
+@property (strong, nonatomic) UIImageView *animatedView;
 
 - (void)setup;
 
@@ -61,21 +62,13 @@
     JSMessageInputViewStyle inputViewStyle = [self.delegate inputViewStyle];
     CGFloat inputViewHeight = (inputViewStyle == JSMessageInputViewStyleFlat) ? 45.0f : 40.0f;
     
-    CGRect tableFrame = CGRectMake(0.0f, 0.0f, size.width, size.height - inputViewHeight - 150);
+    CGRect tableFrame = CGRectMake(0.0f, 0.0f, size.width, size.height - inputViewHeight - 100);
 	UITableView *tableView = [[UITableView alloc] initWithFrame:tableFrame style:UITableViewStylePlain];
 	tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 	tableView.dataSource = self;
 	tableView.delegate = self;
 	[self.view addSubview:tableView];
 	_tableView = tableView;
-    
-    UIImageView *sceneImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 110, 320, 150)];
-    
-    NSURL *url = [[NSBundle mainBundle] URLForResource:@"cartwheel" withExtension:@"gif"];
-    sceneImageView.image = [UIImage animatedImageWithAnimatedGIFData:[NSData dataWithContentsOfURL:url]];
-    sceneImageView.image = [UIImage animatedImageWithAnimatedGIFURL:url];
-    
-    [self.view addSubview:sceneImageView];
     
     [self setBackgroundColor:[UIColor js_backgroundColorClassic]];
     
@@ -106,6 +99,15 @@
                                  forKeyPath:@"contentSize"
                                     options:NSKeyValueObservingOptionNew
                                     context:nil];
+    
+    _animatedView = [[UIImageView alloc] initWithFrame:CGRectMake(0, -100, 320, 100)];
+    
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"animation" withExtension:@"gif"];
+    _animatedView.image = [UIImage animatedImageWithAnimatedGIFData:[NSData dataWithContentsOfURL:url]];
+    _animatedView.image = [UIImage animatedImageWithAnimatedGIFURL:url];
+    _animatedView.contentMode = UIViewContentModeScaleAspectFill;
+
+    [self.messageInputView addSubview:_animatedView];
 }
 
 #pragma mark - View lifecycle
@@ -475,6 +477,7 @@
                                  // growing the view, animate the text view frame AFTER input view frame
                                  [self.messageInputView adjustTextViewHeightBy:changeInHeight];
                              }
+                             
                          }
                          completion:^(BOOL finished) {
                          }];
@@ -492,7 +495,7 @@
                        ^(void) {
                            CGPoint bottomOffset = CGPointMake(0.0f, textView.contentSize.height - textView.bounds.size.height);
                            [textView setContentOffset:bottomOffset animated:YES];
-                       });
+                        });
     }
 }
 
@@ -525,6 +528,7 @@
     CGRect keyboardRect = [[notification.userInfo objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue];
 	UIViewAnimationCurve curve = [[notification.userInfo objectForKey:UIKeyboardAnimationCurveUserInfoKey] integerValue];
 	double duration = [[notification.userInfo objectForKey:UIKeyboardAnimationDurationUserInfoKey] doubleValue];
+
     
     [UIView animateWithDuration:duration
                           delay:0.0f
@@ -552,6 +556,8 @@
                          
                          self.tableView.contentInset = insets;
                          self.tableView.scrollIndicatorInsets = insets;
+                         
+                        //[_animatedView setFrame:CGRectMake(0, self.messageInputView.frame.origin.y - 100, 320, 100)];
                      }
                      completion:^(BOOL finished) {
                      }];

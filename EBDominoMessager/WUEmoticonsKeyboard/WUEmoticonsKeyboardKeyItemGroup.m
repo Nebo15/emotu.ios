@@ -23,10 +23,10 @@
 - (UICollectionViewLayout *)keyItemsLayout {
     if (!_keyItemsLayout) {
         WUEmoticonsKeyboardKeysPageFlowLayout *layout = [[WUEmoticonsKeyboardKeysPageFlowLayout alloc] init];
-        layout.itemSize = CGSizeMake(44, 44);
+        layout.itemSize = CGSizeMake(33, 33);
         layout.pageContentInsets = UIEdgeInsetsMake(5, 5, 5, 5);
-        layout.itemSpacing = 0;
-        layout.lineSpacing = 0;
+        layout.itemSpacing = 5;
+        layout.lineSpacing = 5;
         _keyItemsLayout = layout;
     }
     return _keyItemsLayout;

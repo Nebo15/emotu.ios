@@ -103,6 +103,10 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
     
     _contacts = [[NSMutableArray alloc] initWithArray:[[EBContactsManager sharedManager] getAllContacts]];
     
+    if (![self connect]) {
+        [self goOnline];
+    }
+    
     [self.tableView reloadData];
 }
 
@@ -455,6 +459,7 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
     
     [[EBNebo15APIClient sharedClient] getUserListWithCompletion:^(BOOL success, NSArray *users) {
         if (users) {
+            [_users removeAllObjects];
             [users enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
                 EBContact *user = [EBContact new];
                 [user setNumbers:@[[(NSString*)obj substringToIndex:[obj rangeOfString:@"@"].location]]];
@@ -476,22 +481,6 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
                     }
                 }];
             }];
-            
-//            [_contacts enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-//                NSString * number = [obj numbers][0];
-//                NSPredicate *numberPredicate = [NSPredicate predicateWithFormat:@"SELF CONTAINS %@",number];
-//                [_users enumerateObjectsUsingBlock:^(id obj1, NSUInteger idx1, BOOL *stop1) {
-//                    NSArray *numbers = [obj1 numbers];
-//                    NSArray * filteredArray = [numbers filteredArrayUsingPredicate:numberPredicate];
-//                    if ([filteredArray count] > 0) {
-//                        [_users removeObject:obj1];
-//                        [obj1 setName:[obj name]];
-//                        [_contacts removeObject:obj];
-//                        [_contacts addObject:obj1];
-//                    }
-//                }];
-//            }];
-            
             [[self tableView] reloadData];
         }
     }];

@@ -1127,6 +1127,7 @@
 		81BC3856185FC64F000D52D5 /* 97.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BC3508185FC64F000D52D5 /* 97.png */; };
 		81BC3857185FC64F000D52D5 /* 98.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BC3509185FC64F000D52D5 /* 98.png */; };
 		81BC3858185FC64F000D52D5 /* 99.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BC350A185FC64F000D52D5 /* 99.png */; };
+		81D43E13186290B90027434E /* animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 81D43E12186290B90027434E /* animation.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2467,6 +2468,7 @@
 		81BC3508185FC64F000D52D5 /* 97.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 97.png; sourceTree = "<group>"; };
 		81BC3509185FC64F000D52D5 /* 98.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 98.png; sourceTree = "<group>"; };
 		81BC350A185FC64F000D52D5 /* 99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 99.png; sourceTree = "<group>"; };
+		81D43E12186290B90027434E /* animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3441,6 +3443,7 @@
 			isa = PBXGroup;
 			children = (
 				3110C33C1862039E00291EC9 /* C9Ssh.gif */,
+				81D43E12186290B90027434E /* animation.gif */,
 				3110C33E1862091F00291EC9 /* cartwheel.gif */,
 				81BC31BC185FC649000D52D5 /* 160x160 */,
 				81BC31BA185FC56F000D52D5 /* emoji.plist */,
@@ -5511,6 +5514,7 @@
 				81BC36B7185FC64F000D52D5 /* 485.png in Resources */,
 				81BC3564185FC64F000D52D5 /* 18.png in Resources */,
 				81BC36FD185FC64F000D52D5 /* 548.png in Resources */,
+				81D43E13186290B90027434E /* animation.gif in Resources */,
 				81BC373F185FC64F000D52D5 /* 607.png in Resources */,
 				81795DC8185AA065008B0588 /* keyboard_segment_selected_normal@2x.png in Resources */,
 				81BC37AA185FC64F000D52D5 /* 703.png in Resources */,
@@ -5842,7 +5846,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yevhen Bakumenko (J7PLX2GEXZ)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yevhen Bakumenko (L4AHK85NBL)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/warexi/Desktop/EBDominoMessager,
@@ -5864,7 +5868,7 @@
 					/Users/evgenbakumenko/Documents/DominoMessager,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "00E315F1-7C66-4AB7-922E-1A45E6BDFCFC";
+				PROVISIONING_PROFILE = "90377FE6-BC85-492F-848B-640A89C7A10D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -5876,7 +5880,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yevhen Bakumenko (J7PLX2GEXZ)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yevhen Bakumenko (L4AHK85NBL)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/warexi/Desktop/EBDominoMessager,
@@ -5898,7 +5902,7 @@
 					/Users/evgenbakumenko/Documents/DominoMessager,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "00E315F1-7C66-4AB7-922E-1A45E6BDFCFC";
+				PROVISIONING_PROFILE = "90377FE6-BC85-492F-848B-640A89C7A10D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

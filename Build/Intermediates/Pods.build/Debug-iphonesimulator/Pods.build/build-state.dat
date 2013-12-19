@@ -2,8 +2,8 @@ TPods
 v6
 r1
 cCheck dependencies
-cCompileC /Users/evgenbakumenko/Downloads/Emotu2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/evgenbakumenko/Downloads/Emotu2/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/evgenbakumenko/Downloads/Emotu2/Build/Products/Debug-iphonesimulator/libPods.a normal i386
+cCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c0000000052670DD90000000000A92BC0
@@ -29,6 +29,54 @@ N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/
 c00000000523A32FE0000000000000AC9
 t1379545854
 s2761
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+t1387409375
+s3324
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList
+c0000000052B22FDF0000000000000089
+t1387409375
+s137
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a
+c0000000052B22FDF000000000014BBB0
+t1387409375
+s1358768
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a
+c0000000052B22FDF000000000007D6E0
+t1387409375
+s513760
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-JSQSystemSoundPlayer.a
+c0000000052B22FDF000000000000AA30
+t1387409375
+s43568
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-MBProgressHUD.a
+c0000000052B22FDE000000000002FDA0
+t1387409374
+s196000
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-SwipeView.a
+c0000000052B22FDE0000000000027E18
+t1387409374
+s163352
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-TestFlightSDK.a
+c0000000052B22FDE0000000000000EA0
+t1387409374
+s3744
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods.a
+t1387409375
+s2282184
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-dummy.m
+c0000000052B0F14A0000000000000070
+t1387327818
+s112
 
 N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
 t1387069987
@@ -230,6 +278,9 @@ c0000000052AC7CBC0000000000000070
 t1387035836
 s112
 
+CBuild AST from /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-dummy.m
+r0
+
 CBuild AST from /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-dummy.m
 r0
 
@@ -247,7 +298,22 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc7f35562eb5fb841^23115662eb5fb841^---0#1#1#--18"Check dependencies36"6C38346A-1DE4-446D-BB38-E96DE70C27FC-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9b046fed9062b841^41626fed9062b841^---0#1#1#--18"Check dependencies36"73AABD26-E2CF-4466-A4AA-18C6D2162B78-
+
+CCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409102175.500830
+e409102175.636247
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-dummy.m226"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler384c805f6762b841^97e2a25f6762b841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-dummy.m0000000000000000^3865"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods/Headers -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods/Headers/MBProgressHUD -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods/Headers/SwipeView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods/Headers/TestFlightSDK -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.dia -c /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-dummy.m -o /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o36"4941B244-DFE8-4C1D-AD7C-5D61A0F5440E-
+b9238A5B4-070E-45DD-A21B-2C2BFCA352D5
 
 CCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s408762787.758521
@@ -299,6 +365,17 @@ r0
 
 CCompileC /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0
+
+CLibtool /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods.a normal i386
+s409102175.636824
+e409102175.705422
+r1
+xLibtool
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Libtool /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods.a normal i386106"Libtool /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods.a normal i386a914a35f6762b841^9198b45f6762b841^---0#0#1#--1181"Libtool /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods.a normal i386    cd /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator -L/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods/TestFlightSDK -filelist /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -lPods-GMGridView -lPods-JSQSystemSoundPlayer -lPods-MBProgressHUD -lPods-SwipeView -lPods-TestFlightSDK -o /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods.a36"389C7E6C-4440-478B-B943-F4E0EA26482A-
+b9238A5B4-070E-45DD-A21B-2C2BFCA352D5
 
 CLibtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods.a normal i386
 s408764145.469158

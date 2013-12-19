@@ -2,15 +2,15 @@ TPods-GMGridView
 v6
 r1
 cCheck dependencies
-cProcessPCH /Users/evgenbakumenko/Downloads/Emotu2/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-aywofwpodnednwccisxynptdcrur/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /Users/evgenbakumenko/Downloads/Emotu2/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-fgbzqtvqznqpzebqezipgsbvmwmk/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/evgenbakumenko/Downloads/Emotu2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o /Users/evgenbakumenko/Downloads/Emotu2/Pods/GMGridView/GMGridView/GMGridView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/evgenbakumenko/Downloads/Emotu2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o /Users/evgenbakumenko/Downloads/Emotu2/Pods/GMGridView/GMGridView/GMGridViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/evgenbakumenko/Downloads/Emotu2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o /Users/evgenbakumenko/Downloads/Emotu2/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/evgenbakumenko/Downloads/Emotu2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o /Users/evgenbakumenko/Downloads/Emotu2/Pods/Pods-GMGridView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/evgenbakumenko/Downloads/Emotu2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o /Users/evgenbakumenko/Downloads/Emotu2/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/evgenbakumenko/Downloads/Emotu2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o /Users/evgenbakumenko/Downloads/Emotu2/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/evgenbakumenko/Downloads/Emotu2/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386
+cProcessPCH /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-fjwzkrajxmkukpdlqlcobdxilfto/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c0000000052670DD90000000000A92BC0
@@ -41,6 +41,122 @@ N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/
 c00000000523A32FE0000000000000AC9
 t1379545854
 s2761
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o
+t1387409374
+s248404
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o
+t1387409374
+s95688
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o
+t1387409374
+s75092
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o
+t1387409374
+s3412
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView.LinkFileList
+c0000000052B22FDE00000000000003C4
+t1387409374
+s964
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o
+t1387409374
+s40976
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o
+t1387409375
+s44552
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch.pch
+t1387409374
+s121552
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-fjwzkrajxmkukpdlqlcobdxilfto/Pods-GMGridView-prefix.pch.pch
+t1387409374
+s120564
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a
+t1387409375
+s513760
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+c0000000052B0E16A0000000000000704
+t1387323754
+s1796
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView.h
+c0000000052B0E16A0000000000002225
+t1387323754
+s8741
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView.m
+c0000000052B0E16A000000000000F806
+t1387323754
+s63494
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell+Extended.h
+c0000000052B0E16A00000000000009DB
+t1387323754
+s2523
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell.h
+c0000000052B0E16A0000000000000737
+t1387323754
+s1847
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell.m
+c0000000052B0E16A0000000000002981
+t1387323754
+s10625
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.h
+c0000000052B0E16A000000000000198B
+t1387323754
+s6539
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m
+c0000000052B0E16A0000000000004999
+t1387323754
+s18841
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.h
+c0000000052B0E16A00000000000005F0
+t1387323754
+s1520
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m
+c0000000052B0E16A00000000000006C2
+t1387323754
+s1730
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.h
+c0000000052B0E16A00000000000005BE
+t1387323754
+s1470
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m
+c0000000052B0E16A00000000000008DE
+t1387323754
+s2270
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-dummy.m
+c0000000052B0F14A0000000000000086
+t1387327818
+s134
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-prefix.pch
+c0000000052B0F14A000000000000004D
+t1387327818
+s77
+
+N/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-environment.h
+c0000000052B0F14A0000000000000BE4
+t1387327818
+s3044
 
 N/Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o
 t1387069987
@@ -630,6 +746,24 @@ c0000000052AC7CBC000000000000039E
 t1387035836
 s926
 
+CBuild AST from /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-dummy.m
+r0
+
 CBuild AST from /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.m
 r0
 
@@ -722,7 +856,114 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf9f35162eb5fb841^b8cb5262eb5fb841^---0#1#1#--18"Check dependencies36"0689C47E-F1CF-419C-A546-3114E21FDE3D-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4f7554ed9062b841^d75165ed9062b841^---0#1#1#--18"Check dependencies36"9E377E63-A7B4-4CBB-8212-09A87DCC5A24-
+
+CCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409102174.542944
+e409102174.914803
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView.m
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView.h
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell.h
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell+Extended.h
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.h
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView.m259"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o GMGridView/GMGridView/GMGridView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler81218b5e6762b841^7231ea5e6762b841^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView.m0000000000000000^4350"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o GMGridView/GMGridView/GMGridView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/MBProgressHUD -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/SwipeView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/TestFlightSDK -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.dia -c /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView.m -o /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o36"C503051B-B8F0-4DBD-B5B6-3DB96DD4031C-
+b5D4CAAB0-C1E6-4E8B-92FA-90CF4C02484E
+
+CCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409102174.570204
+e409102174.813328
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell.m
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell+Extended.h
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView.h
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell.h
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell.m267"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o GMGridView/GMGridView/GMGridViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera721925e6762b841^4436d05e6762b841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell.m0000000000000000^4374"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o GMGridView/GMGridView/GMGridViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/MBProgressHUD -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/SwipeView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/TestFlightSDK -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.dia -c /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewCell.m -o /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewCell.o36"9E2A2E9B-315F-475F-9AA2-627A53BF93FA-
+b5D4CAAB0-C1E6-4E8B-92FA-90CF4C02484E
+
+CCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409102174.813606
+e409102174.918094
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.h
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m291"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o GMGridView/GMGridView/GMGridViewLayoutStrategies.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd462d05e6762b841^810aeb5e6762b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m0000000000000000^4446"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o GMGridView/GMGridView/GMGridViewLayoutStrategies.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/MBProgressHUD -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/SwipeView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/TestFlightSDK -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.dia -c /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridViewLayoutStrategies.m -o /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridViewLayoutStrategies.o36"CCA5364A-04D7-4158-99ED-4D932DED2707-
+b5D4CAAB0-C1E6-4E8B-92FA-90CF4C02484E
+
+CCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409102174.842274
+e409102174.871728
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-dummy.m259"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o Pods-GMGridView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere9b7d75e6762b841^5f29df5e6762b841^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-dummy.m0000000000000000^4338"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o Pods-GMGridView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/MBProgressHUD -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/SwipeView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/TestFlightSDK -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator -include /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-fjwzkrajxmkukpdlqlcobdxilfto/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.dia -c /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-dummy.m -o /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView-dummy.o36"A34FE752-3701-454F-9463-F92FF1B83296-
+b5D4CAAB0-C1E6-4E8B-92FA-90CF4C02484E
+
+CCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409102174.915004
+e409102174.970781
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.h
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m317"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2253ea5e6762b841^3c85f85e6762b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m0000000000000000^4524"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/MBProgressHUD -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/SwipeView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/TestFlightSDK -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.dia -c /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m -o /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIGestureRecognizer+GMGridViewAdditions.o36"5A7192E9-F22D-40C9-9C2D-5FF35A084546-
+b5D4CAAB0-C1E6-4E8B-92FA-90CF4C02484E
+
+CCompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409102174.971011
+e409102175.064230
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.h
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/GMGridView-Constants.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m291"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o GMGridView/GMGridView/UIView+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler78b5f85e6762b841^0473105f6762b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m0000000000000000^4446"CompileC /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o GMGridView/GMGridView/UIView+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/MBProgressHUD -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/SwipeView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/TestFlightSDK -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.dia -c /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m -o /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o36"C46CCAE0-1AD6-485F-BA81-57D09B21BA64-
+b5D4CAAB0-C1E6-4E8B-92FA-90CF4C02484E
 
 CCompileC /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/GMGridView.o /Users/evgenbakumenko/Documents/DominoMessager/Pods/GMGridView/GMGridView/GMGridView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s408762787.124283
@@ -1259,6 +1500,17 @@ d/Users/evgenbakumenko/Downloads/XMPPFramework-master 3/Pods/GMGridView/GMGridVi
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/evgenbakumenko/Downloads/XMPPFramework-master 3/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m307"CompileC /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o GMGridView/GMGridView/UIView+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere78ce0fd415db841^2cb744fe415db841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/evgenbakumenko/Downloads/XMPPFramework-master%203/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m0000000000000000^4592"CompileC /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o GMGridView/GMGridView/UIView+GMGridViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/evgenbakumenko/Downloads/XMPPFramework-master 3/Pods"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Pods/BuildHeaders -I/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Pods/Headers -I/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Pods/Headers/JSMessagesViewController -I/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-hilpoxpvlxotgvgmbmwgcmfnwbxu/Pods-GMGridView-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.d --serialize-diagnostics /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.dia -c /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Pods/GMGridView/GMGridView/UIView+GMGridViewAdditions.m -o /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/UIView+GMGridViewAdditions.o36"C5020DB7-4C01-4FF0-B29F-BEB1B6964FEA-
 b4A896068-DA20-42D7-9CA8-6A27337395C6
 
+CLibtool /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386
+s409102175.257878
+e409102175.265977
+r1
+xLibtool
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Libtool /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386117"Libtool /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i3869412425f6762b841^b917445f6762b841^---0#0#1#--1056"Libtool /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386    cd /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator -filelist /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView.LinkFileList -framework Foundation -framework QuartzCore -o /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a36"5A0F940F-29B0-4188-B8BB-205F6615C6AC-
+b5D4CAAB0-C1E6-4E8B-92FA-90CF4C02484E
+
 CLibtool /Users/evgenbakumenko/Documents/DominoMessager/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386
 s408762787.562050
 e408762787.576319
@@ -1313,6 +1565,38 @@ xnormal
 xi386
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Libtool /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386133"Libtool /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386f56579fe415db841^9dbc7cfe415db841^---0#0#1#--1137"Libtool /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a normal i386    cd "/Users/evgenbakumenko/Downloads/XMPPFramework-master 3/Pods"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Products/Debug-iphonesimulator -filelist /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Objects-normal/i386/Pods-GMGridView.LinkFileList -framework Foundation -framework QuartzCore -o /Users/evgenbakumenko/Downloads/XMPPFramework-master\ 3/Build/Products/Debug-iphonesimulator/libPods-GMGridView.a36"4B1F3EBE-B570-43EE-AE74-CC0BBA96B93F-
 b4A896068-DA20-42D7-9CA8-6A27337395C6
+
+CProcessPCH /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409102174.354713
+e409102174.397005
+r1
+xProcessPCH
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch.pch
+xPods-GMGridView-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-prefix.pch
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Pods-GMGridView-prefix.pch267"ProcessPCH /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere3545b5e6762b841^d7a2655e6762b841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-prefix.pch0000000000000000^4228"ProcessPCH /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/MBProgressHUD -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/SwipeView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/TestFlightSDK -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch.dia -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch.d -c /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-prefix.pch -o /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-cfahemwkgcayaecwyuxbylkbzdsy/Pods-GMGridView-prefix.pch.pch36"3DDEC102-6D2D-4282-9BA6-911259B37E8E-
+b5D4CAAB0-C1E6-4E8B-92FA-90CF4C02484E
+
+CProcessPCH /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-fjwzkrajxmkukpdlqlcobdxilfto/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409102174.353873
+e409102174.392281
+r1
+xProcessPCH
+x/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-fjwzkrajxmkukpdlqlcobdxilfto/Pods-GMGridView-prefix.pch.pch
+xPods-GMGridView-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-prefix.pch
+d/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Pods-GMGridView-prefix.pch267"ProcessPCH /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-fjwzkrajxmkukpdlqlcobdxilfto/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbff45a5e6762b841^1e6d645e6762b841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-prefix.pch0000000000000000^4194"ProcessPCH /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-fjwzkrajxmkukpdlqlcobdxilfto/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-generated-files.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/Pods-GMGridView-project-headers.hmap -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/BuildHeaders/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/GMGridView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/JSQSystemSoundPlayer -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/MBProgressHUD -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/SwipeView -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Headers/TestFlightSDK -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources/i386 -I/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GMGridView.build/DerivedSources -F/Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-fjwzkrajxmkukpdlqlcobdxilfto/Pods-GMGridView-prefix.pch.dia -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-fjwzkrajxmkukpdlqlcobdxilfto/Pods-GMGridView-prefix.pch.d -c /Users/evgenbakumenko/Desktop/Emotu.iOS/Pods/Pods-GMGridView-prefix.pch -o /Users/evgenbakumenko/Desktop/Emotu.iOS/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-fjwzkrajxmkukpdlqlcobdxilfto/Pods-GMGridView-prefix.pch.pch36"872A53A1-FF43-4E46-8C86-862857CCACBC-
+b5D4CAAB0-C1E6-4E8B-92FA-90CF4C02484E
 
 CProcessPCH /Users/evgenbakumenko/Documents/DominoMessager/Build/Intermediates/PrecompiledHeaders/Pods-GMGridView-prefix-aykripbiyizhihaumefzimjwiegs/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s408762786.945364
@@ -1540,5 +1824,11 @@ CProcessPCH /Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/EBDominoMe
 r0
 
 CProcessPCH /Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/EBDominoMessager-csnjsrggzkjknfgovdudfyiqmkip/Index/PrecompiledHeaders/Pods-GMGridView-prefix-fnreczgehofcwkdpfcvxqgjgzywn_ast/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/EBDominoMessager-daeiqwnupbbjfweluzkhtsmxubqv/Index/PrecompiledHeaders/Pods-GMGridView-prefix-azvpbensyqlvxfdixknpusmryaxj_ast/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/EBDominoMessager-daeiqwnupbbjfweluzkhtsmxubqv/Index/PrecompiledHeaders/Pods-GMGridView-prefix-daocplkbxhhvblhawebtljneefia_ast/Pods-GMGridView-prefix.pch.pch Pods-GMGridView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 

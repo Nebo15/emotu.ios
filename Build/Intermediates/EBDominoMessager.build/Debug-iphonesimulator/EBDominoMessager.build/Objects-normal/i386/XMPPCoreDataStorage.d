@@ -1,10 +1,10 @@
 dependencies: \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Extensions/CoreDataStorage/XMPPCoreDataStorage.m \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Extensions/CoreDataStorage/XMPPCoreDataStorage.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPStream.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Authentication/XMPPSASLAuthentication.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/DDXML.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/DDXMLNode.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Extensions/CoreDataStorage/XMPPCoreDataStorage.m \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Extensions/CoreDataStorage/XMPPCoreDataStorage.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPStream.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Authentication/XMPPSASLAuthentication.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/DDXML.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/DDXMLNode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/xmlexports.h \
@@ -26,13 +26,13 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/SAX.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/xlink.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/SAX2.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/DDXMLElement.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/KissXML/DDXMLDocument.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/CocoaAsyncSocket/GCDAsyncSocket.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Utilities/GCDMulticastDelegate.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPInternal.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPModule.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPJID.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Core/XMPPLogging.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Vendor/CocoaLumberjack/DDLog.h \
-  /Users/evgenbakumenko/Downloads/Emotu2/EBDominoMessager/Categories/NSNumber+XMPP.h
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/DDXMLElement.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/KissXML/DDXMLDocument.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/CocoaAsyncSocket/GCDAsyncSocket.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Utilities/GCDMulticastDelegate.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPInternal.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPModule.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPJID.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Core/XMPPLogging.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Vendor/CocoaLumberjack/DDLog.h \
+  /Users/evgenbakumenko/Desktop/Emotu.iOS/EBDominoMessager/Categories/NSNumber+XMPP.h

@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface EBContactsManager : NSObject
+
 + (EBContactsManager *)sharedManager;
 - (NSArray *)getAllContacts;
+@property (nonatomic, copy) NSArray * contacts;
+
 @end
